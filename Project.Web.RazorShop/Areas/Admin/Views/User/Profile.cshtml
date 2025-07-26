@@ -1,0 +1,319 @@
+﻿@model Project.Application.DTOs.User.UserProfile
+
+@{
+    ViewData["Title"] = "جزئیات حساب کاربری";
+}
+@section styles{
+    <partial name="_filterstyles" />
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+
+    <partial name="_filterscripts" />
+    <partial name="_HelprScripts" />
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/admin/assets/js/UserProfile.js"></script>
+}
+<div class="row">
+    <div class="col-md-4">
+
+        <div class="card">
+            <div class="card-body text-center">
+                <figure class="avatar avatar-xl m-b-20">
+                    <img src="/admin/assets/media/image/user/user.jpg" class="rounded-circle" alt="...">
+                </figure>
+                <h5 class="mb-1">@Model.FirstName @Model.LastName</h5>
+                <p class="text-muted small"> مشتری فروشگاه</p>
+                <button type="button" id="submit_updateform" class="btn btn-outline-success">
+                    <i data-feather="edit-2" class="mr-2"></i> ثبت تغییرات
+                </button>
+            </div>
+            <hr class="m-0">
+            <div class="card-body">
+                <div class="row text-center">
+                    <div class="col-4 text-info">
+                        <h4 class="font-weight-bold">291</h4>
+                        <span>خرید ها</span>
+                    </div>
+                    <div class="col-4 text-success">
+                        <h4 class="font-weight-bold">10.596</h4>
+                        <span>فالوور</span>
+                    </div>
+                    <div class="col-4 text-warning">
+                        <h4 class="font-weight-bold">7.896</h4>
+                        <span>لایک</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h6 class="card-title d-flex justify-content-between align-items-center">
+                    اطلاعات
+
+                </h6>
+                <div class="row mb-2">
+                    <div class="col-6 text-muted">نام:</div>
+                    <div class="col-6">@Model.FirstName</div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-6 text-muted">نام خانوادگی:</div>
+                    <div class="col-6">@Model.LastName</div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-6 text-muted">کد ملی:</div>
+                    <div class="col-6">@Model.Nationalcode</div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-6 text-muted">تاریخ تولد:</div>
+                    <div class="col-6">@Model.DateOfBirthForShow</div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-6 text-muted">کد پستی:</div>
+                    <div class="col-6">@Model.Postalcode</div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-6 text-muted">آدرس:</div>
+                    <div class="col-6">@Model.Adress</div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-6 text-muted">تلفن:</div>
+                    <div class="col-6">@Model.PhoneNumber</div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-6 text-muted">ایمیل:</div>
+                    <div class="col-6">@Model.Email</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-8">
+
+        <div class="card">
+
+            <div class="card-body">
+                <div class="card-title">ارسال اعلان</div>
+                <form>
+                    <div class="form-group">
+                        <textarea rows="2" class="form-control" placeholder="چیزی بنویسید"></textarea>
+                    </div>
+                    <div class="text-right">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <button class="btn btn-primary">ارسال</button>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <ul class="nav nav-pills flex-column flex-sm-row" id="myTab" role="tablist">
+                    <li class="flex-sm-fill text-sm-center nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
+                           role="tab" aria-selected="true">پست ها</a>
+                    </li>
+                    <li class="flex-sm-fill text-sm-center nav-item">
+                        <a class="nav-link" id="timeline-tab" data-toggle="tab" href="#timeline"
+                           role="tab" aria-selected="true">تایملاین</a>
+                    </li>
+                    <li class="flex-sm-fill text-sm-center nav-item">
+                        <a class="nav-link" id="editprofile-tab1" data-toggle="tab" href="#editprofile"
+                           role="tab"
+                           aria-selected="false">
+                            ویرایش اطلاعات
+                        </a>
+                    </li>
+                    <li class="flex-sm-fill text-sm-center nav-item">
+                        <a class="nav-link" id="earnings-tab" data-toggle="tab" href="#earnings" role="tab"
+                           aria-selected="false">درآمد</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel">
+                <div class="card">
+                    <div class="card-body">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="tab-pane fade show" id="timeline" role="tabpanel">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">تایملاین</h6>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="editprofile" role="tabpanel">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">ارتباطات</h6>
+                        <form asp-action="UpdateUser" method="post" enctype="multipart/form-data" class="col-12 ajax-form" id="ajax-form" novalidate="">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-row">
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label>نام</label><label class="text-danger mr-1">*</label>
+                                        <input asp-for="FirstName" type="text" class="form-control" placeholder="نام" required />
+                                        <span class="text-danger invalid-feedback"></span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label>نام خانوادگی</label><label class="text-danger mr-1">*</label>
+                                        <input asp-for="LastName" type="text" class="form-control" placeholder="نام خانوادگی" required />
+                                        <span class="text-danger invalid-feedback"></span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label>تاریخ تولد</label><label class="text-danger mr-1">*</label>
+                                        <input asp-for="DateOfBirth" type="text" class="form-control persian-date-picker" required />
+                                        <span class="text-danger invalid-feedback"></span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label>کد ملی</label><label class="text-danger mr-1">*</label>
+                                        <input asp-for="Nationalcode" type="text" class="form-control" placeholder="عنوان محصول را وارد کنید" required />
+                                        <span class="text-danger invalid-feedback"></span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label>شماره تماس</label><label class="text-danger mr-1">*</label>
+                                        <input asp-for="PhoneNumber" type="text" class="form-control" placeholder="عنوان محصول را وارد کنید" required />
+                                        <span class="text-danger invalid-feedback"></span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label>کدپستی</label><label class="text-danger mr-1">*</label>
+                                        <input asp-for="Postalcode" type="text" class="form-control" placeholder="عنوان محصول را وارد کنید" required />
+                                        <span class="text-danger invalid-feedback"></span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label>ایمیل</label><label class="text-danger mr-1">*</label>
+                                        <input asp-for="Email" type="text" class="form-control" placeholder="عنوان محصول را وارد کنید" required />
+                                        <span class="text-danger invalid-feedback"></span>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="form-group">
+                                        <label>آدرس</label><label class="text-danger mr-1">*</label>
+                                        <input asp-for="Adress" type="text" class="form-control" placeholder="عنوان محصول را وارد کنید" required />
+                                        <span class="text-danger invalid-feedback"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="earnings" role="tabpanel">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">درآمد</h6>
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th>تاریخ</th>
+                                        <th>تعداد</th>
+                                        <th>درآمد</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>دوشنبه, 12</td>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>400</td>
+                                    </tr>
+                                    <tr>
+                                        <td>شنبه آذر, 13</td>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>400</td>
+                                    </tr>
+                                    <tr>
+                                        <td>چهارشنبه آذر, 14</td>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>420</td>
+                                    </tr>
+                                    <tr>
+                                        <td> پنجشنبه 15</td>
+                                        <td>
+                                            5
+                                        </td>
+                                        <td>500</td>
+                                    </tr>
+                                    <tr>
+                                        <td> یکشنبه , 15</td>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>400</td>
+                                    </tr>
+                                    <tr>
+                                        <td> شنبه , 16</td>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>400</td>
+                                    </tr>
+                                    <tr>
+                                        <td>دوشنبه , 17</td>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>400</td>
+                                    </tr>
+                                    <tr>
+                                        <td>دوشنبه, 18</td>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>شنبه آذر, 19</td>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>400</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th></th>
+                                        <th>28</th>
+                                        <th>3720</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+

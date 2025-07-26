@@ -1,0 +1,174 @@
+﻿@model Project.Application.DTOs.News.UpsertNews
+@{
+    ViewData["Title"] = "ویرایش خبر & مقاله";
+}
+@section styles{
+    <partial name="_filterstyles" />
+    <partial name="_DatepickerStyle" />
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+    <partial name="_filterscripts" />
+    <partial name="_DatepickerJs" />
+    <partial name="_HelprScripts" />
+    <script src="/admin/assets/js/UpsertNews.js"></script>
+    
+    <script>
+        $(function () {
+            CKEDITOR.replace('Content', {
+                language: 'fa'
+            });
+        });
+
+        //$(document).ready(function () {
+        //    theEditor.setData(document.getElementById("contentValue").value);
+        //});
+    </script>
+    <style>
+        .ck-editor__editable_inline {
+            min-height: 50vh;
+        }
+    </style>
+}
+
+
+@section headertools{
+    <div>
+        <a class="btn btn-gradient-primary text-white" asp-action="index">بازگشت به لیست اخبار & مقالات</a>
+        <button class="btn btn-gradient-success" type="button" id="submit-form"><i class="fa fa-save mx-2"></i> ثبت </button>
+    </div>
+}
+
+<section>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <form asp-action="CreateNews" method="post" enctype="multipart/form-data" class="col-12 ajax-form" id="ajax-form" novalidate="">
+                    <input asp-for="Id" type="hidden" hidden />
+                    <div class="form-row">
+                        <div class="col-lg-3 col-md-3">
+                            <div class="card border">
+                                <div class="app-sidebar-menu" tabindex="2" style="overflow: hidden; outline: none;">
+
+                                    <div class="list-group list-group-flush">
+
+                                        <div class="list-group-item d-flex align-items-center">
+                                            <div class="form-group">
+                                                <label>تصویر خبر & مقاله </label><label class="text-danger mr-1">*</label>
+                                                <input asp-for="Image" class="col-12 mt-3 mb-3" type="file" />
+                                                <div class="m-auto w-75">
+                                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.ImageUrl" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item d-flex align-items-center">
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label>تاریخ بارگذاری</label><label class="text-danger mr-1">*</label>
+                                                    <input id="input1" asp-for="Date" type="text" class="form-control pwt-datepicker-input-element" placeholder="تاریخ">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item d-flex align-items-center">
+
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label>ساعت بارگذاری</label><label class="text-danger mr-1">*</label>
+                                                    <div class="input-group clockpicker-autoclose-demo">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">
+                                                                <i class="fa fa-clock-o"></i>
+                                                            </span>
+                                                        </div>
+
+                                                        <input asp-for="Time" type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item d-flex align-items-center">
+
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label>دسته بندی</label><label class="text-danger mr-1">*</label>
+                                                    <select asp-for="CategoryId" class="form-control select2" asp-items="ViewBag.Categories "></select>
+                                                    <span asp-validation-for="CategoryId" class="text-danger invalid-feedback"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item d-flex align-items-center">
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label class="control-label">لینک</label><label class="text-danger mr-1">*</label>
+                                                    <input asp-for="Url" class="form-control alphacode" />
+                                                    <span asp-validation-for="Url" class="text-danger invalid-feedback"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item d-flex align-items-center">
+
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label class="control-label">تگ ها</label><label class="text-danger mr-1">*</label>
+                                                    <input asp-for="Tags" class="form-control tagsinput" />
+                                                    <span asp-validation-for="Tags" class="text-danger invalid-feedback"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 ">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>تیتر خبر & مقاله</label><label class="text-danger mr-1">*</label>
+                                    <input asp-for="Title" class="form-control" required />
+                                    <span asp-validation-for="Title" class="text-danger invalid-feedback"></span>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>متن کوتاه</label><label class="text-danger mr-1">*</label>
+                                    <textarea asp-for="ShortContent" type="text" class="form-control" required></textarea>
+                                    <span asp-validation-for="ShortContent" class="text-danger invalid-feedback"></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>متن خبر & مقاله</label><label class="text-danger mr-1">*</label>
+                                <textarea asp-for="Content" class="form-control"></textarea>
+                                <span asp-validation-for="Content" class="text-danger invalid-feedback"></span>
+                            </div>
+                            <h6>سئو سایت</h6>
+                            <div class="form-row">
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label class="control-label">متا عنوان</label><label class="text-danger mr-1">*</label>
+                                        <input asp-for="MetaTitle" class="form-control" />
+                                        <span asp-validation-for="MetaTitle" class="text-danger invalid-feedback"></span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label class="control-label">متا توضیحات</label><label class="text-danger mr-1">*</label>
+                                        <input asp-for="MetaDescription" class="form-control" />
+                                        <span asp-validation-for="MetaDescription" class="text-danger invalid-feedback"></span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label class="control-label">کلمات کلیدی</label><label class="text-danger mr-1">*</label>
+                                        <input asp-for="MetaKeywords" class="form-control tagsinput" />
+                                        <span asp-validation-for="MetaKeywords" class="text-danger invalid-feedback"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

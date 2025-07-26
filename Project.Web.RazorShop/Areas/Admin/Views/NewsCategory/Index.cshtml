@@ -1,0 +1,71 @@
+﻿@section styles{
+    <partial name="_filterstyles" />
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+    <partial name="_filterscripts" />
+    <partial name="_HelprScripts" />
+    <script src="/admin/assets/js/NewsCategory.js?@(DateTime.Now.Ticks)"></script>
+}
+
+@section headertools{
+    <div>
+        <a href="javascript:void(0)" onclick="ModalUpsertCreate()" class="btn btn-gradient-success text-white"><i class="fa fa-plus mx-2"></i> ثبت دسته بندی جدید </a>
+    </div>
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body table-responsive">
+                    <div class="card-title d-flex justify-content-between">
+                        <h6>@ViewBag.Title</h6>
+                        <div class="custom-control custom-switch custom-checkbox-danger mx-3">
+                            <input type="checkbox" class="custom-control-input" id="showdelted" name="delted" onchange="SwitchDeleted()">
+                            <label class="custom-control-label" for="showdelted">حذف شده ها</label>
+                        </div>
+                    </div>
+                    <table id="Table" class="table table-hover table-striped table-advance ajax-data-table">
+                        <thead>
+                            <tr>
+                                <th class="all">#</th>
+                                <th class="all">نام دسته بندی</th>
+                                <th>تعداد اخبار & مقالات</th>
+                                <th>تاریخ ثبت</th>
+                                <th class="all">اقدامات</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="Upsert">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">دسته بندی</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="ti-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="Upsert" method="post" class=" form" id="ajax-form" onsubmit="return false">
+                    <input name="Id" id="Id" type="hidden" hidden />
+                    <div class="form-group">
+                        <label>نام</label><label class="text-danger mr-1">*</label>
+                        <input name="Name" class="form-control" id="Name" />
+                    </div>
+                    <button id="submit-form" type="button" class="btn bg-facebook btn-block text-white">ثبت‌</button>
+                    <hr>
+                </form>
+                <!-- ./ form -->
+            </div>
+        </div>
+    </div>
+</div>

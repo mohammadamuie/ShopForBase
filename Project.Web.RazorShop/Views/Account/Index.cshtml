@@ -1,0 +1,74 @@
+﻿@model Project.Application.DTOs.User.SignInUser
+
+@{
+    Layout = "_CutomerLoginLayout";
+}
+@section Scripts {
+    <script src="~/js/Login.js"></script>
+}
+
+
+<!-- start content -->
+
+<div class="content vh-100">
+    <div class="container-fluid h-100">
+        <div class="auth h-100 d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="auth-items">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4">
+
+                            <div class="auth-logo text-center">
+                                <a href="">
+                                    <img src="assets/img/logo.png" width="200" alt="">
+                                </a>
+                            </div>
+                            <div class="auth-form shadow-xl rounded-3  mt-5 bg-white">
+                                <div class="auth-form-title mb-4 slider-title-desc-center">
+                                    <h2 class="text-center h4 text-muted title-font">ورود / ثبت نام</h2>
+                                </div>
+                                <form asp-action="signin" method="post">
+
+                                    <div class="comment-item mb-3">
+                                        <input asp-for="PhoneNumber" type="text" class="form-control" required>
+                                        <label for="PhoneNumber" class="form-label label-float">
+                                           شماره تماس
+                                        </label>
+                                    </div>
+
+
+
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-success w-100 mt-4 btn-login">
+                                            وورد به
+                                            سایت
+                                        </button>
+                                    </div>
+
+                                </form>
+                            </div>
+
+                            <p class="loginTermsDesc">
+                                با ورود و یا ثبت نام در شاهان شما <a class="underlined main-color-one-color fw-bold"
+                                                                     href="/rules/">
+                                    شرایط و
+                                    قوانین
+                                </a> استفاده از سرویس‌های سایت شاهان و <a class="underlined main-color-one-color fw-bold"
+                                                                          href="/privacy-polices/">
+                                    قوانین حریم
+                                    خصوصی
+                                </a> آن را می‌پذیرید.
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- end content -->
+

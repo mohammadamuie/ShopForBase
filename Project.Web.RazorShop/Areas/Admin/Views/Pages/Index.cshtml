@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "لیست صفحات سایت";
+    Layout = "_AdminPanel";
+}
+@section styles{
+    <link rel="stylesheet" href="/admin/vendors/lightbox/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="/admin/vendors/select2/css/select2.min.css" type="text/css">
+    <partial name="_filterstyles" />
+
+}
+@section scripts{
+    <script src="~/admin/assets/js/CustomHelper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="/admin/vendors/select2/js/select2.min.js"></script>
+    <script src="/admin/vendors/lightbox/jquery.magnific-popup.min.js"></script>
+    <script src="~/admin/assets/js/Pages.js?@(DateTime.Now.Ticks)"></script>
+    <partial name="_filterscripts" />
+}
+@section headertools{
+    <div>
+        <a asp-action="Create" class="btn btn-success text-white"><i class="fa fa-plus mx-2"></i> ثبت صفحه جدید </a>
+    </div>
+}
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body table-responsive">
+                    <div class="card-title d-flex justify-content-between">
+                        <h6>@ViewBag.Title</h6>
+                        <div class="custom-control custom-switch custom-checkbox-danger mx-3">
+                            <input type="checkbox" class="custom-control-input" id="showdelted" name="delted" onchange="SwitchDeleted()">
+                            <label class="custom-control-label" for="showdelted">غیرفعال شده ها</label>
+                        </div>
+                    </div>
+                    <table id="Table" class="table table-hover table-striped table-advance ajax-data-table">
+                        <thead>
+                            <tr>
+                                <th class="all">#</th>
+                                <th class="all">نام صفحه</th>
+                                <th>آدرس</th>
+                                <th>تاریخ ثبت</th>
+                                <th class="none">تاریخ ویرایش :</th>
+                                <th class="all">اقدامات</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

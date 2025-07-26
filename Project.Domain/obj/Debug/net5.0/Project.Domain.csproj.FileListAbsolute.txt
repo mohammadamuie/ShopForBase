@@ -1,0 +1,41 @@
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\bin\Debug\net5.0\Project.Domain.deps.json
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\bin\Debug\net5.0\Project.Domain.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\bin\Debug\net5.0\Project.Domain.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Debug\net5.0\Project.Domain.csproj.AssemblyReference.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Debug\net5.0\Project.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Debug\net5.0\Project.Domain.AssemblyInfoInputs.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Debug\net5.0\Project.Domain.AssemblyInfo.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Debug\net5.0\Project.Domain.csproj.CoreCompileInputs.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Debug\net5.0\EFCoreSqlServerNetTopologySuite.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Debug\net5.0\Project.Domain.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Debug\net5.0\ref\Project.Domain.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Debug\net5.0\Project.Domain.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Debug\net5.0\refint\Project.Domain.dll
+E:\git\manoshop\Project.Domain\bin\Debug\net5.0\Project.Domain.deps.json
+E:\git\manoshop\Project.Domain\bin\Debug\net5.0\Project.Domain.dll
+E:\git\manoshop\Project.Domain\bin\Debug\net5.0\Project.Domain.pdb
+E:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.csproj.AssemblyReference.cache
+E:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.AssemblyInfoInputs.cache
+E:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.AssemblyInfo.cs
+E:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.csproj.CoreCompileInputs.cache
+E:\git\manoshop\Project.Domain\obj\Debug\net5.0\EFCoreSqlServerNetTopologySuite.cs
+E:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.dll
+E:\git\manoshop\Project.Domain\obj\Debug\net5.0\refint\Project.Domain.dll
+E:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.pdb
+E:\git\manoshop\Project.Domain\obj\Debug\net5.0\ref\Project.Domain.dll
+E:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.sourcelink.json
+D:\git\manoshop\Project.Domain\bin\Debug\net5.0\Project.Domain.deps.json
+D:\git\manoshop\Project.Domain\bin\Debug\net5.0\Project.Domain.dll
+D:\git\manoshop\Project.Domain\bin\Debug\net5.0\Project.Domain.pdb
+D:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.csproj.AssemblyReference.cache
+D:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.AssemblyInfoInputs.cache
+D:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.AssemblyInfo.cs
+D:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.csproj.CoreCompileInputs.cache
+D:\git\manoshop\Project.Domain\obj\Debug\net5.0\EFCoreSqlServerNetTopologySuite.cs
+D:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.sourcelink.json
+D:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.dll
+D:\git\manoshop\Project.Domain\obj\Debug\net5.0\refint\Project.Domain.dll
+D:\git\manoshop\Project.Domain\obj\Debug\net5.0\Project.Domain.pdb
+D:\git\manoshop\Project.Domain\obj\Debug\net5.0\ref\Project.Domain.dll

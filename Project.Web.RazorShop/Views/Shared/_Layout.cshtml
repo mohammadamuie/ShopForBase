@@ -1,0 +1,396 @@
+﻿@inject Project.Application.Features.Interfaces.ISettingService _settingService;
+@{
+    var setting = await _settingService.GetSetting();
+}
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        @if (ViewData["MetaTitle"] == null)
+        {
+            @setting.SiteName
+        }
+        else
+        {
+            @ViewData["MetaTitle"]
+        }
+
+    </title>
+    <meta name="keywords" content="
+@if (@ViewData["MetaKeyword"]==null)
+        {
+            @setting.MetaKeyWord
+        }else
+        {
+        @ViewData["MetaKeyword"]
+        }
+">
+    <meta name="description" content="
+
+@if (@ViewData["MetaDescription"]==null)
+        {
+            @setting.MetaDescription
+        }else
+        {
+        @ViewData["MetaDescription"]
+        }">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="@setting.ShortcutIcon">
+    <link rel="icon" type="image/png" sizes="32x32" href="@setting.ShortcutIcon">
+    <link rel="icon" type="image/png" sizes="16x16" href="@setting.ShortcutIcon">
+    <link rel="manifest" href="@setting.ShortcutIcon">
+    <link rel="mask-icon" href="@setting.ShortcutIcon" color="#666666">
+    <link rel="shortcut icon" href="@setting.ShortcutIcon">
+    <meta name="apple-mobile-web-app-title" content="@setting.SiteName">
+    <meta name="application-name" content="@setting.SiteName">
+    <meta name="msapplication-TileColor" content="#cc9966">
+    <meta name="msapplication-config" content="@setting.ShortcutIcon">
+    
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/font/bootstrap-icon/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/js/plugin/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/js/plugin/countdown/countdown.css">
+    <link rel="stylesheet" href="/assets/js/plugin/rasta-contact/style.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+
+    <link href="~/admin/vendors/toaster/toastr.min.css" rel="stylesheet" />
+    <meta name="theme-color" content="#f4f5f9">
+    @RenderSection("styles", required: false)
+
+    
+</head>
+
+<body>
+        @if (setting.TopIconBool == "on")
+        {
+            <a href="@setting.TopIconLink">
+                <img src="@setting.TopIcon" alt="product">
+            </a>
+        }
+    <!-- start header code -->
+
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row gy-3 align-items-center">
+                <div class="col-xl-3 col-6">
+                    <div class="header-logo">
+                        <div class="image">
+                            <a href="index.html">
+                                <img src="@setting.HeaderIcon" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="description d-md-block d-none">
+                            <h6 class="font-20 title-font">@setting.SiteName</h6>
+                            <p class="mb-0 mt-1 text-muted">فروشگاهی برای همه سلیقه ها</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 d-xl-block d-none">
+                    <div class="header-form">
+                        <form onsubmit="searchProducts()">
+                            <input type="search" class="form-control input-search" id="search-input" name="search-input" placeholder="جستجوی محصول">
+                            <button type="button" onclick="searchProducts()" class="btn input-btn-search"><i class="bi bi-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-6">
+                    <div class="header-btn">
+                        <div class="header-cart d-lg-block d-none">
+                            <a data-bs-toggle="offcanvas" href="#offcanvasCart" role="button" aria-controls="offcanvasCart"
+                               class="btn main-color-one-bg">
+                                <i class="bi bi-basket-fill"></i>
+                                <span>سبد خرید</span>
+                                <span id="cartCounter" class="cart-counter">0</span>
+                            </a>
+                        </div>
+                        <div class="header-btn-login d-lg-block d-none">
+                            <a href="/customer" class="btn"><i class="bi bi-person-fill"></i> ورود / ثبت نام</a>
+                        </div>
+                        <div class="header-btn-login-responsive d-lg-none d-block">
+                            <a href="" class="btn"><i class="bi bi-person-fill fs-2"></i></a>
+                        </div>
+                        <div class="header-btn-favorite">
+                            <a href="" class="btn"><i class="bi bi-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1 col-2 d-xl-none d-block">
+                    <div class="responsive-menu d-xl-none d-block">
+                        <button class="btn border-0 p-0 btn-responsive-menu" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#responsiveMenu" aria-controls="responsive menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                 class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                            </svg>
+                        </button>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="responsiveMenu"
+                             aria-labelledby="responsive menu">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">@setting.SiteName</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <a href="" class="text-center d-block mb-3">
+                                    <img src="@setting.HeaderIcon" alt="" class="img-fluid" width="200">
+                                </a>
+                                @await Component.InvokeAsync(nameof(Project.Web.RazorShop.Views.Shared.Components.LandingMenuMobileComponent))
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-11 col-10 d-xl-none d-block">
+                    <div class="d-flex">
+                        <div class="header-form w-100">
+                            <form action="">
+                                <input type="search" class="form-control input-search" placeholder="جستجوی محصول">
+                                <button type="submit" class="btn input-btn-search"><i class="bi bi-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="text-end ms-lg-4 ms-2">
+                            <a data-bs-toggle="offcanvas" href="#offcanvasCart" role="button" aria-controls="offcanvasCart"
+                               class="btn border-0 main-color-green"><i class="bi bi-basket text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- start mega menu -->
+
+    <div class="mega-menu-parent position-sticky top-0 d-xl-block d-none">
+        <div class="container-fluid">
+            <div class="header-top-menu">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="header-top-menu-right">
+                            <div class="top-menu-menu">
+                                <ul class="navbar-nav align-items-center">
+                                    <li class="position-relative m-0"></li>
+                                    <li class="nav-item main-menu-head">
+                                        <a href=""
+                                           class="nav-link header-top-menu-link-a  nav-active fw-bold">
+                                            <i class="bi bi-list"></i>
+                                            مگا تب منو
+                                        </a>
+                                        @await Component.InvokeAsync(nameof(Project.Web.RazorShop.Views.Shared.Components.LandingMenuComponent))
+                                    </li>
+                                    @await Component.InvokeAsync(nameof(Project.Web.RazorShop.Views.Shared.Components.LandingMenuDynamicComponent))
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="header-top-menu-left">
+                            <div class="row align-items-center">
+                                <div class="col-6 d-lg-none d-xl-block d-block">
+                                    <div class="header-top-menu-link">
+                                        <a href="header-top-menu-link-email" class="">
+                                            @setting.Email<i class="bi bi-envelope-check-fill"></i>
+                                        </a>
+                                        <a href="header-top-menu-link-tel" class="">
+                                            @setting.Telphone<i class="bi bi-telephone-inbound-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="header-top-menu-socail">
+                                        <a href=""><i class="bi bi-instagram"></i></a>
+                                        <a href=""><i class="bi bi-youtube"></i></a>
+                                        <a href=""><i class="bi bi-linkedin"></i></a>
+                                        <a href=""><i class="bi bi-telegram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end mega menu -->
+    <!-- end header code -->
+        @RenderBody()
+        <partial name="_footer" />
+
+    <partial name="_mobileMenu" />
+
+
+
+    <!--start cart canvas-->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCartLabel">
+        <div class="offcanvas-header shadow-md">
+            <h5 class="offcanvas-title title-font" id="offcanvasCartLabel">
+                سبد خرید <small class="text-muted font-14 ms-1">
+                    (1
+                    مورد)
+                </small>
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul class="navbar-nav cart-canvas-parent">
+                <li class="nav-item">
+                    <div class="cart-canvas">
+                        <div class="row align-items-center">
+                            <div class="col-4 ps-0">
+                                <img src="assets/img/product/wach1.jpg" alt="">
+                            </div>
+                            <div class="col-8">
+                                <a href="">
+                                    <h3 class="text-overflow-1 title-font font-14">
+                                        ساعت مچی عقربه‌ای مردانه اینویکتا مدل
+                                        Automatico Ghost Reserve
+                                    </h3>
+                                    <div class="cart-canvas-price my-3 d-flex align-items-center">
+                                        <p class="mb-0 text-muted me-2 font-16 text-decoration-line-through">5,400,000</p>
+                                        <h6 class="title-font main-color-one-color">3,200,000 تومان</h6>
+                                    </div>
+                                </a>
+                                <div class="cart-canvas-foot d-flex align-items-center justify-content-between">
+                                    <div class="cart-canvas-count">
+                                        <span>تعداد:</span>
+                                        <span class="fw-bold main-color-one-color">3</span>
+                                    </div>
+                                    <div class="cart-canvas-delete">
+                                        <a href="" class="btn"><i class="bi bi-x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="cart-canvas">
+                        <div class="row align-items-center">
+                            <div class="col-4 ps-0">
+                                <img src="assets/img/product/wach3.jpg" alt="">
+                            </div>
+                            <div class="col-8">
+                                <a href="">
+                                    <h3 class="text-overflow-1 title-font font-14">
+                                        ساعت مچی عقربه‌ای مردانه اینویکتا مدل
+                                        Automatico Ghost Reserve
+                                    </h3>
+                                    <div class="cart-canvas-price my-3 d-flex align-items-center">
+                                        <p class="mb-0 text-muted me-2 font-16 text-decoration-line-through">5,400,000</p>
+                                        <h6 class="title-font main-color-one-color">3,200,000 تومان</h6>
+                                    </div>
+                                </a>
+                                <div class="cart-canvas-foot d-flex align-items-center justify-content-between">
+                                    <div class="cart-canvas-count">
+                                        <span>تعداد:</span>
+                                        <span class="fw-bold main-color-one-color">3</span>
+                                    </div>
+                                    <div class="cart-canvas-delete">
+                                        <a href="" class="btn"><i class="bi bi-x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="cart-canvas-foots bg-white shadow-md">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <div class="cart-canvas-foot-sum">
+                            <p class="text-muted mb-2">جمع کل</p>
+                            <h5 class="title-font">11,000,000 تومان</h5>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="cart-canvas-foot-link text-end">
+                            <a href="" class="btn border-0 main-color-green text-white">
+                                <i class="bi bi-arrow-left me-1"></i> تکمیل خرید
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--end cart canvas-->
+
+    <!--end cart canvas-->
+
+    <div class="float-btn">
+        <div class="container-fluid">
+            <!-- contact us floating -->
+            <div id="btncollapzion" class=" btn_collapzion"></div>
+            <div class="" id="contactOverlay"></div>
+            <!-- end contact us floating -->
+        </div>
+    </div>
+
+
+    <script src="/assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="/assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="/assets/js/vendor/bootstrap.bundle-5.3.2.min.js"></script>
+    <script src="/assets/js/plugin/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/js/plugin/countdown/countdown.js"></script>
+    <script src="/assets/js/plugin/vanilla-tilt/vanilla-tilt.min.js"></script>
+    <script src="/assets/js/plugin/rasta-contact/script.js"></script>
+    <script src="/assets/js/plugin/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/main.js"></script>
+    
+    <!-- Main JS File -->
+    <script src="~/js/cookies.js"></script>
+    <script src="~/admin/vendors/toaster/toastr.min.js"></script>
+    <script src="~/js/site.js"></script>
+    <script src="~/js/shoppingcart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script>
+        function loading() {
+            Swal.fire({
+                html: '<img src="/Uploads/giphy.svg" />',
+                allowOutsideClick: false,
+                showCancelButton: false,
+                showConfirmButton: false,
+            });
+            $(".swal2-modal").css('background-color', 'rgb(0 0 0 / 0%)');//Optional changes the color of the sweetalert
+            $("#swal2-content").css('display', 'flex ');//Optional changes the color of the sweetalert
+            $("#swal2-content").css('justify-content', 'center ');//Optional changes the color of the sweetalert
+        }
+    </script>
+    <script>
+        var searchinput = document.getElementById("search-input");
+        searchinput.addEventListener("keypress", function (event) {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                var searchText = $('#search-input').val();
+                location.href = "/product/Search?search=" + searchText;
+            }
+        });
+        function searchProducts() {
+            var searchText = $('#search-input').val();
+            location.href = "/product/Search?search=" + searchText;
+        }
+    </script>
+    @RenderSection("Scripts", required: false)
+</body>
+
+
+<!-- Mirrored from filenter.ir/molla/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Jun 2022 05:48:49 GMT -->
+</html>
+
+
+

@@ -1,0 +1,62 @@
+﻿@model Project.Application.DTOs.Pages.PagesDTO
+@using DNTPersianUtils.Core
+@{
+    ViewData["MetaTitle"] = Model.MetaTitle;
+    ViewData["MetaKeyword"] = Model.MetaKeyWords;
+    ViewData["MetaDescription"] = Model.MetaDescription;
+    
+}
+
+@section styles {
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6147049e1b3f740019aa82e1&product=inline-share-buttons" async="async"></script>
+
+}
+<nav aria-label="breadcrumb" class="breadcrumb-nav border-0 mb-0">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index-1.html">خانه</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+                @Model.Title
+            </li>
+        </ol>
+    </div><!-- End .container -->
+</nav><!-- End .breadcrumb-nav -->
+
+<div class="page-content">
+    <div class="container">
+        <article class="entry single-entry entry-fullwidth">
+            <div class="row">
+                <div class="col-lg-11">
+                    <div class="entry-body">
+                        <div class="entry-meta">
+                            <span class="entry-author">
+                                نویسنده : <a href="#">مدیر سایت</a>
+                            </span>
+                            <span class="meta-separator">|</span>
+                            <a href="#">@Model.CreatedAt.ToPersianDateTextify()</a>
+                        </div><!-- End .entry-meta -->
+
+                        <h2 class="entry-title entry-title-big">
+                            @Model.Title
+                        </h2><!-- End .entry-title -->
+
+                        <div class="entry-content editor-content">
+                            @Html.Raw(Model.Content)
+                        </div><!-- End .entry-content -->
+
+                        
+                    </div><!-- End .entry-body -->
+                </div><!-- End .col-lg-11 -->
+
+                <div class="col-md-auto mt-2 mt-md-0">
+                    <div class="social-icons social-icons-color">
+                        <span class="social-label">اشتراک گذاری این پست : </span>
+                        <div class="sharethis-inline-share-buttons"></div>
+                    </div><!-- End .sticky-content -->
+                </div><!-- End .col-lg-1 -->
+            </div><!-- End .row -->
+
+        </article><!-- End .entry -->
+ 
+    </div><!-- End .container -->
+</div><!-- End .page-content -->

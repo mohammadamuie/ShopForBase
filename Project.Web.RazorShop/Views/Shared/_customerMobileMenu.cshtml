@@ -1,0 +1,53 @@
+﻿<div class="custom-filter d-lg-none d-block">
+    <button class="btn btn-filter-float border-0 main-color-two-bg shadow-box px-4 rounded-3 position-fixed" style="z-index: 999;bottom:80px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <i class="bi bi-list font-20 fw-bold text-white"></i>
+        <span class="d-block font-14 text-white">منو</span>
+    </button>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">منو</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="panel-nav-logo">
+                <a href="" class="text-center d-block mb-3">
+                    <img src="assets/img/logo.png" alt="" class="img-fluid" width="200">
+                </a>
+            </div>
+            <div class="penel-nav">
+                <div class="panel-nav-nav">
+                    <nav class="navbar profile-box-nav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-item ">
+                                <a href="/customer" class="nav-link">
+                                    <i class="bi bi-house-door"></i>حساب کاربری
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">
+                                    <i class="bi bi-cart-check"></i>سفارش های من <span class="badge rounded-pill badge-spn">5</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-area="customer" asp-controller="home" asp-action="profile" class="nav-link">
+                                    <i class="bi bi-pin-map"></i>پروفایل
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">
+                                    <i class="bi bi-gift"></i>کد های تخفیف من
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/Account/Logout" class="nav-link">
+                                    <i class="bi bi-arrow-right-square"></i>خروج از حساب کاربری
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

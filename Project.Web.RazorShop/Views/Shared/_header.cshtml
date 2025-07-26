@@ -1,0 +1,147 @@
+﻿<!-- start header code -->
+
+<header class="header">
+    <div class="container-fluid">
+        <div class="row gy-3 align-items-center">
+            <div class="col-xl-3 col-6">
+                <div class="header-logo">
+                    <div class="image">
+                        <a href="index.html">
+                            <img src="assets/img/logo.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="description d-md-block d-none">
+                        <h6 class="font-20 title-font">فروشگاه آنلاین شاهان</h6>
+                        <p class="mb-0 mt-1 text-muted">فروشگاهی برای همه سلیقه ها</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5 d-xl-block d-none">
+                <div class="header-form">
+                    <form action="">
+                        <input type="search" class="form-control input-search" placeholder="جستجوی محصول">
+                        <button type="submit" class="btn input-btn-search"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xl-4 col-6">
+                <div class="header-btn">
+                    <div class="header-cart d-lg-block d-none">
+                        <a data-bs-toggle="offcanvas" href="#offcanvasCart" role="button" aria-controls="offcanvasCart"
+                           class="btn main-color-one-bg">
+                            <i class="bi bi-basket-fill"></i>
+                            <span>سبد خرید</span>
+                            <span id="cartCounter" class="cart-counter">0</span>
+                        </a>
+                    </div>
+                    <div class="header-btn-login d-lg-block d-none">
+                        <a href="" class="btn"><i class="bi bi-person-fill"></i> ورود / ثبت نام</a>
+                    </div>
+                    <div class="header-btn-login-responsive d-lg-none d-block">
+                        <a href="" class="btn"><i class="bi bi-person-fill fs-2"></i></a>
+                    </div>
+                    <div class="header-btn-favorite">
+                        <a href="" class="btn"><i class="bi bi-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-2 d-xl-none d-block">
+                <div class="responsive-menu d-xl-none d-block">
+                    <button class="btn border-0 p-0 btn-responsive-menu" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#responsiveMenu" aria-controls="responsive menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                             class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </button>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="responsiveMenu"
+                         aria-labelledby="responsive menu">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">فروشگاه شاهان</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <a href="" class="text-center d-block mb-3">
+                                <img src="assets/img/logo.png" alt="" class="img-fluid" width="200">
+                            </a>
+                            @await Component.InvokeAsync(nameof(Project.Web.RazorShop.Views.Shared.Components.LandingMenuMobileComponent))
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-11 col-10 d-xl-none d-block">
+                <div class="d-flex">
+                    <div class="header-form w-100">
+                        <form action="">
+                            <input type="search" class="form-control input-search" placeholder="جستجوی محصول">
+                            <button type="submit" class="btn input-btn-search"><i class="bi bi-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="text-end ms-lg-4 ms-2">
+                        <a data-bs-toggle="offcanvas" href="#offcanvasCart" role="button" aria-controls="offcanvasCart"
+                           class="btn border-0 main-color-green"><i class="bi bi-basket text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- start mega menu -->
+
+<div class="mega-menu-parent position-sticky top-0 d-xl-block d-none">
+    <div class="container-fluid">
+        <div class="header-top-menu">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="header-top-menu-right">
+                        <div class="top-menu-menu">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="position-relative m-0"></li>
+                                <li class="nav-item main-menu-head">
+                                    <a href=""
+                                       class="nav-link header-top-menu-link-a  nav-active fw-bold">
+                                        <i class="bi bi-list"></i>
+                                        مگا تب منو
+                                    </a>
+                                    @await Component.InvokeAsync(nameof(Project.Web.RazorShop.Views.Shared.Components.LandingMenuComponent))
+                                </li>
+                                @await Component.InvokeAsync(nameof(Project.Web.RazorShop.Views.Shared.Components.LandingMenuDynamicComponent))
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="header-top-menu-left">
+                        <div class="row align-items-center">
+                            <div class="col-6 d-lg-none d-xl-block d-block">
+                                <div class="header-top-menu-link">
+                                    <a href="header-top-menu-link-email" class="">
+                                        admin@admin.com <i class="bi bi-envelope-check-fill"></i>
+                                    </a>
+                                    <a href="header-top-menu-link-tel" class="">
+                                        02112345678<i class="bi bi-telephone-inbound-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-xl-6">
+                                <div class="header-top-menu-socail">
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-youtube"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href=""><i class="bi bi-telegram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end mega menu -->
+<!-- end header code -->
+

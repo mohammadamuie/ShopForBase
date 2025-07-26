@@ -1,0 +1,251 @@
+﻿@model Project.Application.DTOs.Product.UpsertProduct
+
+@{
+    ViewData["Title"] = "ثبت محصول جدید";
+}
+@section styles{<!-- Style -->
+
+    <link rel="stylesheet" href="/admin/vendors/colorpicker/css/bootstrap-colorpicker.min.css" type="text/css">
+    <link rel="stylesheet" href="/admin/vendors/range-slider/css/ion.rangeSlider.min.css" type="text/css">
+    <partial name="_filterstyles" />
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+    <!-- Javascript -->
+    <script src="/admin/vendors/colorpicker/js/bootstrap-colorpicker.min.js"></script>
+    <script src="/admin/vendors/range-slider/js/ion.rangeSlider.min.js"></script>
+    <script src="~/admin/assets/js/examples/jquery.repeater.min.js"></script>
+    <partial name="_filterscripts" />
+    <partial name="_HelprScripts" />
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/admin/assets/js/AddProduct.js"></script>
+}
+
+@section headertools{
+    <div>
+        <a class="btn btn-gradient-primary text-white" asp-action="index">بازگشت به لیست محصولات</a>
+        <button class="btn btn-gradient-success" type="button" id="submit-form"><i class="fa fa-save mx-2"></i> ثبت </button>
+    </div>
+}
+
+<section>
+    <form asp-action="UpsertProduct" method="post" enctype="multipart/form-data" class="col-12 ajax-form" id="ajax-form" novalidate="">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="card">
+            <div class="card-body">
+                <div class="card-title d-flex justify-content-between align-items-center">
+
+                    <!-- File input -->
+                    <div class="form-group">
+                        <label for="BannerUrl">بارگذاری عکس</label>
+                        <input asp-for="BannerUrl" type="file" class="form-control-file" id="BannerUrl" accept="image/png, image/gif, image/jpeg" />
+                    </div>
+                </div>
+                <div class="row row-xs">
+                    <div class="col-lg-4 mb-3">
+                        <img class="img-fluid rounded" id="showimage" src="/admin/assets/media/image/portfolio-one.jpg" alt="image">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="form-row">
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label>عنوان محصول</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="Title" type="text" class="form-control" placeholder="عنوان محصول را وارد کنید" required />
+                            <span class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label>دسته بندی</label><label class="text-danger mr-1">*</label>
+                            <select asp-for="CategoryId" class="form-control select2" asp-items="ViewBag.Categories " required></select>
+                            <span asp-validation-for="CategoryId" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label class="control-label">آدرس صفحه</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="Url" type="text" class="form-control alphacode" placeholder="آدرس صفحه را وارد کنید" required />
+                            <span asp-validation-for="Url" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label class="control-label">متا عنوان</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="MetaTitle" type="text" class="form-control" placeholder="متا عنوان را وارد کنید" required />
+                            <span asp-validation-for="MetaTitle" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label class="control-label">متا توضیحات</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="MetaDescription" type="text" class="form-control" placeholder="متا توضیحات را وارد کنید" required />
+                            <span asp-validation-for="MetaDescription" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label class="control-label">متا کلمات کلیدی</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="MetaKeyWord" type="text" class="form-control tagsinput" placeholder="متا کلمات کلیدی را وارد کنید" required />
+                            <span asp-validation-for="MetaKeyWord" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label>توضیحات</label><label class="text-danger mr-1">*</label>
+                            <textarea asp-for="Description" class="form-control" required></textarea>
+                            <span class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <ul class="nav nav-pills mb-3" role="tablist">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link active" id="pills-attributes-tab" data-toggle="pill" href="#pills-attributes" role="tab" aria-controls="pills-attributes" aria-selected="false">ویژگی ها</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" id="pills-price-tab" data-toggle="pill" href="#pills-price" role="tab" aria-controls="pills-price" aria-selected="false">تک قیمت</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" id="pills-producttype-tab" data-toggle="pill" href="#pills-producttype" role="tab" aria-controls="pills-producttype" aria-selected="false">انواع محصول</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link " id="pills-discount-tab" data-toggle="pill" href="#pills-discount" role="tab" aria-controls="pills-discount" aria-selected="true">درصد تخفیف</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="pills-attributes" role="tabpanel" aria-labelledby="pills-attributes-tab">
+                        <div class=" col-12">
+                            <div class="form-group">
+                                <label>موجودی محصول</label>
+                                <input asp-for="Inventory" type="number" class="form-control numeric w-25" />
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="repeater-default">
+                                <label>لیست ویژگی های محصول</label>
+                                <div data-repeater-list="Attributes">
+                                    <div data-repeater-item>
+                                        <div class="row justify-content-between">
+                                            <div class="col-md-10">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="">ویژگی ها</span>
+                                                    </div>
+                                                    <input name="Name" type="text" class="form-control" placeholder="عنوان ویژگی" required>
+                                                    <input name="Value" type="text" class="form-control" placeholder="توضیح ویژگی" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-2 col-sm-12 form-group">
+                                                <button class="btn btn-danger btn-block" data-repeater-delete type="button"> <i class="fa fa-times mx-2"></i>حذف</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col p-0 text-left">
+                                        <button class="btn btn-primary ml-0" data-repeater-create type="button"><i class="fa fa-plus mx-2"></i>اضافه کردن ویژگی جدید</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-price" role="tabpanel" aria-labelledby="pills-price-tab">
+                        <span></span>
+                        <div class="custom-control custom-switch custom-checkbox-success">
+                            <input type="checkbox" class="custom-control-input" id="ispriceSwitch">
+                            <label class="custom-control-label" for="ispriceSwitch">
+                                با فعال کردن این گزینه بخش انواع محصول برای شما غیر فعال میشود و قیمت را فقط از تک قیمت محصول میخواند<span class="ti-info-alt text-warning mx-2"></span>
+                            </label>
+                        </div>
+                        <div class="form-group mt-2 " id="price-input">
+                            <label class="control-label">تک قیمت محصول (تومان)</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="price" type="tel" class="form-control formatted-price" placeholder="قیمت محصول را وارد کنید (تومان)" required />
+                            <span asp-validation-for="price" class="text-danger invalid-feedback "></span>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-producttype" role="tabpanel" aria-labelledby="pills-producttype-tab">
+                        <div class="custom-control custom-switch custom-checkbox-success">
+                            <input type="checkbox" class="custom-control-input" id="producttypeSwitch">
+                            <label class="custom-control-label" for="producttypeSwitch">
+                                به یاد داشته باشد با فعال کردن این وضعیت آپشن رنگ و قیمت برای محصول فعال میشود در غیر آنصورت آپشن سایز و قیمت که به صورت پیش فرض هم فعال هست برای محصول فعال میشود<span class="ti-info-alt text-warning mx-2"></span>
+                            </label>
+                        </div>
+                        <div class="col-12 mt-3">
+                            <div class="repeater-default">
+                                <label>انواع محصول  <span class="text-danger">(ابتدا آیتم های خود را ایجاد کنید سپس در صورت تمایل از گزینه بالا وضعیت را تغییر دهید) *</span></label>
+                                <div data-repeater-list="ProductType">
+                                    <div data-repeater-item>
+                                        <div class="row justify-content-between">
+                                            <div class="col-md-10">
+                                                <div class="input-group ">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text producttypetext">براساس سایز</span>
+                                                    </div>
+                                                    <input name="Type" type="text" class="form-control color-palet " placeholder="سایز را وارد کنید">
+                                                    <input name="Typeprice" type="tel" class="form-control formatted-price" placeholder="قیمت این نوع از کالا (تومان)">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-2 col-sm-12 form-group">
+                                                <button class="btn btn-danger btn-block" data-repeater-delete type="button"> <i class="fa fa-times mx-2"></i>حذف</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col p-0 text-left">
+                                        <button class="btn btn-primary ml-0" data-repeater-create type="button"><i class="fa fa-plus mx-2"></i>اضافه کردن ویژگی جدید</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="text-danger">(اگر آیتم های خود را به نوع رنگ تغییر داده اید و دوباره به نوع سایز تغییر وضعیت داده اید آیتم های قبلی خود را پاک کنید و آیتم جدید ایجاد کنید) *</span>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="pills-discount" role="tabpanel" aria-labelledby="pills-discount-tab">
+                        <div class="form-row">
+                            <div class="col-12">
+                                <label class="control-label">در صورت عدم نیاز به ایجاد درصد تخفیف این آیتم را بر روی صفر قرار دهید.<span class="ti-info-alt text-warning mx-2"></span></label>
+                                <input asp-for="Discount" type="text" id="rangeSlider-example">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+    <div class="card d-none" id="GalleryCard">
+        <div class="card-body">
+            <div class="card-title d-flex justify-content-between align-items-center">
+                <!-- File input -->
+                <div class="d-flex align-items-center">
+                    <div class="form-group">
+                        <label for="BannerUrl">بارگذاری عکس</label>
+                        <input name="GaleryUrl" type="file" class="form-control-file" id="GaleryUrl">
+                        <input type="hidden" hidden  id="formIdGallery" value="">
+                    </div>
+                    <button id="Add_GaleyImage" type="button" class="btn btn-success">ذخیره</button>
+                </div>
+                <h6>
+                    گالری تصاوری محصول
+                </h6>
+            </div>
+            <div class="row row-xs" id="imageContainer">
+               
+            </div>
+        </div>
+    </div>
+</section>
+

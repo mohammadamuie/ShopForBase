@@ -1,0 +1,17 @@
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\bin\Release\net5.0\Project.Persistence.deps.json
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\bin\Release\net5.0\Project.Persistence.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\bin\Release\net5.0\ref\Project.Persistence.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\bin\Release\net5.0\Project.Persistence.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\bin\Release\net5.0\Project.Application.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\bin\Release\net5.0\Project.Domain.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\bin\Release\net5.0\Project.Application.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\bin\Release\net5.0\Project.Domain.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\obj\Release\net5.0\Project.Persistence.csproj.AssemblyReference.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\obj\Release\net5.0\Project.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\obj\Release\net5.0\Project.Persistence.AssemblyInfoInputs.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\obj\Release\net5.0\Project.Persistence.AssemblyInfo.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\obj\Release\net5.0\Project.Persistence.csproj.CoreCompileInputs.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\obj\Release\net5.0\Project.Persistence.csproj.CopyComplete
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\obj\Release\net5.0\Project.Persistence.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\obj\Release\net5.0\ref\Project.Persistence.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Persistence\obj\Release\net5.0\Project.Persistence.pdb

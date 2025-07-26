@@ -1,0 +1,139 @@
+﻿@{
+    ViewData["Title"] = "لیست کد های تخفیف";
+}
+@section styles{
+    <link rel="stylesheet" href="/admin/vendors/range-slider/css/ion.rangeSlider.min.css" type="text/css">
+    <partial name="_filterstyles" />
+    <partial name="_DatepickerStyle" />
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+    <script src="/admin/vendors/range-slider/js/ion.rangeSlider.min.js"></script>
+    <partial name="_filterscripts" />
+    <partial name="_DatepickerJs" />
+    <partial name="_HelprScripts" />
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/admin/assets/js/DiscountCode.js?@(DateTime.Now.Ticks)"></script>
+
+}
+@section headertools{
+    <div>
+        <a href="javascript:void(0)" id="openModelUpsertDiscountCode" class="btn btn-success text-white"><i class="fa fa-plus mx-2"></i>ثبت کد تخفیف جدید</a>
+    </div>
+}
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body table-responsive">
+                    <div class="card-title d-flex justify-content-between">
+                        <h6>@ViewBag.Title</h6>
+                        <div class="custom-control custom-switch custom-checkbox-danger mx-3">
+                            <input type="checkbox" class="custom-control-input" id="showdelted" name="delted" onchange="SwitchDeleted()">
+                            <label class="custom-control-label" for="showdelted">منقضی شده ها</label>
+                        </div>
+                    </div>
+                    <table id="Table" class="table table-hover table-striped table-advance ajax-data-table">
+                        <thead>
+                            <tr>
+                                <th class="all"># <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">کد تخفیف<span class="ti-exchange-vertical"></span></th>
+                                <th class="all">نوع کد تخفیف<span class="ti-exchange-vertical"></span></th>
+                                <th class="all">درصد تخفیف<span class="ti-exchange-vertical"></span></th>
+                                <th class="all">توضیحات<span class="ti-exchange-vertical"></span></th>
+                                <th>تاریخ منسوخ شدن</th>
+                                <th>تاریخ ثبت</th>
+                                <th class="all">اقدامات</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="MODALUpsertDisCountCode">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">ایجاد دسته بندی جدید</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="ti-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="CreateCategory" method="post" class=" form" id="formUpsert" onsubmit="return false">
+                    <div class="form-group">
+                        <label>نام کد تخفیف (درصورت خالی بودن این آیتم سیستم یک نام ایجاد میکند)<span class="ti-info-alt text-warning mx-2"></span></label>
+                        <input name="Code" id="Code" type="text" class="form-control alphanum" placeholder="نام کد تخفیف" required autofocus>
+                        <input name="Id" id="Id" type="hidden" hidden>
+                    </div>
+                    <div class="form-group">
+                        <label>تاریخ منسوخ شدن کد تخفیف</label><label class="text-danger mr-1">*</label>
+                        <input id="ExpireTime" name="ExpireTime" type="text" class="form-control pwt-datepicker-input-element" placeholder="تاریخ">
+                    </div>
+                    <div class="form-group">
+                        <label>توضیحات</label>
+                        <textarea name="Description" id="Description" type="text" class="form-control" placeholder="توضیحات" required autofocus></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">درصد تخفیف کد را انتخاب کنید.<span class="ti-info-alt text-warning mx-2"></span></label>
+                        <input name="Discount" type="text" id="rangeSlider-create">
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="form-group">
+                            <div class="custom-control custom-radio custom-checkbox-success">
+                                <input type="radio" id="ForUser" name="DiscountCodeType" value="@(Project.Domain.Enums.DiscountCodeType.ForUser)" class="custom-control-input">
+                                <label class="custom-control-label" for="ForUser">
+                                    کاربر خاص
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-radio custom-checkbox-danger">
+                                <input type="radio" id="ForProduct" name="DiscountCodeType" value="@(Project.Domain.Enums.DiscountCodeType.ForProduct)" class="custom-control-input">
+                                <label class="custom-control-label" for="ForProduct">
+                                    محصول خاص
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-radio custom-checkbox-warning">
+                                <input type="radio" id="ForPeoductAndUser" name="DiscountCodeType" value="@(Project.Domain.Enums.DiscountCodeType.ForPeoductAndUser)" class="custom-control-input" checked>
+                                <label class="custom-control-label" for="ForPeoductAndUser">
+                                    محصول و کاربر خاص
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-radio custom-checkbox-info">
+                                <input type="radio" id="DiscountForAll" name="DiscountCodeType" value="@(Project.Domain.Enums.DiscountCodeType.DiscountForAll)" class="custom-control-input">
+                                <label class="custom-control-label" for="DiscountForAll">
+                                    همه
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group" id="UserIdDiv">
+                        <label>کاربر</label><label class="text-danger mr-1">*</label>
+                        <select name="UserId" id="UserId" class="form-control " asp-items="ViewBag.users" required></select>
+                        <span class="text-danger invalid-feedback"></span>
+                    </div>
+                    <div class="form-group" id="ProductIdDiv">
+                        <label>محصول</label><label class="text-danger mr-1">*</label>
+                        <select name="ProductId" id="ProductId" class="form-control " asp-items="ViewBag.products" required></select>
+                        <span class="text-danger invalid-feedback"></span>
+                    </div>
+                    <button id="submit-formUpsert" type="button" class="btn bg-facebook btn-block text-white">ایجاد ‌</button>
+                    <hr>
+                </form>
+                <!-- ./ form -->
+            </div>
+        </div>
+    </div>
+</div>
+

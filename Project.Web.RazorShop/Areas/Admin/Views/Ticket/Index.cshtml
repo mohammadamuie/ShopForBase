@@ -1,0 +1,114 @@
+﻿
+
+@{
+    ViewData["Title"] = "پشتیبانی";
+}
+@section styles{
+}
+
+@section scripts{
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="/admin/assets/js/Ticket.js?@(DateTime.Now.Ticks)"></script>
+
+}
+
+<div class="container-fluid h-100" id="wrapper">
+
+    <div class="row app-block">
+        <div class="col-md-12 app-content">
+            <div class="app-content-overlay"></div>
+            <div class="card card-body app-content-body h-75" v-if="loadingData == true">
+                <div class="spinner-border text-info m-auto " role="status">
+                    <span class="sr-only">درحال بارگذاری...</span>
+                </div>
+            </div>
+            <div class="card card-body app-content-body" v-else>
+                <div class="app-lists">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" v-for="item in items">
+                            <div>
+                                <a :href="'/ticket/detail?Id='+item.id" class="add-star stretched-link mr-3" :title="item.priority">
+                                    <i v-if="item.priority==0" class="fa fa-star font-size-16 text-warning"></i>
+                                    <i v-else class="fa fa-star-o font-size-16"></i>
+                                </a>
+                            </div>
+                            <div>
+                                <figure class="avatar avatar-sm mr-3">
+                                    <span class="avatar-title bg-info-bright text-info rounded-circle">ت</span>
+                                </figure>
+                            </div>
+                            <div class="flex-grow-1 min-width-0">
+                                <div class="mb-1 d-flex justify-content-between align-items-center">
+                                    <div class="text-truncate app-list-title">{{item.title}}</div>
+                                    <div class="pl-3 d-flex">
+
+                                        <span class="text-nowrap text-muted">{{item.updatedAt}}</span>
+
+                                    </div>
+                                </div>
+                                <div class="text-truncate small">{{item.user}}</div>
+                                <div class="text-muted d-flex justify-content-between">
+                                    <div class="text-truncate small">{{item.message}}</div>
+                                    <div class="text-nowrap pl-3">
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item mb-0 ">
+                                                <i v-if="item.status==0" class="fa fa-circle text-dark"></i>
+                                                <i v-else-if="item.status==1" class="fa fa-circle text-info"></i>
+                                                <i v-else-if="item.status==2" class="fa fa-circle text-success"></i>
+                                                <i v-else class="fa fa-circle text-secondary"></i>
+                                            </li>
+                                            <li class="list-item mb-1">
+                                                <span v-if="item.priority==0" class="text-nowrap text-danger">فوری</span>
+                                                <span v-else-if="item.priority==1" class="text-nowrap text-info">معمولی</span>
+                                                <span v-else class="text-nowrap text-info">جهت اطلاع</span>
+                                            </li>
+                                            <li class="list-item mb-1">
+                                                <span v-if="item.cat==0" class="text-nowrap text-muted ">{{item.projectName}}</span>
+                                                <span v-else-if="item.cat==1" class="text-nowrap text-muted" dir="ltr">{{item.domainName}}</span>
+                                                <span v-else class="text-nowrap text-muted">{{item.factorName}}</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="col-12 mt-4 mb-4 pt-2 text-center" v-if="currentPage>0 && loadingData == false">
+                        <a href="javascript:;" v-on:click="LoadMore" class="btn btn-primary text-white rounded-pill">نمایش بیشتر <i class="uil uil-angle-left-b align-middle"></i></a>
+                    </div>
+                </div>
+                <!-- end::app-lists -->
+                <!-- begin:app-detail -->
+                <div class="card app-detail">
+                    <div class="card-header">
+                        <div class="app-detail-action-left">
+                            <a class="app-detail-close-button" href="#">
+                                <i data-feather="arrow-left" class="mr-3"></i>
+                            </a>
+                            <h5 class="mb-0">
+                                تبلیغات آنلاین
+                                <span class="badge bg-success badge-pill ml-1">آزادکاری</span>
+                            </h5>
+                        </div>
+                        <div class="app-detail-action-right">
+                            <div>
+                                <a href="#" class="btn btn-outline-light" data-toggle="tooltip" title="پاسخ">
+                                    <i data-feather="corner-up-left"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-light ml-2" data-toggle="tooltip"
+                                   title="اسپم">
+                                    <i data-feather="info"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-light ml-2" data-toggle="tooltip"
+                                   title="رد کردن">
+                                    <i data-feather="trash"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

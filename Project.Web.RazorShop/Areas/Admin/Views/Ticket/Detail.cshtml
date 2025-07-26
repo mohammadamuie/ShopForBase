@@ -1,0 +1,186 @@
+﻿@model Project.Application.DTOs.Ticket.TicketWithMessagesDTO
+@using DNTPersianUtils.Core;
+@{
+    ViewData["Title"] = "جزئیات";
+}
+@section styles{
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+
+    <partial name="_HelprScripts" />
+
+
+    <script>
+        $('#submit-form').on('click', function () {
+            let form = document.getElementById('ajax-form');
+            let formdata = new FormData(form);
+            ajaxPostForm({
+                formId: 'ajax-form',
+                formData: formdata,
+                form: form,
+                triggertable: false,
+                url: '/Admin/ticket/addmessage',
+                triggerForm: false,
+                reloadPage: true
+            });
+        });
+
+
+        $(function () {
+            $('.image-popup').magnificPopup({
+                type: 'image',
+                gallery: {
+                    enabled: true
+                },
+                zoom: {
+                    enabled: true,
+                    duration: 300,
+                    easing: 'ease-in-out',
+                    opener: function (openerElement) {
+                        return openerElement.is('img') ? openerElement : openerElement.find('img');
+                    }
+                }
+            });
+        })
+
+
+    </script>
+
+
+
+}
+
+<!-- begin:app-detail -->
+<div class="card app-detail">
+    <div class="card-header">
+        <div class="app-detail-action-left">
+            <a class="app-detail-close-button" href="/ticket">
+                <i data-feather="arrow-left" class="mr-3"></i>
+            </a>
+            <h5 class="mb-0">
+                @Model.Details.Title
+
+            </h5>
+        </div>
+    </div>
+    <div class="app-detail-article">
+        <div class="card-body">
+            <div class="d-flex align-items-center p-l-r-0 m-b-20 ">
+                <div class="d-flex align-items-center ">
+                    <figure class="avatar avatar-sm mr-3">
+                        <span class="avatar-title bg-info-bright text-info rounded-circle">ت</span>
+                    </figure>
+                    <div>
+                        <h6 class="m-b-0">
+                            <span class="text-primary">@Model.Details.User</span>
+                        </h6>
+
+                    </div>
+                </div>
+                <div class="ml-auto">
+
+
+                    <span class="text-muted">@Model.Details.UpdatedAt</span>
+                </div>
+            </div>
+            @foreach (var item in Model.Messages)
+            {
+
+                if (item.SentByUser == false)
+                {
+                    <div class="media mt-3 mb-3 mr-5">
+                        <a class="mr-3" href="#">
+                            <figure class="avatar">
+                                <span class="avatar-title bg-success-bright rounded-circle"><i class="ti ti-user text-white"></i></span>
+                            </figure>
+                        </a>
+                        <div class="media-body">
+                            <h5 class="mt-0">
+                                پاسخ ادمین
+                                <i class="ti ti-user "></i>
+                            </h5>
+                            @Html.Raw(item.Message)
+                            <br />
+                            <span class="time small text-muted font-italic">@item.UpdatedAt.ToFriendlyPersianDateTextify(false, true, true)</span>
+                        </div>
+                    </div>
+
+                }
+                else
+                {
+                    <div class="media">
+                        <figure class="avatar mr-3">
+                            <span class="avatar-title bg-info-bright rounded-circle"><i class="ti ti-user text-white"></i></span>
+                        </figure>
+                        <div class="media-body">
+                            <h5 class="mt-0">@Model.Details.User <i class="ti ti-user "></i></h5>
+                            @Html.Raw(item.Message)
+                            <br />
+                            <span class="time small text-muted font-italic">@item.UpdatedAt.ToFriendlyPersianDateTextify(false, true, true)</span>
+
+                        </div>
+                    </div>
+
+                }
+
+
+
+
+
+
+            }
+        </div>
+        <hr class="m-0">
+        <div class="card-body">
+            <h6 class="mb-3 font-size-11 text-uppercase">فایلهای پیوست شده</h6>
+            <div class="row">
+
+
+                @foreach (var item in Model.Messages)
+                {
+                    <div class="col-md-2 mb-4">
+
+                        @if (item.AttachmentUrl != null)
+                        {
+                            <a class="image-popup " href="@item.AttachmentUrl"><img src="@item.AttachmentUrl" class="border-radius-1 " style="height:100px ; width:100px" alt="image"></a>
+                        }
+                        else
+                        {
+
+                        }
+
+                    </div>
+                }
+
+            </div>
+        </div>
+        <hr class="m-0">
+        <div class="card-body">
+
+            <form class="simple-submit" id="ajax-form" method="POST" enctype="multipart/form-data">
+
+                <div>
+                    <input name="TicketId" value="@(Model.Details.Id)" class="hidden" hidden type="hidden" />
+                    <textarea name="Message" class="form-control mb-3"></textarea>
+                    <div class="form-group w-25">
+                        <div class="custom-file">
+                            <input name="Attachment" type="file" class="custom-file-input" multiple id="customFileLangHTML" accept="image/*">
+                            <label class="custom-file-label" for="customFileLangHTML" data-browse="انتخاب فایل">فایل ضمیمه</label>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+
+                        <button id="submit-form" type="button" class="btn btn-primary">
+                            <i data-feather="send" class="mr-2"></i>
+                            ارسال
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+

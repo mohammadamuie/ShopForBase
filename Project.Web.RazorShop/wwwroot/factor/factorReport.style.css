@@ -1,0 +1,284 @@
+﻿@media print {
+    /* Define styles for elements when printing */
+     .body,.post, .factor-details, .col-lg-3, .col-lg-9, .row, .col-lg-9, .col-lg-8, .factor-box, .d-flex, .box-factor-title, .box-info-factor, .col-6, .col-12, .factor-details, .last-factor-info, .text-danger, .fs-4, .fs-5 {
+        page-break-inside: avoid; /* Prevent page breaks inside elements */
+    }
+
+    /* Define styles for specific elements when printing */
+    .col-6, .col-12, .w-50, .w-25, .w-75 {
+    }
+    .body {
+    height:90vh;
+    }
+    .factor-details {
+    background:white;
+        }
+    .col-lg-9 {
+        height: 86vh;
+        width: 900px;
+    }
+    .post {
+    width:100%;
+    }
+    .factor-details {
+        width: 139%;
+    }
+
+
+   
+    .col-lg-3 {
+        height: 76vh;
+        width:350px;
+    }
+
+    /* Additional print-specific styles for other elements as needed */
+}
+
+This CSS code will help ensure that your HTML layout is better preserved when printing. You can further adjust and customize the print-specific styles according to your specific requirements.
+
+Make sure to include this CSS file in your HTML document as shown in the first code snippet, and then when you print the page, the styles defined within the @media print block will be applied.
+@font-face {
+    font-family: "IRANSansWeb";
+    src: url("../Assets/fonts/IRANSansWeb.eot"); /* IE */
+    src: url("../Assets/fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"), /* IE */ url("../Assets/fonts/IRANSansWeb.woff") format("woff"), /* Modern Browsers */ url("../Assets/fonts/IRANSansWeb.ttf") format("truetype"); /* Safari, Android, iOS */
+    font-weight: normal;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --bs-font-sans-serif: IRANSansWeb, Poppins, Helvetica, "sans-serif";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+* {
+    font-weight: bolder
+}
+
+.factor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 0.9rem;
+    color: #444;
+}
+
+    .factor-container * {
+        font-family: var(--bs-font-sans-serif);
+    }
+
+.factor-holder {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    padding: 20px;
+}
+
+/* first section factor introduction  */
+.factor-introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 8px 0;
+    padding-bottom: 20px;
+}
+
+    .factor-introduction .factor-nubmer,
+    .factor-introduction .factor-date {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px 5px;
+        color: #444;
+    }
+
+.factor-date .factor-nubmer > span {
+}
+
+.factor-date {
+    width: 80px;
+    text-align: center !important;
+    direction: rtl;
+}
+
+.factor-nubmer {
+    width: 80px;
+    direction: rtl;
+    text-align: center !important;
+}
+
+.factor-date > span {
+    display: flex !important;
+}
+
+.factor-nubmer > span {
+    display: flex !important;
+}
+
+.factor-introduction .factor-nubmer > span:first-child {
+    font-size: 1.2rem;
+}
+
+.factor-introduction .factor-logo {
+    width: 80px;
+    height: 70px;
+}
+
+    .factor-introduction .factor-logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+.factor-introduction > div {
+    display: inline-block !important;
+}
+/* second section  */
+.repeat-print {
+    border: 1px solid #444;
+    border-bottom: none;
+}
+
+    .repeat-print > button {
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        padding: 8px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+    }
+
+/* third section   */
+.user-info {
+    border: 1px solid #444;
+    border-bottom: none;
+    padding: 8px 5px;
+    text-align: right;
+}
+
+/* 4th section   */
+.shop-description {
+    border: 1px solid #444;
+    border-bottom: none;
+    padding: 8px 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* 5th section   */
+.shop-list {
+    border: 1px solid #444;
+    border-bottom: none;
+    padding: 5px 0;
+    text-align: center;
+}
+
+    .shop-list .shop-list-table {
+        width: 100%;
+        direction: rtl;
+        table-layout: fixed;
+    }
+
+        .shop-list .shop-list-table td,
+        .shop-list .shop-list-table th {
+            overflow-wrap: break-word;
+        }
+
+/* 6th section   */
+.shop-payment {
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #444;
+}
+
+    .shop-payment .shop-payment-item {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        border-bottom: 1px solid #444;
+    }
+
+        .shop-payment .shop-payment-item:first-child {
+            border-top: 1px solid #444;
+        }
+
+        .shop-payment .shop-payment-item div {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            width: 50%;
+            padding: 2px 5px;
+        }
+
+        .shop-payment .shop-payment-item div {
+            /* border-left: 1px solid #444; */
+        }
+
+            .shop-payment .shop-payment-item div:nth-child(odd) {
+                /* border-right: 1px solid #444; */
+            }
+
+.shop-payment-item > div {
+    /* text-align: right!important;
+  direction: rtl!important; */
+    display: inline-block !important;
+}
+
+.firstDiv {
+    margin-left: 120px !important;
+}
+
+.secondDiv {
+    margin-left: 90px !important;
+    /*margin-left: 120px!important;*/
+}
+
+/* 7th section */
+.shop-appreciate {
+    border: 1px solid #444;
+    border-top: none;
+    padding: 8px 5px;
+    text-align: center;
+}
+
+.factor-box {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.box-factor-title {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff
+}
+
+.box-title-red {
+    background-color: #c05757
+}
+
+.box-info-factor {
+    background-color: #eee
+}
+
+.td-factor-box {
+    background-color: #eee !important;
+    border-radius: 5px !important
+}
+
+.factor-details span, td {
+    font-size: 12px
+}

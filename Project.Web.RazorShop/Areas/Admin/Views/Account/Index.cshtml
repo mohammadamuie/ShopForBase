@@ -1,0 +1,134 @@
+﻿@model Project.Web.RazorShop.ViewModels.LoginViewModel
+@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ورود به پنل مدیریت</title>
+    <link rel="shortcut icon" href="/admin/assets/media/image/favicon-C.png" />
+    <link rel="stylesheet" href="/admin/vendors/bundle.css" type="text/css">
+    <link rel="stylesheet" href="/admin/assets/css/app.min.css" type="text/css">
+</head>
+<body class="form-membership">
+    <div class="preloader">
+        <div class="preloader-icon"></div>
+    </div>
+
+    <div class="form-wrapper">
+
+        <!-- logo -->
+        <div id="logo">
+            <img class="logo" src="/admin/assets/media/image/logo-F.png" alt="image">
+            <img class="logo-dark" src="/admin/assets/media/image/logo-dark.html" alt="image">
+        </div>
+        <!-- ./ logo -->
+
+        <h5>ورود</h5>
+
+        <!-- form -->
+        <form role="form" asp-action="signin" method="post">
+            <input type="hidden" class="hidden hide" asp-for="ReturnUrl" />
+            <div class="form-group">
+                <input asp-for="Username" type="text" class="form-control" placeholder="نام کاربری" autofocus required />
+            </div>
+            <div class="form-group">
+                <input asp-for="Password" type="password" class="form-control" placeholder="کلمه عبور" required />
+            </div>
+
+            <div class="form-group d-flex justify-content-between">
+                <div class="custom-control custom-checkbox">
+                    <input asp-for="RememberMe" type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">مرا به خاطر بسپار</label>
+                </div>
+            </div>
+
+            <button class="btn btn-primary btn-block">ورود</button>
+            <hr>
+            <p class="text-muted">ورود با استفاده از شبکه‌های اجتماعی</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#" class="btn btn-floating btn-facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="btn btn-floating btn-twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="btn btn-floating btn-dribbble">
+                        <i class="fa fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="btn btn-floating btn-linkedin">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="btn btn-floating btn-google">
+                        <i class="fa fa-google"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="btn btn-floating btn-behance">
+                        <i class="fa fa-behance"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="btn btn-floating btn-instagram">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </form>
+        <!-- ./ form -->
+
+    </div>
+
+
+    <script src="/admin/vendors/bundle.js"></script>
+    <script src="/admin/assets/js/app.min.js"></script>
+    <script>
+        $('form').submit(function (e) {
+            e.preventDefault();
+            var form = $(this);
+            var url = form.attr('action');
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: form.serialize(),
+                beforeSend: function () {
+                    $("#btnSubmit").html(`<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span><span>درحال بررسی</span>`);
+                    $("button").prop("disabled", true);
+                },
+                complete: function () {
+                    $("#btnSubmit").html(`ورود`);
+                    $("button").prop("disabled", false);
+                },
+                success: function (data) {
+                    if (data.status == 1) {
+                        toastr.success(data.message);
+                        window.location.replace(data.data);
+                    } else {
+                        toastr.error(data.message);
+                        data.errors.forEach((item) => {
+                            toastr.warning(item);
+                        });
+                    }
+                },
+                error: function (result) {
+                    console.log(result);
+                    let data = result.responseJSON;
+                    toastr.error(data.message);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

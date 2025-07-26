@@ -1,0 +1,141 @@
+﻿@{
+    ViewData["Title"] = "لیست دسته بندی ";
+}
+@section styles{
+    <partial name="_filterstyles" />
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+    <partial name="_filterscripts" />
+    <partial name="_HelprScripts" />
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/admin/assets/js/Category.js?@(DateTime.Now.Ticks)"></script>
+
+}
+@section headertools{
+    <div>
+        <button onclick="modalCreatCreateCategory()" type="button" class="btn btn-success text-white"><i class="fa fa-plus mx-2"></i> ثبت دسته بندی جدید </button>
+    </div>
+}
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body table-responsive">
+                    <div class="card-title d-flex justify-content-between">
+                        <h6>@ViewBag.Title</h6>
+                        <div class="custom-control custom-switch custom-checkbox-danger mx-3">
+                            <input type="checkbox" class="custom-control-input" id="showdelted" name="delted" onchange="SwitchDeleted()">
+                            <label class="custom-control-label" for="showdelted">حذف شده ها</label>
+                        </div>
+                    </div>
+                    <table id="Table" class="table table-hover table-striped table-advance ajax-data-table">
+                        <thead>
+                            <tr>
+                                <th class="all"># <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">عنوان <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">دسته بندی پدر <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">مشاهده راحت تر <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">تعداد زیر دسته <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">نمایش ویژه<span class="ti-exchange-vertical"></span></th>
+                                <th>تاریخ ثبت</th>
+                                <th class="all">اقدامات</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="MODALCreateCategory">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">ایجاد دسته بندی جدید</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="ti-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="CreateCategory" method="post" class=" form" id="formCreate" onsubmit="return false">
+
+                    <div class="">
+
+                        <!-- File input -->
+                        <div class="form-group">
+                            <label for="Image">بارگذاری عکس</label>
+                            <input name="Image" id="ImageAdd" type="file" class="form-control-file" accept="image/png, image/gif, image/jpeg" />
+                        </div>
+                        <div class="row row-xs">
+                            <div class="col-lg-4 mb-3">
+                                <img class="img-fluid rounded" id="showimageAdd" src="/admin/assets/media/image/portfolio-one.jpg" alt="image">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>نام دسته بندی</label>
+                        <input name="Name" type="text" class="form-control" placeholder="نام دسته بندی" required autofocus>
+                    </div>
+                    <div class="form-group">
+                        <label>پدر</label>
+                        <select name="ParentId" class="form-control select2" asp-items="ViewBag.categories" required></select>
+                    </div>
+
+                    <button id="submit-formCreat" type="button" class="btn bg-facebook btn-block text-white">ایجاد ‌</button>
+                    <hr>
+                </form>
+                <!-- ./ form -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="MODALEditCategory">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">ویرایش دسته بندی</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="ti-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="EditCategory" method="post" class=" form" id="formEdit" onsubmit="return false">
+
+                    <div class="">
+
+                        <!-- File input -->
+                        <div class="form-group">
+                            <label for="Image">بارگذاری عکس</label>
+                            <input name="Image" id="ImageEdit" type="file" class="form-control-file"  accept="image/png, image/gif, image/jpeg" />
+                        </div>
+
+                        <div class="row row-xs">
+                            <div class="col-lg-4 mb-3">
+                                <img class="img-fluid rounded" id="showimageEdit" src="/admin/assets/media/image/portfolio-one.jpg" alt="image">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>پدر</label>
+                        <input name="Name" id="Name" type="text" class="form-control" placeholder="نام دسته بندی" required autofocus>
+                    </div>
+                    <div class="form-group">
+                        <label>پدر</label>
+                        <select name="ParentId" id="ParentId" class="form-control select2" asp-items="ViewBag.categories" required></select>
+                    </div>
+                    <button id="submit-formEdit" type="button" class="btn bg-youtube btn-block text-white">ویرایش‌</button>
+                    <hr>
+                </form>
+                <!-- ./ form -->
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,574 @@
+﻿@model Project.Application.DTOs.HomePage.HomeDTO
+@using DNTPersianUtils.Core
+@{
+    ViewData["MetaTitle"] = Model.Setting.SiteName;
+    ViewData["MetaKeyword"] = Model.Setting.MetaKeyWord;
+    ViewData["MetaDescription"] = Model.Setting.MetaDescription;
+
+}
+
+
+<!-- start main slider -->
+
+<div class="main-slider py-20">
+    <div class="container-fluid">
+        <div class="slider shadow-box">
+            <div class="swiper" id="homeSlider">
+                <div class="swiper-wrapper">
+                    @foreach (var item in Model.Banner)
+                    {
+                        <div class="swiper-slide">
+                            <a href="@item.Url">
+                                <img src="@item.Image" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                    }
+                    
+                    
+                </div>
+                <div class="swiper-button-next d-lg-flex d-none"></div>
+                <div class="swiper-button-prev d-lg-flex d-none"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end main slider -->
+<!--  start site category -->
+
+<div class="site-category py-20">
+    <div class="container-fluid">
+        <div class="section-title">
+            <h3 class="title-font text-center"><span class="main-color-one-color">دسته بندی</span> محصولات</h3>
+            <img src="assets/img/line.png" height="50" alt="">
+        </div>
+
+        <div class="site-categories">
+            <div class="row g-4 justify-content-center">
+                @foreach (var item in Model.SpecialCategories)
+                {
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="site-category-items p-3 shadow-box rounded-3">
+                            <a href="/product/Search?category=@item.Id">
+                                <div class="site-category-items-icon">
+                                    <img src="@item.Image" alt="">
+                                </div>
+                                <h6 class="text-center">@item.Name</h6>
+                            </a>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--  end site category -->
+<!-- start offer -->
+
+<div class="offers py-20">
+    <div class="container-fluid">
+
+        <div class="slider-title mb-3">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="slider-title-desc">
+                        <div class="slider-title-icon">
+                            <div class="slider-title-icon-parent">
+                                <div>
+                                    <span><i class="bi bi-caret-right-fill"></i></span>
+                                    <h6>تخفیفات</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-title-title">
+                            <h2 class="h1">محصولات <span class="main-color-one-color title-font">پیشنهادی</span></h2>
+                            <p class="mb-0 mt-2 h5 text-muted">
+                                جدیدترین محصولات تخفیف خورده را اینجا میتوانید اینجا
+                                ببینید
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="slider-title-link">
+                        <a href="/product/search" class="main-color-one-color font-16"> مشاهده همه <i class="bi bi-caret-left-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-3 align-items-end">
+            <div class="col-lg-12 mt-0">
+                <div class="offer slider-parent">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper"
+                                 id="offerItem">
+                                <div class="swiper-wrapper">
+                                    @foreach (var item in Model.SpecialProducts.Data)
+                                    {
+                                        <div class="swiper-slide">
+                                            <div class="offer-item">
+                                                <div class="row">
+                                                    <div class="col-md-5">
+                                                        @if (@item.Discount > 0)
+                                                        {
+                                                            <div class="offer-discount">
+                                                                <span>@item.Discount % تخفیف</span>
+                                                            </div>
+                                                        }
+                                                        
+                                                        <div class="offer-img">
+                                                            <img src="@item.BannerImage" alt="@item.Title"
+                                                                 class="img-fluid">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        <div class="offer-content">
+                                                            <div class="offer-title d-md-inline-block d-none">
+                                                                <h4>پیشنهاد <span class="title-font"> شگفت انگیز</span></h4>
+                                                            </div>
+                                                            <div class="offer-desc">
+                                                                <h4>
+                                                                    @(item.Title.Length >= 50 ? item.Title.Substring(0, 50) + "..." : item.Title)
+                                                                </h4>
+                                                                <div class="offer-desc-price">
+                                                                    @if (item.DiscountPrice==item.price)
+                                                                    {
+                                                                        <span class="new">@Project.Application.Helpers.PublicHelper.NumberFormat(item.price.ToString()) تومان</span>
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <span class="old">@Project.Application.Helpers.PublicHelper.NumberFormat(item.price.ToString()) تومان</span>
+                                                                        <span class="new">@Project.Application.Helpers.PublicHelper.NumberFormat(item.DiscountPrice.ToString()) تومان</span>
+                                                                    }
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            <div class="offer-btn">
+                                                                <a href="/product/details?Url=@item.Url">
+                                                                    <i class="bi bi-basket me-1"></i>
+                                                                    بریم واسه
+                                                                    خرید!
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+
+
+
+                                </div>
+                                <div class="swiper-pagination d-lg-none d-block"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-lg-block d-none">
+                            <div class="offer-item-link">
+                                <div thumbsSlider="" class="swiper" id="offerItemLink">
+                                    <div class="swiper-wrapper">
+                                        @foreach (var item in Model.SpecialProducts.Data)
+                                        {
+                                            <div class="swiper-slide">
+                                                <div class="offer-item-link-item shadow-sm">
+                                                    <h6>
+                                                        @item.Title
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        }
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end offer -->
+<!-- start advert banner -->
+
+<div class="advert-banner">
+    <div class="container-fluid">
+        <div class="row g-3 align-items-center">
+
+            <div class="col-lg-6">
+                <div class="advert-banner-item img-tilt" data-tilt>
+                    <a href="@Model.Setting.Step2Banner2Link">
+                        <img src="@Model.Setting.Step2Banner2" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="advert-banner-item img-tilt" data-tilt>
+                    <a href="@Model.Setting.Step2Banner1Link">
+                        <img src="@Model.Setting.Step2Banner1" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- end advert banner -->
+<!-- product row -->
+
+<div class="product-row">
+    <div class="container-fluid position-relative">
+        <div class="slider-title">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="slider-title-desc">
+                        <div class="slider-title-icon">
+                            <div class="slider-title-icon-parent bg-white">
+                                <div>
+                                    <span><i class="bi bi-caret-right-fill"></i></span>
+                                    <h6>محصولات جدید</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-title-title">
+                            <h2 class="h1 text-white">محصولات <span class="title-font text-light">تازه وارد</span></h2>
+                            <p class="mb-0 mt-2 h5 text-white">
+                                جدیدترین محصولات فروشگاه را اینجا میتوانید اینجا
+                                ببینید
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="slider-title-link">
+                        <a href="/product/search" class="text-white font-16">
+                            مشاهده همه <i class="bi bi-caret-left-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-row-parent">
+            <div class="row g-4">
+                @foreach (var item in Model.LastProducts.Data)
+                {
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-row-item">
+                            <a href="/product/details?Url=@item.Url">
+                                <div class="row align-items-center">
+                                    <div class="col-4">
+                                        <img src="@item.BannerImage" alt="">
+                                    </div>
+                                    <div class="col-8">
+                                        <h3 class="text-overflow-1 title-font font-14">
+                                            @(item.Title.Length >= 50 ? item.Title.Substring(0, 50) + "..." : item.Title)
+                                        </h3>
+                                        <div class="cart-canvas-price my-3 d-flex align-items-center">
+                                            @if (item.DiscountPrice==item.price)
+                                            {
+                                                <h6 class="title-font main-color-one-color">@Project.Application.Helpers.PublicHelper.NumberFormat(item.price.ToString()) تومان</h6>
+                                            }
+                                            else
+                                            {
+                                                <p class="mb-0 text-muted me-2 font-16 text-decoration-line-through">@Project.Application.Helpers.PublicHelper.NumberFormat(item.price.ToString()) تومان</p>
+                                                <h6 class="title-font main-color-one-color">@Project.Application.Helpers.PublicHelper.NumberFormat(item.DiscountPrice.ToString()) تومان</h6>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                }
+                
+            </div>
+        </div>
+        <div class="Dottedsquare"></div>
+    </div>
+</div>
+
+<!-- end product row -->
+<section class="banner">
+    <div class="container-fluid">
+        <div class="row gy-4">
+            <div class="col-md-3">
+                <div class="banner-item running-top">
+                    <a href="">
+                        <img src="@Model.Setting.Step3Banner1" class="w-100 rounded-3" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="banner-item running-top">
+                    <a href="">
+                        <img src="@Model.Setting.Step3Banner2" class="w-100 rounded-3" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="banner-item running-top">
+                    <a href="">
+                        <img src="@Model.Setting.Step3Banner3" class="w-100 rounded-3" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="banner-item running-top">
+                    <a href="">
+                        <img src="@Model.Setting.Step3Banner4" class="w-100 rounded-3" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- start product boxs -->
+
+<div class="product-boxs site-slider py-20">
+    <div class="container-fluid">
+
+        <div class="slider-title">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="slider-title-desc">
+                        <div class="slider-title-icon">
+                            <div class="slider-title-icon-parent">
+                                <div>
+                                    <span><i class="bi bi-caret-right-fill"></i></span>
+                                    <h6>تخفیفات</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-title-title">
+                            <h2 class="h1">محصولات <span class="main-color-one-color title-font">ویژه سایت</span></h2>
+                            <p class="mb-0 mt-2 h5 text-muted">
+                                جدیدترین محصولات تخفیف خورده را اینجا میتوانید اینجا
+                                ببینید
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="slider-title-link">
+                        <a href="/product/search" class="main-color-one-color font-16">
+                            مشاهده همه <i class="bi bi-caret-left-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-parent">
+            <div class="swiper" id="product-slider">
+
+                <div class="swiper-wrapper ">
+                    @foreach (var item in Model.RandomProducts.Data)
+                    {
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <a href="">
+                                    <div class="product-box-image">
+                                        <img src="@item.BannerImage" alt="@item.Title">
+                                    </div>
+                                    <div class="product-box-title">
+                                        <h5 class="text-overflow-2">
+                                            @(item.Title.Length >= 50 ? item.Title.Substring(0, 50) + "..." : item.Title)
+                                        </h5>
+                                    </div>
+                                    <div class="product-box-price">
+                                        @if (item.price==item.DiscountPrice)
+                                        {<div class="product-box-price-price">
+                                                <h5 class="title-font main-color-green-color h2 mb-0">@Project.Application.Helpers.PublicHelper.NumberFormat(item.price.ToString())</h5>
+                                                <p class="mb-0 text-muted">تومان</p>
+                                            </div>
+                                            
+                                        }else
+                                        {
+                                            <div class="product-box-price-discount">
+                                                @if (@item.Discount > 0)
+                                                {
+                                                    <span class="d-block badge main-color-one-bg text-white font-14 rounded-pill">@item.Discount % تخفیف</span>
+                                                }
+                                                <del>@Project.Application.Helpers.PublicHelper.NumberFormat(item.price.ToString()) تومان</del>
+                                            </div>
+                                            <div class="product-box-price-price">
+                                                <h5 class="title-font main-color-green-color h2 mb-0">@Project.Application.Helpers.PublicHelper.NumberFormat(item.DiscountPrice.ToString())</h5>
+                                                <p class="mb-0 text-muted">تومان</p>
+                                            </div>
+                                            
+                                        }
+
+                                        
+                                    </div>
+                                    <div class="product-box-hover">
+                                        <nav class="navbar navbar-expand justify-content-center">
+                                            <ul class="navbar-nav align-items-center">
+                                                <li class="nav-item">
+                                                    <a href="/product/details?Url=@item.Url"
+                                                       class="nav-item product-box-hover-item me-3">
+                                                        مشاهده
+                                                        محصول
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href=""
+                                                       class="nav-item product-box-hover-item product-box-hover-item-btn"
+                                                       data-bs-toggle="tooltip" data-bs-placement="top"
+                                                       data-bs-title="افزودن به علاقه ها">
+                                                        <i class="bi bi-heart"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    }
+
+                    
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button class="amazing-offer-btn" data-scroll-to="#banners"></button>
+        </div>
+
+    </div>
+</div>
+
+<!-- end product boxs -->
+<!-- start advert banner -->
+
+<div class="advert-banner d-sm-block d-none">
+    <div class="container-fluid">
+        <div class="row g-3 align-items-center">
+            <div class="col-12">
+                <div class="advert-banner-item img-tilt" data-tilt>
+                    <a href="@Model.Setting.Step4BannerLink">
+                        <img src="@Model.Setting.Step4Banner" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end advert banner -->
+<!-- blog -->
+
+<div class="blog-slider py-20">
+    <div class="container-fluid">
+        <div class="slider-title">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="slider-title-desc">
+                        <div class="slider-title-icon">
+                            <div class="slider-title-icon-parent bg-white">
+                                <div>
+                                    <span><i class="bi bi-caret-right-fill"></i></span>
+                                    <h6>مطالب وبلاگ</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-title-title">
+                            <h2 class="h1"><span class="title-font main-color-one-color">مقالات</span> وبلاگ</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="slider-title-link">
+                        <a href="/news" class="main-color-one-color font-16">
+                            مشاهده همه <i class="bi bi-caret-left-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-slider-items mt-3">
+            <div class="row gy-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="row gy-5">
+                        @foreach (var item in Model.RandomNews.Take(2))
+                        {
+                            <div class="col-md-6">
+                                <div class="blog-slider-item-stand">
+                                    <a href="/news/detail?Url=@item.Url">
+                                        <span class="blog-slider-overlay"></span>
+                                        <div class="blog-slider-item-stand-image">
+                                            <img src="@item.ImageUrl" alt="">
+                                        </div>
+                                        <div class="blog-slider-item-stand-text">
+                                            <div class="blog-slider-item-stand-title">
+                                                <h6 class="font-16 title-font text-overflow-1 text-white">@item.CategoryName</h6>
+                                                <p class="text-overflow-2 text-white mb-0 mt-2">@item.Title</p>
+                                                <div class="blog-slider-item-info d-flex align-items-center justify-content-between">
+                                                    <div class="blog-slider-item-info-item me-2 text-white">
+                                                        <i class="bi bi-clock me-1"></i>
+                                                        <span class="text-white">@item.ShowDateTime.ToPersianDateTextify()</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    @foreach (var item in Model.RandomNews.Skip(2).Take(2))
+                    {
+
+                        <div class="blog-slider-item-row">
+                            <a href="/news/detail?Url=@item.Url">
+                                <div class="row gy-3 align-items-center">
+                                    <div class="col-sm-4">
+                                        <div class="blog-slider-item-row-image">
+                                            <img src="@item.ImageUrl" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="blog-slider-item-stand-text">
+                                            <div class="blog-slider-item-stand-title">
+                                                <h6 class="font-16 title-font text-overflow-1 main-color-one-color">@item.CategoryName</h6>
+                                                <p class="text-overflow-2 my-2">@item.Title</p>
+                                                <div class="blog-slider-item-info d-flex align-items-center">
+                                                    <div class="blog-slider-item-info-item me-3">
+                                                        <i class="bi bi-clock me-1"></i>
+                                                        <span>@item.ShowDateTime.ToPersianDateTextify()</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- end blog -->

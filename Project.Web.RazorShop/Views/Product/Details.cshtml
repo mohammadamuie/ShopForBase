@@ -1,0 +1,809 @@
+﻿@model Project.Application.DTOs.Product.ProductDetailDTO
+
+@{
+    ViewData["MetaTitle"] = Model.Product.MetaTitle;
+    ViewData["MetaKeyword"] = Model.Product.MetaKeyWord;
+    ViewData["MetaDescription"] = Model.Product.MetaDescription;
+}
+
+@section styles {
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=62d95eda01f23300194c6f67&product=sop' async='async'></script>
+    <style>
+        /* The container of each option */
+        .color-option {
+            display: inline;
+            position: relative;
+            margin: 5px 15px 5px 15px;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* The container of all options */
+        .color-picker {
+            margin: 10px 0px 10px 0px;
+        }
+
+        /* Hide the browser's default radio button */
+        .color-option input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom radio button */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            border: 1px solid #e6e3e3;
+        }
+
+        /* Style the indicator (dot/circle) when checked */
+        .color-option input:checked ~ .checkmark {
+            margin-right: 5px;
+            box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+            padding: 3px 0px 3px 3px;
+            border: 1px solid rgba(81, 203, 238, 1);
+        }
+
+        /* Style the indicator (dot/circle) */
+        .color-option .checkmark:after {
+            top: 9px;
+            left: 9px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+    </style>
+}
+@section Scripts {
+    <script>
+        // gives the option the color of it's value
+        $(".color-option").each(function () {
+            $(this).children().eq(1).css("background-color", $(this).children().eq(0).val());
+        });
+
+        // Uses jquery to retrieve the selected color
+        function getValue() {
+
+        }
+
+        var discount = @Model.Product.Discount;
+        $('#size').on('change', function () {
+            var e = document.getElementById("size");
+            if (discount != 0 && discount != null) {
+                let newPrice = e.value - ((discount / 100) * e.value);
+                document.getElementById("new-price").innerHTML = NumberFormat(newPrice) + " تومان";
+                document.getElementById("old-price").innerHTML = NumberFormat(e.value) + " تومان";
+            } else {
+                document.getElementById("new-price").innerHTML = NumberFormat(e.value) + " تومان";
+            }
+        });
+        function setPrice(price) {
+            if (discount != 0 && discount != null) {
+                let newPrice = price - ((discount / 100) * price);
+                document.getElementById("new-price").innerHTML = NumberFormat(newPrice) + " تومان";
+                document.getElementById("old-price").innerHTML = NumberFormat(price) + " تومان";
+            } else {
+                document.getElementById("new-price").innerHTML = NumberFormat(price) + " تومان";
+            }
+
+        }
+    </script>
+}
+
+<!-- start breadcroumb -->
+
+<div class="bread-crumb py-4">
+    <div class="container-fluid">
+        <nav aria-label="breadcrumb" class="my-lg-0 my-2">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="/" class="font-14 text-muted-two">خانه</a></li>
+                <li class="breadcrumb-item"><a href="/product/Search?category=@Model.Product.CategoryId" class="font-14 text-muted-two">@Model.Product.Category.Name</a></li>
+                <li class="breadcrumb-item active main-color-one-color font-14 fw-bold" aria-current="page">
+                    @Model.Product.Title
+                </li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<!-- end breadcroumb -->
+
+<div class="product-meta py-20">
+    <div class="container-fluid position-relative">
+        <div class="content-box">
+            <div class="container-fluid">
+                <div class="row gy-3">
+                    <div class="col-lg-4">
+                        <div class="pro_gallery">
+                            <div class="icon-product-box">
+                                <div class="icon-product-box-item" data-bs-toggle="modal" data-bs-target="#shareModal"
+                                     data-bs-placement="right" title="اشتراک گذاری">
+                                    <i class="bi bi-share"></i>
+                                </div>
+                                <div class="icon-product-box-item" data-bs-toggle="tooltip" data-bs-placement="right"
+                                     data-bs-title="افزودن به علاقه مندی">
+                                    <i class="bi bi-heart"></i>
+                                </div>
+                                <div class="icon-product-box-item" data-bs-toggle="tooltip" data-bs-placement="right"
+                                     data-bs-title="مقایسه محصول">
+                                    <i class="bi bi-arrow-left-right"></i>
+                                </div>
+                                <div class="icon-product-box-item" data-bs-toggle="modal" data-bs-target="#chartModal"
+                                     data-bs-toggle="tooltip" data-bs-placement="right" title="نمودار تغییر قیمت">
+                                    <i class="bi bi-bar-chart"></i>
+                                </div>
+                            </div>
+                            <div class="pro-gallery-parent">
+                                <div class="swiper product-gallery">
+                                    <div class="swiper-wrapper" title="برای بزرگنمایی تصویر دابل کلیک کنید">
+                                        <div class="swiper-slide">
+                                            <div class="swiper-zoom-container">
+                                                <img class="img-fluid" src="@Model.Product.BannerImage"
+                                                     alt="@Model.Product.Title" />
+                                            </div>
+                                        </div>
+                                        @foreach (var item in Model.Product.Galey)
+                                        {
+                                            <div class="swiper-slide">
+                                                <div class="swiper-zoom-container">
+                                                    <img class="img-fluid" src="@item.Url"
+                                                         alt="@Model.Product.Title" />
+                                                </div>
+                                            </div>
+
+                                        }
+
+
+                                    </div>
+                                    <div class="swiper-button-next d-none d-lg-flex"></div>
+                                    <div class="swiper-button-prev d-none d-lg-flex"></div>
+                                    <div class="swiper-pagination d-none d-lg-block"></div>
+                                </div>
+                            </div>
+                            <div thumbsSlider="" class="swiper product-gallery-thumb">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img class="img-fluid" src="@Model.Product.BannerImage"
+                                             alt="@Model.Product.Title" />
+                                    </div>
+                                    @foreach (var item in Model.Product.Galey)
+                                    {
+                                        <div class="swiper-slide">
+                                            <img class="img-fluid" src="@item.Url"
+                                                 alt="@Model.Product.Title" />
+                                        </div>
+
+                                    }
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="product-mete-title bottom-border">
+                            <h3 class="title-font h4">
+                                @Model.Product.Title
+                            </h3>
+                        </div>
+                        <div class="product-meta-overal my-3 bottom-border">
+                            <div class="row gy-3 align-items-center">
+                                <div class="col-md-3">
+                                    @if (Model.Product.Inventory >= 1)
+                                    {
+                                        <div class="label-site rounded-pill label-success">
+                                            <i class="bi bi-check-circle me-1"></i>
+                                            موجود در انبار
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="label-site rounded-pill label-danger">
+                                            <i class="bi bi-check-circle me-1"></i>
+                                            اتمام موجودی
+                                        </div>
+                                    }
+
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-muted-two me-2">دسته بندی</span>
+                                        <div class="label-site rounded-pill">
+                                            @Model.Product.Category.Name
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-muted-two me-2">اشتراک گذاری </span>
+                                        <div class="sharethis-inline-share-buttons"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-meta-feature bottom-border">
+                            <div class="row gy-3">
+                                <div class="col-lg-8">
+                                    <div class="product-meta-feature-items">
+                                        @* <h5 class="title font-16 mb-2">ویژگی های کالا</h5>
+                                        <ul class="navbar-nav">
+                                            <li class="nav item"><span>نوع اتصال:</span><strong>با سیم</strong></li>
+                                            <li class="nav item"><span>رابط ها:</span><strong>3.5 میلیمتری</strong></li>
+                                            <li class="nav item"><span>مقدار رم :</span><strong>8 گیگابایت</strong></li>
+                                            <li class="nav item"><span>نوع گوشی:</span><strong>دوگوشی</strong></li>
+                                        </ul> *@
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="product-meta-rating text-lg-end text-start">
+                                        <div class="label-site label-waring rounded-pill">
+                                            <span class="product-meta-rating-comment-count me-1">0</span>
+                                            <span class="product-meta-rating-comment-count-text me-3">نظر</span>
+                                            <span class="product-meta-rating-rating-count me-1">0</span>
+                                            <span class="product-meta-rating-rating-count-text">
+                                                <i class="bi bi-star-fill"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-meta-rating mt-2 text-lg-end text-start">
+                                        <div class="label-site label-success rounded-pill">
+                                            آماده ارسال
+                                            <i class="bi bi-truck ms-2"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-meta-color bottom-border my-4">
+
+                            @if (!Model.Product.IsPrice)
+                            {
+
+                                @if (Model.Product.TypeIsColor)
+                                {
+
+
+
+
+                                    <div class="details-filter-row details-row-size">
+                                        <h5 class="font-16">
+                                            انتخاب رنگ کالا
+                                        </h5>
+                                        <div class="product-nav product-nav-dots">
+                                            <div id="example" class="color-picker">
+                                                @foreach (var item in Model.Product.ProductType)
+                                                {
+                                                    <label class="color-option">
+                                                        <input class="color-radio" onclick="setPrice(@item.Typeprice)" type="radio" name="radio" value="@item.Type">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                }
+                                            </div>
+                                        </div><!-- End .product-nav -->
+                                    </div>
+
+                                    <!-- End .details-filter-row -->
+                                }
+                                else
+                                {
+                                    <div class="details-filter-row details-row-size">
+                                        <label for="size">سایز : </label>
+                                        <div class="select-custom">
+                                            <select name="size" id="size" class="form-control">
+
+                                                <option value="#" selected="selected">سایز را انتخاب کنید</option>
+                                                @foreach (var item in Model.Product.ProductType)
+                                                {
+                                                    <option value="@item.Typeprice">@item.Type</option>
+                                                }
+
+                                            </select>
+                                        </div><!-- End .select-custom -->
+                                    </div>
+
+                                    <!-- End .details-filter-row -->
+                                }
+                            }
+                        </div>
+                        <div class="product-meta-action mt-4 bottom-border">
+                            <div class="row align-items-center gy-3">
+                                <div class="col-sm-6">
+                                    <div class="d-flex align-items-center justify-content-sm-start justify-content-center">
+
+                                        @if (Model.Product.Discount != 0 && Model.Product.Discount != null)
+                                        {
+                                            <p class="mb-0 old-price font-22 text-muted-two text-decoration-line-through me-3">
+                                                @Project.Application.Helpers.PublicHelper.NumberFormat(Model.Product.DiscountPrice.ToString()) 
+                                            </p>
+                                            <h6 class="font-30 title-font new-price main-color-one-color">
+                                                @Project.Application.Helpers.PublicHelper.NumberFormat(Model.Product.price.ToString()) تومان
+                                            </h6>
+                                        }
+                                        else
+                                        {
+
+                                            <h6 class="font-30 title-font new-price main-color-one-color">
+                                                @Project.Application.Helpers.PublicHelper.NumberFormat(Model.Product.price.ToString()) تومان
+                                            </h6>
+
+
+                                            <!-- End .product-price -->
+                                        }
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 text-center">
+                                    <div class="counter">
+                                        <input type="text" name="count" class="counter" value="1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-meta-add-to-cart mt-4">
+                            <a href="" class="btn product-meta-add-to-cart-btn main-color-one-bg rounded-pill">
+                                افزودن به
+                                سبد خرید
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Dottedsquare-product d-lg-flex d-none"></div>
+    </div>
+</div>
+
+<!-- end product meta -->
+<!-- start product desc -->
+
+<div class="product-desc py-20">
+    <div class="container-fluid">
+        <div class="product-desc-tab">
+            <ul class="nav" id="productTab" role="tablist">
+                <li class="nav-item">
+                    <button class="active waves-effect waves-light" id="productDescLess"
+                            data-bs-toggle="tab" data-bs-target="#productDescLess-pane" role="button"
+                            type="button" aria-selected="true">
+                        توضیحات کالا
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class=" waves-effect waves-light" id="productTable"
+                            data-bs-toggle="tab" data-bs-target="#productTable-pane" role="button"
+                            type="button" aria-selected="false">
+                        مشخصات کالا
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class=" waves-effect waves-light" id="productComment"
+                            data-bs-toggle="tab" data-bs-target="#productComment-pane" role="button"
+                            type="button" aria-selected="false">
+                        نظرات
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="content-box">
+            <div class="container-fluid">
+                <div class="product-descs" id="prodesc">
+                    <div class="product-desc">
+                        <div class="product-desc-tab-content">
+                            <div class="tab-content" id="productTabContent">
+                                <div class="tab-pane fade show active product-desc-less-contents"
+                                     id="productDescLess-pane">
+                                    <div class="product-desc-content">
+                                        <input type="checkbox" class="read-more-state" id="readMore3" />
+                                        <!-- والد بیشتر ، کمتر ، تمام متن توضیحات باید داخل این تگ قرار بگیرند -->
+                                        <div class="read-more-wrap">
+                                           @Html.Raw(Model.Product.Description)
+                                        </div>
+                                        <!-- پایان والد بیشتر کمتر -->
+                                        <label for="readMore3" class="read-more-trigger"></label>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="productTable-pane">
+                                    <div class="tab-pane fade active show"
+                                         role="tabpanel" aria-labelledby="#productTable">
+                                        <h6 class="font-26 mb-2 title-font">مشخصات فنی</h6>
+                                        <div class="box_list mt-4">
+                                            <p class="title">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                     height="16" fill="currentColor"
+                                                     class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                                                    <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z">
+                                                    </path>
+                                                </svg>مشخصات کلی
+                                            </p>
+                                            <div>
+                                                <ul class="param_list list-inline">
+                                                    @foreach (var item in Model.Product.Attributes)
+                                                    {
+                                                        <li class="list-inline-item col-md-3 pe-md-1 pe-md-3 p-0 m-0">
+                                                            <div class="box_params_list">
+                                                                <p class="block border_right_custom1">
+                                                                    @item.Name
+                                                                </p>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-inline-item col-md-8 p-0 m-0">
+                                                            <div class="box_params_list">
+                                                                <p class="block border_right_custom2">
+                                                                    @item.Value
+                                                                </p>
+                                                            </div>
+                                                        </li>
+                                                    }    
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade product-comment-content" id="productComment-pane">
+
+                                    <div class="comment-form">
+                                        <h6 class="font-26 mb-2 title-font">نظرت در مورد این محصول چیه؟</h6>
+                                        <p class="font-14 text-muted mt-2">
+                                            برای ثبت نظر، از طریق دکمه افزودن
+                                            دیدگاه جدید
+                                            نمایید. اگر این محصول را قبلا خریده باشید، نظر شما به عنوان خریدار
+                                            ثبت خواهد
+                                            شد.
+                                        </p>
+                                        <div class="row gy-4">
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="comment-item mb-3">
+                                                            <input type="email" class="form-control"
+                                                                   id="floatingInputEmail">
+                                                            <label for="floatingInputEmail"
+                                                                   class="form-label label-float">
+                                                                ایمیل خود را وارد
+                                                                کنید
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="comment-item mb-3">
+                                                            <input type="text" class="form-control"
+                                                                   id="floatingInputName">
+                                                            <label for="floatingInputName"
+                                                                   class="form-label label-float">
+                                                                نام خود را وارد
+                                                                کنید
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="comment-item d-flex align-items-center mb-3">
+                                                            <input type="checkbox" class="form-check-input"
+                                                                   id="rememberComment">
+                                                            <label for="rememberComment"
+                                                                   class="form-check-label d-block">
+                                                                ذخیره
+                                                                نام، ایمیل و وبسایت من در مرورگر برای زمانی که
+                                                                دوباره
+                                                                دیدگاهی می‌نویسم.
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-group mt-3">
+                                                            <label for="commentRating" class="">
+                                                                امتیاز
+                                                                شما
+                                                            </label>
+                                                            <fieldset id="commentRating" class="rating">
+                                                                <input type="radio" id="star5" name="rating"
+                                                                       value="5" required />
+                                                                <label for="star5">5 stars</label>
+                                                                <input type="radio" id="star4" name="rating"
+                                                                       value="4" required />
+                                                                <label for="star4">4 stars</label>
+                                                                <input type="radio" id="star3" name="rating"
+                                                                       value="3" required />
+                                                                <label for="star3">3 stars</label>
+                                                                <input type="radio" id="star2" name="rating"
+                                                                       value="2" required />
+                                                                <label for="star2">2 stars</label>
+                                                                <input type="radio" id="star1" name="rating"
+                                                                       value="1" required />
+                                                                <label for="star1">1 star</label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="comment-item my-3">
+                                                            <textarea class="form-control"
+                                                                      id="floatingTextarea2"
+                                                                      style="height: 150px"></textarea>
+                                                            <label for="floatingTextarea2"
+                                                                   class="form-label label-float">متن نظر!</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group mt-3">
+                                                            <label for="tags-pos" class="text-success mb-2">
+                                                                نقاط
+                                                                قوت
+                                                            </label>
+                                                            <input name="tags-pos" id="tags-pos"
+                                                                   class="commentTags tag-pos form-control"
+                                                                   placeholder="با کلید اینتر اضافه کنید">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group mt-3">
+                                                            <label for="tags-neg" class="text-danger mb-2">
+                                                                نقاط
+                                                                ضعف
+                                                            </label>
+                                                            <input name="tags-neg" id="tags-neg"
+                                                                   class="commentTags tag-neg form-control"
+                                                                   placeholder="با کلید اینتر اضافه کنید">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <a href=""
+                                                           class="btn btn-comment border-0 main-color-one-bg my-3 mx-auto btn-lg waves-effect waves-light">
+                                                            ثبت
+                                                            نظر
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comment mb-4">
+                                        <div class="title">
+                                            <div class="row align-items-center">
+                                                <div class="col-sm-10">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="avatar p-2 bg-white shadow-box rounded-circle">
+                                                            <img src="assets/img/user.jpg" alt=""
+                                                                 class="img-fluid rounded-circle">
+                                                        </div>
+                                                        <div class="d-flex flex-wrap align-items-center ms-2">
+                                                            <h6 class="text-muted font-14">امیر رضایی</h6>
+                                                            <h6 class="text-muted font-14 ms-2">
+                                                                1 دی ماه 1401
+                                                            </h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <div class="d-flex star justify-content-end">
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star-fill"></i>
+                                                        <i class="bi bi-star-fill"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="desc py-3">
+                                            <p class="font-14 text-muted">
+                                                بنده این گوشی را خریداری کردم و کاملا راضی هشتم و بهترین گارانتی
+                                                را دارد
+                                                و پلپ بود و حتما به شما هم پیشنهاد می نمایم که چنانچه قصد خرید
+                                                این کالا
+                                                را دارید از دیجی کالا تهیه نمایید ؛پارت نامبر من هم سنگاپور بود
+                                                که
+                                                بهترین پارت نامبر در بازار است و هیچ محدودیتی ندارد.
+                                            </p>
+                                        </div>
+                                        <div class="foot">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-8">
+                                                    <div class="comment-rates">
+                                                        <div class="positive rounded-4">
+                                                            <div class="d-flex align-items-center justify-content-start">
+                                                                <h6 class="font-14 me-3">نقاط قوت</h6>
+                                                                <nav class="navbar navbar-expand positive-nav">
+                                                                    <ul class="navbar-nav flex-wrap">
+                                                                        <li class="nav-item">
+                                                                            <span class="nav-link font-14">
+                                                                                جنس
+                                                                                بدنه
+                                                                            </span>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <span class="nav-link font-14">
+                                                                                کیفیت
+                                                                                تصویر
+                                                                            </span>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <span class="nav-link font-14">
+                                                                                شارژ
+                                                                                باطری
+                                                                            </span>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <span class="nav-link font-14">
+                                                                                دوربین
+                                                                                قوی
+                                                                            </span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </nav>
+                                                            </div>
+                                                        </div>
+                                                        <div class="negitive rounded-4">
+                                                            <div class="d-flex align-items-center justify-content-start">
+                                                                <h6 class="font-14 me-3">نقاط ضعف</h6>
+                                                                <nav class="navbar navbar-expand negitive-nav">
+                                                                    <ul class="navbar-nav flex-wrap">
+                                                                        <li class="nav-item">
+                                                                            <span class="nav-link font-14">
+                                                                                جنس
+                                                                                بدنه
+                                                                            </span>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <span class="nav-link font-14">
+                                                                                کیفیت
+                                                                                تصویر
+                                                                            </span>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <span class="nav-link font-14">
+                                                                                شارژ
+                                                                                باطری
+                                                                            </span>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <span class="nav-link font-14">
+                                                                                دوربین
+                                                                                قوی
+                                                                            </span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </nav>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="comment-reply">
+                                                        <a href=""
+                                                           class="span-primary px-4">پاسخ</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end product desc -->
+<!-- start product boxs -->
+
+<div class="product-boxs site-slider py-30">
+    <div class="container-fluid">
+
+        <div class="slider-title">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="slider-title-desc">
+                        <div class="slider-title-icon">
+                            <div class="slider-title-icon-parent">
+                                <div>
+                                    <span><i class="bi bi-caret-right-fill"></i></span>
+                                    <h6>تخفیفات</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-title-title">
+                            <h2 class="h1">محصولات <span class="main-color-one-color title-font">مشابه</span></h2>
+                            <p class="mb-0 mt-2 h5 text-muted">محصولات مشابه با این محصول را در پایین میتوانید مشاهده کنید</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="slider-title-link">
+                        <a href="" class="main-color-one-color font-16">
+                            مشاهده همه <i class="bi bi-caret-left-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-parent">
+            <div class="swiper" id="product-slider">
+
+                <div class="swiper-wrapper ">
+                    @foreach (var item in Model.ProductList)
+                    {
+                        <div class="swiper-slide">
+                            <div class="product-box">
+                                <a href="">
+                                    <div class="product-box-image">
+                                        <img src="@item.BannerImage" alt="">
+                                    </div>
+                                    <div class="product-box-title">
+                                        <h5 class="text-overflow-2">
+                                            @item.Title
+                                        </h5>
+                                    </div>
+                                    <div class="product-box-price">
+                                        <div class="product-box-price-discount">
+                                            <span class="d-block badge main-color-one-bg text-white font-14 rounded-pill">25%</span>
+                                            <del>2,500,000</del>
+                                        </div>
+                                        <div class="product-box-price-price">
+                                            <h5 class="title-font main-color-green-color h2 mb-0">799,000</h5>
+                                            <p class="mb-0 text-muted">تومان</p>
+                                        </div>
+                                    </div>
+                                    <div class="product-box-hover">
+                                        <nav class="navbar navbar-expand justify-content-center">
+                                            <ul class="navbar-nav align-items-center">
+                                                <li class="nav-item">
+                                                    <a href=""
+                                                       class="nav-item product-box-hover-item me-3">
+                                                        مشاهده
+                                                        محصول
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href=""
+                                                       class="nav-item product-box-hover-item product-box-hover-item-btn me-1"
+                                                       data-bs-toggle="tooltip" data-bs-placement="top"
+                                                       data-bs-title="افزودن به سبد خرید">
+                                                        <i class="bi bi-basket"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href=""
+                                                       class="nav-item product-box-hover-item product-box-hover-item-btn"
+                                                       data-bs-toggle="tooltip" data-bs-placement="top"
+                                                       data-bs-title="افزودن به علاقه ها">
+                                                        <i class="bi bi-heart"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                    
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button class="amazing-offer-btn" data-scroll-to="#banners"></button>
+        </div>
+
+    </div>
+</div>
+
+<!-- end product boxs -->

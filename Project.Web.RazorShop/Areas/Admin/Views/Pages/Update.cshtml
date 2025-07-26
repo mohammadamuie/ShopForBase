@@ -1,0 +1,96 @@
+﻿@model Project.Application.DTOs.Pages.PagesDTO
+@{
+    ViewData["Title"] = "افزودن صفحه جدید";
+}
+@section styles{
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+    <partial name="_HelprScripts" />
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        CKEDITOR.replace('Content', {
+            language: 'fa'
+        });
+        $('#submit-form').on('click', function () {
+            var form = document.getElementById('ajax-form');
+            var formdata = new FormData(form);
+            formdata.set('Content', CKEDITOR.instances.Content.getData());
+            ajaxPostForm({
+                formData: formdata,
+                form: form,
+                triggerForm: false
+            });
+        });
+    </script>
+}
+
+@section headertools{
+    <div>
+        <a href="/pages?Url=@Model.Url" class="btn btn-dribbble text-white">مشاهده صفحه</a>
+        <a class="btn btn-gradient-primary text-white" asp-action="index">بازگشت به لیست </a>
+        <button class="btn btn-gradient-success" type="button" id="submit-form"><i class="fa fa-save mx-2"></i> ثبت </button>
+    </div>
+}
+
+<section>
+    <div class="card">
+        <div class="card-body">
+            <form asp-action="Update"id="ajax-form" enctype="multipart/form-data" class="col-12 ajax-form" novalidate="">
+                <input asp-for="Id" hidden type="hidden" class="hidden" />
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label>عنوان صفحه</label>
+                        <input asp-for="Title" type="text" class="form-control" placeholder="عنوان صفحه" required>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label>
+                            آدرس صفحه
+                        </label>
+                        <input asp-for="Url" type="text" class="form-control alphacode" placeholder="آدرس صفحه" required>
+                        <span class="text-muted small">ترجیحا از حروف لاتین استفاده کنید</span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label>
+                            عنوان متا
+                        </label>
+                        <input asp-for="MetaTitle" type="text" class="form-control" placeholder="عنوان متا" required>
+                    </div>
+
+
+                </div>
+                <div class="form-row">
+
+                    <div class="form-group col-md-4">
+                        <label>
+                            توضیحات متا
+                        </label>
+                        <input asp-for="MetaDescription" type="text" placeholder="توضیحات متا" class="form-control" required>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label class="control-label">کلمات کلیدی</label>
+                            <input asp-for="MetaKeyWords" class="form-control tagsinput" />
+                            <span asp-validation-for="MetaKeyWords" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</section>
+
+<div class="card">
+    <div class="card-body">
+        <div class="col-12">
+            <div class="form-group">
+                <label>شرح صفحه</label>
+                <textarea asp-for="Content" class="form-control"></textarea>
+                <span asp-validation-for="Content" class="text-danger invalid-feedback"></span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Release\net5.0\Project.Infrastructure.deps.json
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Release\net5.0\Project.Infrastructure.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Release\net5.0\ref\Project.Infrastructure.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Release\net5.0\Project.Infrastructure.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Release\net5.0\Project.Application.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Release\net5.0\Project.Domain.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Release\net5.0\Project.Application.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Release\net5.0\Project.Domain.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Release\net5.0\Project.Infrastructure.csproj.AssemblyReference.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Release\net5.0\Project.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Release\net5.0\Project.Infrastructure.AssemblyInfoInputs.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Release\net5.0\Project.Infrastructure.AssemblyInfo.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Release\net5.0\Project.Infrastructure.csproj.CoreCompileInputs.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Release\net5.0\Project.Infrastructure.csproj.CopyComplete
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Release\net5.0\Project.Infrastructure.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Release\net5.0\ref\Project.Infrastructure.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Release\net5.0\Project.Infrastructure.pdb

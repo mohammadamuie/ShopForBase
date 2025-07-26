@@ -1,0 +1,2021 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\manoshop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\js\\shoppingcart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\js\\shoppingcart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\js\\cookies.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\js\\cookies.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\cartitem\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\cartitem\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\cartitem\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\cartitem\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\cartitem\\cartitemfromuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\cartitem\\cartitemfromuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|d:\\git\\manoshop\\project.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\account\\verify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\account\\verify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\js\\verify.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\js\\verify.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\services\\identityuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\services\\identityuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\shared\\_cutomerloginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\shared\\_cutomerloginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\shared\\components\\landingmenucomponent\\landingmenucomponent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\shared\\components\\landingmenucomponent\\landingmenucomponent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\shared\\components\\landingmenucomponent\\landingmenucomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\shared\\components\\landingmenucomponent\\landingmenucomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\admin\\assets\\js\\addproduct.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\admin\\assets\\js\\addproduct.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\admin\\assets\\js\\customhelper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\admin\\assets\\js\\customhelper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\admin\\assets\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\admin\\assets\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\discountcode\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\discountcode\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|d:\\git\\manoshop\\project.persistence\\persistenceservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|solutionrelative:project.persistence\\persistenceservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|d:\\git\\manoshop\\project.persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|solutionrelative:project.persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|d:\\git\\manoshop\\project.domain\\entities\\discountcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\entities\\discountcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\services\\purchaserequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\services\\purchaserequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\services\\factorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\services\\factorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|d:\\git\\manoshop\\project.persistence\\configuration\\settingseedingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|solutionrelative:project.persistence\\configuration\\settingseedingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\pages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\pages\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\pages\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\controllers\\pagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\controllers\\pagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\menuitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\menuitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\admin\\assets\\js\\menu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\admin\\assets\\js\\menu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\applicationservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\applicationservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|d:\\git\\manoshop\\project.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\news\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\news\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\homepage\\homedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\homepage\\homedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\interfaces\\ibannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\interfaces\\ibannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\services\\bannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\services\\bannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\admin\\assets\\js\\banner.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\admin\\assets\\js\\banner.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\banner\\upsertbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\banner\\upsertbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\banner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\banner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\banner\\bannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\banner\\bannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|d:\\git\\manoshop\\project.domain\\entities\\banner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\entities\\banner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\shared\\_adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\shared\\_adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|d:\\git\\manoshop\\project.persistence\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|solutionrelative:project.persistence\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\project.web.razorshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\project.web.razorshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\shared\\_customermenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\shared\\_customermenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\shared\\_customermobilemenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\shared\\_customermobilemenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\error\\page.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\error\\page.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\news\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\news\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\customer\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\customer\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\assets\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\assets\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\assets\\js\\plugin\\otp-sms\\otp-input.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\assets\\js\\plugin\\otp-sms\\otp-input.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\setting\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\setting\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\shared\\components\\landingmenudynamiccomponent\\landingmenudynamiccomponent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\shared\\components\\landingmenudynamiccomponent\\landingmenudynamiccomponent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\shared\\components\\landingmenumobilecomponent\\landingmenumobilecomponent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\shared\\components\\landingmenumobilecomponent\\landingmenumobilecomponent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\shared\\_mobilemenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\shared\\_mobilemenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\admin\\assets\\js\\updateproduct.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\admin\\assets\\js\\updateproduct.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|d:\\git\\manoshop\\project.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\datatable\\discountcodedatatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\datatable\\discountcodedatatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\services\\discountcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\services\\discountcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\controllers\\discountcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\controllers\\discountcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\wwwroot\\admin\\assets\\js\\category.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\wwwroot\\admin\\assets\\js\\category.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\controllers\\newscategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\controllers\\newscategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|d:\\git\\manoshop\\project.persistence\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|solutionrelative:project.persistence\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|d:\\git\\manoshop\\project.domain\\entities\\factor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\entities\\factor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|d:\\git\\manoshop\\project.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\contracts\\persistence\\ipurchaserequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\contracts\\persistence\\ipurchaserequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|d:\\git\\manoshop\\project.persistence\\repositories\\purchaserequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|solutionrelative:project.persistence\\repositories\\purchaserequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|d:\\git\\manoshop\\project.persistence\\repositories\\factorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|solutionrelative:project.persistence\\repositories\\factorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\payment\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\payment\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\payment\\createpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\payment\\createpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\factor\\factordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\factor\\factordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\factor\\createfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\factor\\createfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\interfaces\\ifactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\interfaces\\ifactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|d:\\git\\manoshop\\project.domain\\enums\\factortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\enums\\factortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|d:\\git\\manoshop\\project.domain\\enums\\factorstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\enums\\factorstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\interfaces\\iidentityuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\interfaces\\iidentityuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\project.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\project.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|d:\\git\\manoshop\\project.persistence\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|solutionrelative:project.persistence\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\contracts\\persistence\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\contracts\\persistence\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|d:\\git\\manoshop\\project.domain\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|d:\\git\\manoshop\\project.domain\\enums\\userstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4438AC46-5562-4925-AD08-7418B9CEA789}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\enums\\userstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\shoppingcart\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\shoppingcart\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\features\\services\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\features\\services\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\customer\\views\\shared\\_helprscripts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\customer\\views\\shared\\_helprscripts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|d:\\git\\manoshop\\project.web.razorshop\\areas\\customer\\views\\shared\\_filterscripts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C777343E-3A29-49AD-845E-54127A20DF22}|Project.Web.RazorShop\\Project.Web.RazorShop.csproj|solutionrelative:project.web.razorshop\\areas\\customer\\views\\shared\\_filterscripts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\user\\editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\user\\editprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|d:\\git\\manoshop\\project.persistence\\migrations\\20240326192854_addsendpriceindb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A43AE252-CD45-41DF-BFC7-2D866B464BA6}|Project.Persistence\\Project.Persistence.csproj|solutionrelative:project.persistence\\migrations\\20240326192854_addsendpriceindb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|d:\\git\\manoshop\\project.application\\dtos\\shoppingcart\\shoppingcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1F95F4-54B9-4EEA-A2E7-69B89ADEE7B5}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\dtos\\shoppingcart\\shoppingcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShoppingCart.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\js\\ShoppingCart.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\js\\ShoppingCart.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\js\\ShoppingCart.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\js\\ShoppingCart.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-12T12:04:33.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\js\\Product.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\js\\Product.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\js\\Product.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\js\\Product.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-12T12:04:28.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cookies.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\js\\cookies.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\js\\cookies.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\js\\cookies.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\js\\cookies.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-12T12:02:52.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartItemDTO.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\CartItem\\CartItemDTO.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\CartItem\\CartItemDTO.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\CartItem\\CartItemDTO.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\CartItem\\CartItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T18:52:05.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartItemFromUserDTO.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\CartItem\\CartItemFromUserDTO.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\CartItem\\CartItemFromUserDTO.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\CartItem\\CartItemFromUserDTO.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\CartItem\\CartItemFromUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T18:52:02.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Domain\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Entities\\CartItem.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Domain\\Entities\\CartItem.cs",
+              "RelativeToolTip": "Project.Domain\\Entities\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T18:49:09.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IdentityUserService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\IdentityUserService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Services\\IdentityUserService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\IdentityUserService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Services\\IdentityUserService.cs",
+              "ViewState": "AgIAADgBAAAAAAAAAAA/wE0BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:02:57.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Account\\Index.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T10:02:04.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T10:54:56.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Product\\Details.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAFkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T15:43:45.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddToCartDTO.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\CartItem\\AddToCartDTO.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\CartItem\\AddToCartDTO.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\CartItem\\AddToCartDTO.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\CartItem\\AddToCartDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T18:52:17.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:02:35.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\js\\Login.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\js\\Login.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\js\\Login.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\js\\Login.js",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwDAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-05T17:29:54.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Account\\Index.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T15:43:32.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_CutomerLoginLayout.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_CutomerLoginLayout.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Shared\\_CutomerLoginLayout.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_CutomerLoginLayout.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Shared\\_CutomerLoginLayout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T16:42:58.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Verify.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\js\\Verify.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\js\\Verify.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\js\\Verify.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\js\\Verify.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-23T16:52:50.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Verify.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Account\\Verify.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Account\\Verify.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Account\\Verify.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Account\\Verify.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T15:43:30.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAnwIkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:38:41.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Startup.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Startup.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Startup.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Startup.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAuwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:39:26.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\News\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\News\\Index.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\News\\Index.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\News\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF8AAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T15:44:11.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAwI0AAACQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T10:24:47.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:46:08.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LandingMenuComponent.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuComponent\\LandingMenuComponent.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuComponent\\LandingMenuComponent.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuComponent\\LandingMenuComponent.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuComponent\\LandingMenuComponent.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAuwHAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T07:43:21.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T05:31:59.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Services\\ProductService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\ProductService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Services\\ProductService.cs",
+              "ViewState": "AgIAABMBAAAAAAAAAAAiwCcBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T13:05:04.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddProduct.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\AddProduct.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\AddProduct.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\AddProduct.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\AddProduct.js",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-27T07:11:50.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LandingMenuComponent.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuComponent\\LandingMenuComponent.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuComponent\\LandingMenuComponent.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuComponent\\LandingMenuComponent.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuComponent\\LandingMenuComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:06:47.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJwAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T10:18:39.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "NewsService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\NewsService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Services\\NewsService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\NewsService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Services\\NewsService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIA6wLcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T10:45:04.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Pages\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Pages\\Create.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Pages\\Create.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Pages\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T11:06:28.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T07:11:16.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T07:11:30.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomHelper.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\CustomHelper.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\CustomHelper.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\CustomHelper.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\CustomHelper.js",
+              "ViewState": "AgIAALgAAAAAAAAAAAAAwM0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-06T08:20:37.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:16:09.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\MenuItem\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\MenuItem\\Index.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\MenuItem\\Index.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\MenuItem\\Index.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAEAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T11:08:43.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Project.Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Project.Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAA1wDYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:48:12.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\DiscountCode\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\DiscountCode\\Index.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\DiscountCode\\Index.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\DiscountCode\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T18:30:47.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Product.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\Product.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\Product.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\Product.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\Product.js",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAiwE8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-24T05:31:19.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DiscountCode.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Domain\\Entities\\DiscountCode.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Entities\\DiscountCode.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Domain\\Entities\\DiscountCode.cs",
+              "RelativeToolTip": "Project.Domain\\Entities\\DiscountCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T11:18:55.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PersistenceServicesRegistration.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Persistence\\PersistenceServicesRegistration.cs",
+              "RelativeDocumentMoniker": "Project.Persistence\\PersistenceServicesRegistration.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Persistence\\PersistenceServicesRegistration.cs",
+              "RelativeToolTip": "Project.Persistence\\PersistenceServicesRegistration.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T10:56:26.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PurchaseRequestService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\PurchaseRequestService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Services\\PurchaseRequestService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\PurchaseRequestService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Services\\PurchaseRequestService.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAADgv4gAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T10:55:16.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Services\\PaymentService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\PaymentService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Services\\PaymentService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAMwM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T10:59:24.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T11:57:29.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FactorService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\FactorService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Services\\FactorService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\FactorService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Services\\FactorService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:31:47.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PagesController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\PagesController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\PagesController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\PagesController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\PagesController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwFQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:01:13.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SettingSeedingConfiguration.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Persistence\\Configuration\\SettingSeedingConfiguration.cs",
+              "RelativeDocumentMoniker": "Project.Persistence\\Configuration\\SettingSeedingConfiguration.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Persistence\\Configuration\\SettingSeedingConfiguration.cs",
+              "RelativeToolTip": "Project.Persistence\\Configuration\\SettingSeedingConfiguration.cs",
+              "ViewState": "AgIAAIQBAAAAAAAAAAAQwJABAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:26:51.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Pages\\Update.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Pages\\Update.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Pages\\Update.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Pages\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T12:06:00.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Controllers\\NewsController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:21:10.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T12:10:12.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T12:10:23.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "menu.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\menu.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\menu.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\menu.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\menu.js",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-25T11:05:52.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Profiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Profiles\\MappingProfile.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Profiles\\MappingProfile.cs",
+              "RelativeToolTip": "Project.Application\\Profiles\\MappingProfile.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAzwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T10:55:42.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ApplicationServicesRegistration.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\ApplicationServicesRegistration.cs",
+              "RelativeDocumentMoniker": "Project.Application\\ApplicationServicesRegistration.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\ApplicationServicesRegistration.cs",
+              "RelativeToolTip": "Project.Application\\ApplicationServicesRegistration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T10:56:09.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "BannerService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\BannerService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Services\\BannerService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\BannerService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Services\\BannerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:33:08.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Banner\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Banner\\Index.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Banner\\Index.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Banner\\Index.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAHgAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T10:09:06.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Banner.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\Banner.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\Banner.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\Banner.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\Banner.js",
+              "ViewState": "AQIAAGYAAAAAAAAAAADwv3YAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-27T10:09:31.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "UpsertBanner.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\Banner\\UpsertBanner.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\Banner\\UpsertBanner.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\Banner\\UpsertBanner.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\Banner\\UpsertBanner.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAWwA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:19:21.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IBannerService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Interfaces\\IBannerService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Interfaces\\IBannerService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Interfaces\\IBannerService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Interfaces\\IBannerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:23:44.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Entities\\Category.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Project.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:37:45.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\News\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\News\\Create.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\News\\Create.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\News\\Create.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAF0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T09:12:01.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HomeDTO.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\HomePage\\HomeDTO.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\HomePage\\HomeDTO.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\HomePage\\HomeDTO.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\HomePage\\HomeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:23:54.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "BannerDTO.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\Banner\\BannerDTO.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\Banner\\BannerDTO.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\Banner\\BannerDTO.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\Banner\\BannerDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:10:02.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "BannerController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\BannerController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\BannerController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\BannerController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\BannerController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAYwDMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:31:25.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "_AdminPanel.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Shared\\_AdminPanel.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Shared\\_AdminPanel.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Shared\\_AdminPanel.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Shared\\_AdminPanel.cshtml",
+              "ViewState": "AQIAANQAAAAAAAAAAAAuwOEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T10:12:17.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Banner.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Domain\\Entities\\Banner.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Entities\\Banner.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Domain\\Entities\\Banner.cs",
+              "RelativeToolTip": "Project.Domain\\Entities\\Banner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:27:56.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Persistence\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Project.Persistence\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Persistence\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Project.Persistence\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAuwOwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:29:06.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Project.Web.RazorShop.csproj",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Project.Web.RazorShop.csproj",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Project.Web.RazorShop.csproj",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Project.Web.RazorShop.csproj",
+              "RelativeToolTip": "Project.Web.RazorShop\\Project.Web.RazorShop.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-26T15:55:06.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\News\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\News\\Detail.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\News\\Detail.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\News\\Detail.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFsAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T15:44:13.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "_customerMenu.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_customerMenu.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Shared\\_customerMenu.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_customerMenu.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Shared\\_customerMenu.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T17:31:09.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "_customerMobileMenu.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_customerMobileMenu.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Shared\\_customerMobileMenu.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_customerMobileMenu.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Shared\\_customerMobileMenu.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwCoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T06:17:59.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Page.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Error\\Page.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Error\\Page.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Error\\Page.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Error\\Page.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T07:37:52.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Customer\\Views\\Home\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Customer\\Views\\Home\\Profile.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Customer\\Views\\Home\\Profile.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Customer\\Views\\Home\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T17:30:01.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:17:07.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAAALUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T19:22:26.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\assets\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\assets\\css\\bootstrap.min.css",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\assets\\css\\bootstrap.min.css",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\assets\\css\\bootstrap.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-23T17:14:14.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "otp-input.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\assets\\js\\plugin\\otp-sms\\otp-input.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\assets\\js\\plugin\\otp-sms\\otp-input.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\assets\\js\\plugin\\otp-sms\\otp-input.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\assets\\js\\plugin\\otp-sms\\otp-input.js",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwCYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-23T17:05:04.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:33:20.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "_footer.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_footer.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Shared\\_footer.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_footer.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Shared\\_footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T10:26:03.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "_header.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_header.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Shared\\_header.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_header.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Shared\\_header.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T10:23:32.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "_mobileMenu.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_mobileMenu.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Shared\\_mobileMenu.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\_mobileMenu.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Shared\\_mobileMenu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T10:27:32.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "LandingMenuMobileComponent.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuMobileComponent\\LandingMenuMobileComponent.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuMobileComponent\\LandingMenuMobileComponent.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuMobileComponent\\LandingMenuMobileComponent.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuMobileComponent\\LandingMenuMobileComponent.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T11:01:08.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
+              "ViewState": "AQIAAGIBAAAAAAAAAAAAAHABAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T11:23:42.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "LandingMenuDynamicComponent.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuDynamicComponent\\LandingMenuDynamicComponent.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuDynamicComponent\\LandingMenuDynamicComponent.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuDynamicComponent\\LandingMenuDynamicComponent.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Shared\\Components\\LandingMenuDynamicComponent\\LandingMenuDynamicComponent.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T07:43:29.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "UpdateProduct.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\UpdateProduct.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\UpdateProduct.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\UpdateProduct.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\UpdateProduct.js",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-24T05:31:34.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAA7wFkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T05:32:47.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Project.Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:37:43.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\User\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Views\\User\\Profile.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Views\\User\\Profile.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Views\\User\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T19:47:22.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "DiscountCodeDataTable.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\DataTable\\DiscountCodeDataTable.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\DataTable\\DiscountCodeDataTable.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\DataTable\\DiscountCodeDataTable.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\DataTable\\DiscountCodeDataTable.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAhwA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T18:37:31.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "DiscountCodeController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\DiscountCodeController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\DiscountCodeController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\DiscountCodeController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\DiscountCodeController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T18:36:34.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "DiscountCodeService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\DiscountCodeService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Services\\DiscountCodeService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\DiscountCodeService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Services\\DiscountCodeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T18:36:08.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Category.js",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\Category.js",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\Category.js",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\Category.js",
+              "RelativeToolTip": "Project.Web.RazorShop\\wwwroot\\admin\\assets\\js\\Category.js",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAewIIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-30T18:31:29.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "NewsCategoryController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\NewsCategoryController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\NewsCategoryController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\NewsCategoryController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\NewsCategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T09:44:40.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Program.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Program.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Program.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T09:18:56.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:36:02.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAywDMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:16:03.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\appsettings.json",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\appsettings.json",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\appsettings.json",
+              "RelativeToolTip": "Project.Web.RazorShop\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-14T05:53:05.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Project.Web.RazorShop\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:37:49.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Product\\Search.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Views\\Product\\Search.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Views\\Product\\Search.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Views\\Product\\Search.cshtml",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAAAKkAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T07:49:40.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Persistence\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Project.Persistence\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Persistence\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Project.Persistence\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:47:12.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Interfaces\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Interfaces\\IPaymentService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Interfaces\\IPaymentService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Interfaces\\IPaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:37:24.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "Factor.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Domain\\Entities\\Factor.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Entities\\Factor.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Domain\\Entities\\Factor.cs",
+              "RelativeToolTip": "Project.Domain\\Entities\\Factor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:27:54.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Domain\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Entities\\Payment.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Domain\\Entities\\Payment.cs",
+              "RelativeToolTip": "Project.Domain\\Entities\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:29:11.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "IPurchaseRequestRepository.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Contracts\\Persistence\\IPurchaseRequestRepository.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Contracts\\Persistence\\IPurchaseRequestRepository.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Contracts\\Persistence\\IPurchaseRequestRepository.cs",
+              "RelativeToolTip": "Project.Application\\Contracts\\Persistence\\IPurchaseRequestRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:53:00.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "PurchaseRequestRepository.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Persistence\\Repositories\\PurchaseRequestRepository.cs",
+              "RelativeDocumentMoniker": "Project.Persistence\\Repositories\\PurchaseRequestRepository.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Persistence\\Repositories\\PurchaseRequestRepository.cs",
+              "RelativeToolTip": "Project.Persistence\\Repositories\\PurchaseRequestRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:02:24.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "FactorRepository.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Persistence\\Repositories\\FactorRepository.cs",
+              "RelativeDocumentMoniker": "Project.Persistence\\Repositories\\FactorRepository.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Persistence\\Repositories\\FactorRepository.cs",
+              "RelativeToolTip": "Project.Persistence\\Repositories\\FactorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T07:46:09.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "PaymentDTO.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\Payment\\PaymentDTO.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\Payment\\PaymentDTO.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\Payment\\PaymentDTO.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\Payment\\PaymentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:31:18.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "CreatePayment.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\Payment\\CreatePayment.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\Payment\\CreatePayment.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\Payment\\CreatePayment.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\Payment\\CreatePayment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:31:15.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "FactorDTO.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\Factor\\FactorDTO.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\Factor\\FactorDTO.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\Factor\\FactorDTO.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\Factor\\FactorDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:30:57.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "CreateFactor.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\Factor\\CreateFactor.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\Factor\\CreateFactor.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\Factor\\CreateFactor.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\Factor\\CreateFactor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:30:48.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "IFactorService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Interfaces\\IFactorService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Interfaces\\IFactorService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Interfaces\\IFactorService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Interfaces\\IFactorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:35:23.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "FactorType.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Domain\\Enums\\FactorType.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Enums\\FactorType.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Domain\\Enums\\FactorType.cs",
+              "RelativeToolTip": "Project.Domain\\Enums\\FactorType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:28:49.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "FactorStatus.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Domain\\Enums\\FactorStatus.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Enums\\FactorStatus.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Domain\\Enums\\FactorStatus.cs",
+              "RelativeToolTip": "Project.Domain\\Enums\\FactorStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:28:47.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "IIdentityUserService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Interfaces\\IIdentityUserService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Interfaces\\IIdentityUserService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Interfaces\\IIdentityUserService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Interfaces\\IIdentityUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:42:49.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "Project.Application.csproj",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Project.Application.csproj",
+              "RelativeDocumentMoniker": "Project.Application\\Project.Application.csproj",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Project.Application.csproj",
+              "RelativeToolTip": "Project.Application\\Project.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-28T05:07:05.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "CartItemRepository.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Persistence\\Repositories\\CartItemRepository.cs",
+              "RelativeDocumentMoniker": "Project.Persistence\\Repositories\\CartItemRepository.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Persistence\\Repositories\\CartItemRepository.cs",
+              "RelativeToolTip": "Project.Persistence\\Repositories\\CartItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:01:49.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "ICartItemRepository.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Contracts\\Persistence\\ICartItemRepository.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Contracts\\Persistence\\ICartItemRepository.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Contracts\\Persistence\\ICartItemRepository.cs",
+              "RelativeToolTip": "Project.Application\\Contracts\\Persistence\\ICartItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:00:37.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "UserStatus.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Domain\\Enums\\UserStatus.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Enums\\UserStatus.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Domain\\Enums\\UserStatus.cs",
+              "RelativeToolTip": "Project.Domain\\Enums\\UserStatus.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA9wAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T07:41:32.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Domain\\Entities\\Setting.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Entities\\Setting.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Domain\\Entities\\Setting.cs",
+              "RelativeToolTip": "Project.Domain\\Entities\\Setting.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T07:39:51.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "SettingService.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\SettingService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Features\\Services\\SettingService.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\Features\\Services\\SettingService.cs",
+              "RelativeToolTip": "Project.Application\\Features\\Services\\SettingService.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAxwFEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:32:03.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "CheckoutDTO.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\ShoppingCart\\CheckoutDTO.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\ShoppingCart\\CheckoutDTO.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\ShoppingCart\\CheckoutDTO.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\ShoppingCart\\CheckoutDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:21:08.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "_HelprScripts.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Customer\\Views\\Shared\\_HelprScripts.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Customer\\Views\\Shared\\_HelprScripts.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Customer\\Views\\Shared\\_HelprScripts.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Customer\\Views\\Shared\\_HelprScripts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T19:44:54.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "_FilterScripts.cshtml",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Customer\\Views\\Shared\\_FilterScripts.cshtml",
+              "RelativeDocumentMoniker": "Project.Web.RazorShop\\Areas\\Customer\\Views\\Shared\\_FilterScripts.cshtml",
+              "ToolTip": "D:\\git\\manoshop\\Project.Web.RazorShop\\Areas\\Customer\\Views\\Shared\\_FilterScripts.cshtml",
+              "RelativeToolTip": "Project.Web.RazorShop\\Areas\\Customer\\Views\\Shared\\_FilterScripts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T19:44:40.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "EditProfile.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\User\\EditProfile.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\User\\EditProfile.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\User\\EditProfile.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\User\\EditProfile.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAEBdwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:41:49.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "20240326192854_addsendpriceindb.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Persistence\\Migrations\\20240326192854_addsendpriceindb.cs",
+              "RelativeDocumentMoniker": "Project.Persistence\\Migrations\\20240326192854_addsendpriceindb.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Persistence\\Migrations\\20240326192854_addsendpriceindb.cs",
+              "RelativeToolTip": "Project.Persistence\\Migrations\\20240326192854_addsendpriceindb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:28:55.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "ShoppingCartDTO.cs",
+              "DocumentMoniker": "D:\\git\\manoshop\\Project.Application\\DTOs\\ShoppingCart\\ShoppingCartDTO.cs",
+              "RelativeDocumentMoniker": "Project.Application\\DTOs\\ShoppingCart\\ShoppingCartDTO.cs",
+              "ToolTip": "D:\\git\\manoshop\\Project.Application\\DTOs\\ShoppingCart\\ShoppingCartDTO.cs",
+              "RelativeToolTip": "Project.Application\\DTOs\\ShoppingCart\\ShoppingCartDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:20:36.995Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

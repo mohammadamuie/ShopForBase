@@ -1,0 +1,53 @@
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Debug\net5.0\Project.Infrastructure.deps.json
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Debug\net5.0\Project.Infrastructure.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Debug\net5.0\Project.Infrastructure.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Debug\net5.0\Project.Application.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Debug\net5.0\Project.Domain.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Debug\net5.0\Project.Application.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\bin\Debug\net5.0\Project.Domain.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.csproj.AssemblyReference.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.AssemblyInfoInputs.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.AssemblyInfo.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.csproj.CoreCompileInputs.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.csproj.CopyComplete
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Debug\net5.0\ref\Project.Infrastructure.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Infrastructure\obj\Debug\net5.0\refint\Project.Infrastructure.dll
+E:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Infrastructure.deps.json
+E:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Infrastructure.dll
+E:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Infrastructure.pdb
+E:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Application.dll
+E:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Domain.dll
+E:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Application.pdb
+E:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Domain.pdb
+E:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.csproj.AssemblyReference.cache
+E:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.AssemblyInfoInputs.cache
+E:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.AssemblyInfo.cs
+E:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.csproj.CoreCompileInputs.cache
+E:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.dll
+E:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\refint\Project.Infrastructure.dll
+E:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.pdb
+E:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\ref\Project.Infrastructure.dll
+E:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.sourcelink.json
+E:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project..A2F26F6C.Up2Date
+D:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Infrastructure.deps.json
+D:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Infrastructure.dll
+D:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Infrastructure.pdb
+D:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Application.dll
+D:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Domain.dll
+D:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Application.pdb
+D:\git\manoshop\Project.Infrastructure\bin\Debug\net5.0\Project.Domain.pdb
+D:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.csproj.AssemblyReference.cache
+D:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.AssemblyInfoInputs.cache
+D:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.AssemblyInfo.cs
+D:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.csproj.CoreCompileInputs.cache
+D:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.sourcelink.json
+D:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project..A2F26F6C.Up2Date
+D:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.dll
+D:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\refint\Project.Infrastructure.dll
+D:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\Project.Infrastructure.pdb
+D:\git\manoshop\Project.Infrastructure\obj\Debug\net5.0\ref\Project.Infrastructure.dll

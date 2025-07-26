@@ -1,0 +1,50 @@
+﻿
+@section styles{
+    <partial name="_filterstyles" />
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+    <partial name="_filterscripts" />
+    <partial name="_HelprScripts" />
+    <script src="/admin/assets/js/News.js?@(DateTime.Now.Ticks)"></script>
+}
+
+@section headertools{
+    <div>
+        <a asp-controller="News" asp-action="Create" class="btn btn-gradient-success text-white"><i class="fa fa-plus mx-2"></i> ثبت خبر & مقاله جدید </a>
+    </div>
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body table-responsive">
+                    <div class="card-title d-flex justify-content-between">
+                        <h6>@ViewBag.Title</h6>
+                        <div class="custom-control custom-switch custom-checkbox-danger mx-3">
+                            <input type="checkbox" class="custom-control-input" id="showdelted" name="delted" onchange="SwitchDeleted()">
+                            <label class="custom-control-label" for="showdelted">حذف شده ها</label>
+                        </div>
+                    </div>
+                    <table id="Table" class="table table-hover table-striped table-advance ajax-data-table">
+                        <thead>
+                            <tr>
+                                <th class="all">#</th>
+                                <th class="all">عنوان</th>
+                                <th>تصویر</th>
+                                <th>دسته بندی</th>
+                                <th>لینک</th>
+                                <th>تاریخ نمایش</th>
+                                <th>تگ ها</th>
+                                <th>تاریخ ثبت</th>
+                                <th class="all">اقدامات</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

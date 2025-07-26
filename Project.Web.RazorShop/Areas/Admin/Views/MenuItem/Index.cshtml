@@ -1,0 +1,160 @@
+﻿@{
+    Layout = "_adminpanel";
+    ViewBag.Title = "منو";
+}
+@section styles{
+    <partial name="_filterstyles" />
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+    <partial name="_filterscripts" />
+    <partial name="_HelprScripts" />
+    <script src="/admin/assets/js/menu.js?@(DateTime.Now.Ticks)"></script>
+}
+@section headertools{
+    <div>
+        <button class="btn btn-success" data-toggle="modal" data-target="#AddItemModal"><i class="fa fa-plus mx-2"></i> ثبت جدید </button>
+    </div>
+}
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body table-responsive">
+                    <div class="card-title d-flex justify-content-between">
+                        <h6>@ViewBag.Title</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="custom-control custom-switch custom-checkbox-danger mx-3">
+                                <input type="checkbox" class="custom-control-input" id="showdelted" name="delted" onchange="SwitchDeleted()">
+                                <label class="custom-control-label" for="showdelted">حذف شده ها</label>
+                            </div>
+                            <button class="btn btn-outline-light btn-sm data-table-reset">نمایش همه</button>
+                        </div>
+                    </div>
+                    <table class="table table-hover table-striped table-advance ajax-data-table text-center ">
+                        <thead>
+                            <tr>
+                                <th class="all">#</th>
+                                <th class="all">نام</th>
+                                <th>آدرس</th>
+                                <th>پدر</th>
+                                <th>تعداد زیردسته</th>
+                                <th class="none">تاریخ ثبت</th>
+                                <th class="all">اقدامات</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="AddItemModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">ثبت جدید</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="simple-submit" asp-action="create" asp-controller="menuitem" method="POST"
+                      data-reset-form data-dismiss data-table-draw>
+                    <div class="form-group">
+                        <label>نام</label>
+                        <input type="text" class="form-control" name="name" />
+                    </div>
+                    <div class="form-group">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">آدرس را دستی وارد کنید</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">یکی از صفحات را انتخاب کنید</a>
+                            </li>
+
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <label>آدرس</label>
+                                <input dir="ltr" type="text" class="form-control" name="Url1" />
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <label>آدرس</label>
+                                <select name="Url" class="form-control select2" required asp-items="ViewBag.AllPages"></select>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label>پدر</label>
+                        <select name="parentId" class="form-control select2"  asp-items="ViewBag.AllItems"></select>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-youtube" data-dismiss="modal">بستن</button>
+                        <button type="submit" class="btn btn-facebook">اعمال تغییرات</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="EditItemModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">ویرایش</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editForm" class="simple-submit" asp-action="edit" asp-controller="menuitem" method="POST"
+                      data-reset-form data-dismiss data-table-draw>
+                    <input hidden type="hidden" id="editform-id" name="id" value="0" />
+                    <div class="form-group">
+                        <label>نام</label>
+                        <input type="text" class="form-control" name="name" id="editform-name" />
+                    </div>
+                    <div class="form-group">
+                        <ul class="nav nav-tabs" id="myTabEdit" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tabEdit" data-toggle="tab" href="#homeEdit" role="tab" aria-controls="home" aria-selected="true">آدرس را دستی وارد کنید</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tabEdit" data-toggle="tab" href="#profileEdit" role="tab" aria-controls="profile" aria-selected="false">یکی از صفحات را انتخاب کنید</a>
+                            </li>
+
+                        </ul>
+                        <div class="tab-content" id="myTabContentEdit">
+                            <div class="tab-pane fade show active" id="homeEdit" role="tabpanel" aria-labelledby="home-tabEdit">
+                                <label>آدرس</label>
+                                <input dir="ltr" type="text" class="form-control" name="Url1" id="editform-manualUrl" />
+                            </div>
+                            <div class="tab-pane fade" id="profileEdit" role="tabpanel" aria-labelledby="profile-tabEdit">
+                                <label>آدرس</label>
+                                <select name="Url" class="form-control select2" id="editform-PagesUrl" asp-items="ViewBag.AllPages"></select>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>پدر</label>
+                        <select name="parentId" class="form-control select2"  asp-items="ViewBag.AllItems" id="editform-parentid"></select>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-youtube" data-dismiss="modal">بستن</button>
+                        <button type="submit" class="btn btn-facebook">اعمال تغییرات</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

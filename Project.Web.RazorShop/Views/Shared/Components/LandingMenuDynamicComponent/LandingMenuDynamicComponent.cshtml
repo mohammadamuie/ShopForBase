@@ -1,0 +1,99 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<Project.Application.DTOs.MenuItem.MenuItemDTO>
+
+@* 
+<li class="nav-item">
+    <a href="" class="nav-link  header-top-menu-link-a ">
+        منو
+        ساده<i class="bi bi-menu-app"></i>
+    </a>
+    <ul class="level-one">
+        <li><a href="">منو شماره 1</a></li>
+        <li><a href="">منو شماره 2</a></li>
+        <li class="position-relative">
+            <a href="">
+                منو شماره 3 <i class="bi bi-chevron-left"></i>
+            </a>
+            <ul class="level-two">
+                <li><a href="">زیر منو شماره 1</a></li>
+                <li><a href="">2 زیر منو شماره </a></li>
+                <li><a href="">3 زیر منو شماره </a></li>
+            </ul>
+        </li>
+        <li><a href="">منو شماره 4</a></li>
+        <li><a href="">منو شماره 5</a></li>
+        <li><a href="">منو شماره 6</a></li>
+    </ul>
+</li> *@
+    @foreach (var item in Model)
+    {
+        @if (item.Childs.Count > 0)
+        {
+        <li class="nav-item">
+
+                @if (item.ManualUrl == true)
+                {
+                <a href="@item.Url" class="nav-link  header-top-menu-link-a ">@item.Name</a>
+                }
+                else
+                {
+                <a href="/pages/@item.Url" class="nav-link  header-top-menu-link-a ">@item.Name</a>
+                }
+            <ul class="level-one">
+                    @foreach (var child in item.Childs)
+                    {
+                        @if (child.Childs.Count > 0)
+                        {
+                            <li>
+
+                                @if (child.ManualUrl == true)
+                                {
+                                    <a href="@child.Url" class="nav-link  header-top-menu-link-a ">@child.Name</a>
+                                }
+                                else
+                                {
+                                    <a href="/pages/@child.Url" class="nav-link  header-top-menu-link-a ">@child.Name</a>
+                                }
+                            <ul class="level-two">
+                                    @foreach (var childchild in child.Childs)
+                                    {
+                                        @if (childchild.ManualUrl == true)
+                                        {
+                                            <li><a href="@childchild.Url">@childchild.Name</a></li>
+                                        }
+                                        else
+                                        {
+                                            <li><a href="/pages/@childchild.Url">@childchild.Name</a></li>
+                                        }
+                                    }
+                                </ul>
+
+                            </li>
+                        }
+                        else
+                        {
+                            @if (child.ManualUrl == true)
+                            {
+                            <li ><a href="@child.Url" >@child.Name</a></li>
+                            }
+                            else
+                            {
+                            <li ><a href="/pages/@child.Url" >@child.Name</a></li>
+                            }
+                        }
+                    }
+                </ul>
+            </li>
+        }
+        else
+        {
+            @if (item.ManualUrl == true)
+            {
+            <li class="nav-item"><a href="@item.Url"  class="nav-link header-top-menu-link-a  ">@item.Name</a></li>
+            }
+            else
+            {
+            <li class="nav-item"><a href="/pages/@item.Url"  class="nav-link header-top-menu-link-a  ">@item.Name</a></li>
+            }
+        }
+    }

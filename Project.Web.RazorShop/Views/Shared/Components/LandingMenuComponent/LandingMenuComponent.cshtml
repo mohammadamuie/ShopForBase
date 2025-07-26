@@ -1,0 +1,113 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<Project.Application.DTOs.Category.LandingCategoryMenuItem>
+
+<ul class="main-menu mega-container">
+    @foreach (var item in Model)
+    {
+        @if (item.Childs.Count > 0)
+        {
+
+            <li class="main-menu-sub-active-li">
+                <a href="javascript:void(0)">
+                    @item.Name
+                </a>
+
+                <ul class="main-menu-sub back-menu"
+                    style=" background: #fff url('assets/img/509-5092096_offering-high-quality-mobile-repair-service-main-image_prev_ui.png') no-repeat;">
+                    
+                    @foreach (var child in item.Childs)
+                    {
+                        <li>
+                            <a class="title my-flex-baseline" href="">
+                                @child.Name
+                            </a>
+                        </li>
+                        @if (child.Childs.Count > 0)
+                        {
+                            @foreach (var childchild in child.Childs)
+                            {
+                                <li><a href="/product/Search?category=@childchild.Id">@childchild.Name</a></li>
+                            }
+                        }
+                        else
+                        {
+
+                        }
+                    }
+                </ul>
+            </li>
+        }
+        else
+        {
+            <li class="main-menu-sub-active-li">
+                <a href="javascript:void(0)">
+                    @item.Name
+                </a>
+            </li>
+        }
+
+    }
+
+</ul>
+
+
+
+    @* <ul class="menu-vertical sf-arrows">
+        @foreach (var item in Model)
+        {
+            @if (item.Childs.Count > 0)
+            {
+                <li class="megamenu-container">
+                    <a class="sf-with-ul" href="#">@item.Name</a>
+
+                    <div class="megamenu">
+                        <div class="row no-gutters">
+                            <div class="col-md-12">
+                                <div class="menu-col">
+                                    <div class="row">
+                                        @foreach (var child in item.Childs)
+                                        {
+
+                                            @if (child.Childs.Count > 0)
+                                            {
+                                                <div class="col-md-6">
+                                                    <div class="menu-title">@child.Name</div>
+                                                    <!-- End .menu-title -->
+                                                    <ul>
+                                                        @foreach (var childchild in child.Childs)
+                                                        {
+                                                            <li><a href="/product/Search?category=@childchild.Id">@childchild.Name</a></li>
+                                                        }
+                                                    </ul>
+
+                                                </div>
+
+                                                <!-- End .col-md-6 -->
+                                            }
+                                            else
+                                            {
+                                                <div class="col-md-3">
+                                                    <div class="menu-title"><a href="/product/Search?category=@child.Id">@child.Name</a></div>
+                                                </div>
+
+                                                <!-- End .col-md-6 -->
+                                            }
+                                        }
+
+                                    </div><!-- End .row -->
+                                </div><!-- End .menu-col -->
+                            </div><!-- End .col-md-8 -->
+
+
+                        </div><!-- End .row -->
+                    </div><!-- End .megamenu -->
+                </li>
+            }
+            else
+            {
+                <li><a href="/product/Search?category=@item.Id">@item.Name</a></li>
+            }
+
+        }
+    </ul><!-- End .menu-vertical -->
+ *@

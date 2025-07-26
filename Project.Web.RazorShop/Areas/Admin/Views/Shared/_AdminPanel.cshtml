@@ -1,0 +1,331 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>پنل مدیریت | @ViewBag.Title</title>
+    <link rel="shortcut icon" href="/logo.png" />
+    <link rel="stylesheet" href="/admin/vendors/bundle.css" type="text/css">
+    <link rel="stylesheet" href="/admin/vendors/prism/prism.css" type="text/css">
+    <link rel="stylesheet" href="/admin/assets/css/app.min.css" type="text/css">
+    <link rel="stylesheet" href="/factor/factor.style.css" />
+    @RenderSection("styles", false)
+
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+                background: #555;
+            }
+    </style>
+    <style>
+        .bg-light-info-cutome {
+            background-color: #cab9f1 !important
+        }
+
+        .bg-light-primary-cutome {
+            background-color: #b1daf3 !important
+        }
+
+        .bg-light-warning-cutome {
+            background-color: #f8e9b2 !important
+        }
+
+        .bg-light-danger-cutome {
+            background-color: #ffc3d5 !important
+        }
+
+        .bg-light-success-cutome {
+            background-color: #c0fbdc !important
+        }
+
+        .bg-light-secondary-cutome {
+            background-color: #d6d9e3 !important
+        }
+
+        input[type="color"] {
+            height: 40px;
+        }
+    </style>
+   
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-icon"></div>
+    </div>
+    <div class="header">
+        <div>
+            <ul class="navbar-nav">
+                <li class="nav-item navigation-toggler">
+                    <a href="#" class="nav-link" title="Hide navigation">
+                        <i data-feather="arrow-left"></i>
+                    </a>
+                </li>
+                <li class="nav-item navigation-toggler mobile-toggler">
+                    <a href="#" class="nav-link" title="Show navigation">
+                        <i data-feather="menu"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" title="تمام صفحه" data-toggle="fullscreen">
+                        <i class="maximize" data-feather="maximize"></i>
+                        <i class="minimize" data-feather="minimize"></i>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" title="User menu" data-toggle="dropdown">
+                        <i data-feather="settings"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-left dropdown-menu-big">
+                        <div class="p-4 text-center d-flex justify-content-between" data-backround-image="/admin/assets/media/image/image1.jpg">
+                            <h6 class="mb-0">تنظیمات</h6>
+                        </div>
+                        <div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
+                                        <label class="custom-control-label" for="customSwitch1">مجوز ارسال اطلاعیه</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch2">
+                                        <label class="custom-control-label" for="customSwitch2">پنهان کردن درخواست ها</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch3" checked>
+                                        <label class="custom-control-label" for="customSwitch3">افزایش سرعت انجام دستورات</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch4" checked>
+                                        <label class="custom-control-label" for="customSwitch4">پنهان کردن منو</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch5">
+                                        <label class="custom-control-label" for="customSwitch5">به خاطرسپاری بازدید</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch6">
+                                        <label class="custom-control-label" for="customSwitch6">فعالسازی تولید گزارش خودکار</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav d-flex align-items-center">
+                <li class="nav-item header-toggler">
+                    <a href="#" class="nav-link">
+                        <i data-feather="arrow-down"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div class="navigation">
+            <div class="navigation-menu-tab" style="background-color: #b80060 !important ">
+                <div>
+                    <div class="navigation-menu-tab-header">
+                        <a asp-action="index" asp-controller="home" class="nav-link" aria-expanded="false">
+                            <figure class="avatar avatar-sm">
+                                <img src="/Uploads/asa.svg" alt="avatar">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-grow-1">
+                    <ul>
+                        <li>
+                            <a asp-action="index" asp-controller="home" data-toggle="tooltip" data-placement="right" title="مدیریت سایت" data-nav-target="#dashboardmenu">
+                                <i data-feather="command"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="//niknet.co" target="_blank" data-toggle="tooltip" data-placement="right" title="طراحی و توسعه توسط محمد عموئی | © 1400 ">
+                                <i data-feather="globe"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-action="logout" asp-controller="account" data-toggle="tooltip" data-placement="right" title="خروج">
+                                <i data-feather="log-out"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navigation-menu-body">
+                <div>
+                    <div id="navigation-logo">
+                        <a href="#">
+                            <span class="font-size-20" style="font-weight:900">MaNoShop</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="navigation-menu-group">
+                    <div class="open" id="pages">
+                        <ul>
+
+                            <li><a asp-action="index" asp-controller="home"><span class="ti-home font-size-18 mx-1"></span> داشبورد</a></li>
+                            <li>
+                                <a href="javascripts:void(0)"><span class="ti-shopping-cart font-size-18 mx-1"></span> مدیریت محصولات</a>
+                                <ul>
+                                    <li><a asp-action="index" asp-controller="product" asp-area="admin">لیست محصولات</a></li>
+                                    <li><a asp-action="index" asp-controller="category" asp-area="admin">دسته بندی محصولات</a></li>
+                                    <li><a asp-action="Create" asp-controller="Product" asp-area="admin">ثبت محصول جدید</a></li>
+                                </ul>
+                            </li>
+                            <li><a asp-action="index" asp-controller="pages" asp-area="admin"><span class="ti-layout font-size-18 mx-1"></span> صفحه ساز</a></li>
+                            <li><a asp-action="index" asp-controller="menuitem" asp-area="admin"><span class="ti-menu-alt font-size-18 mx-1"></span> تنظیمات منو</a></li>
+                            <li>
+                                <a href="javascripts:void(0)"> <span class="ti-notepad font-size-18 mx-1"></span> اخبار & مقالات</a>
+                                <ul>
+                                    <li><a asp-action="index" asp-controller="news" asp-area="admin">اخبار & مقالات</a></li>
+                                    <li><a asp-action="create" asp-controller="news" asp-area="admin">ثبت خبر & مقاله جدید</a></li>
+                                    <li><a asp-action="index" asp-controller="newscategory" asp-area="admin">دسته بندی های خبر & مقاله</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascripts:void(0)"> <span class="ti-truck font-size-18 mx-1"></span> سفارشات</a>
+                                <ul>
+                                    <li><a asp-action="index" asp-controller="PurchaseRequest" asp-area="admin">همه سفارشات</a></li>
+                                    <li><a href="/admin/purchaserequest?isToday=true">سفارشات امروز</a></li>
+                                </ul>
+                            </li>
+                            <li><a asp-action="index" asp-controller="user" asp-area="admin"><span class="ti-user font-size-18 mx-1"></span>کاربران</a></li>
+                            <li><a asp-action="index" asp-controller="discountcode" asp-area="admin"><span class="font-size-18 mx-1">%</span>کد تخفیف</a></li>
+                            <li><a asp-action="index" asp-controller="banner" asp-area="admin"><span class="ti-image font-size-18 mx-1"></span>بنر های صفحه اصلی</a></li>
+                            <li><a asp-action="index" asp-controller="ticket" asp-area="admin"><span class="ti-ticket font-size-18 mx-1"></span>پشتیبانی</a></li>
+                            <li><a asp-action="index" asp-controller="setting" asp-area="admin"><span class="ti-settings font-size-18 mx-1"></span>تنظیمات</a></li>
+                            <li><a href="/admin/account/logout">خروج</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="main-content">
+            <div class="page-header">
+                <div class="container-fluid d-flex justify-content-between align-items-center">
+                    <h4>@ViewBag.Title</h4>
+                    @RenderSection("headertools", false)
+                </div>
+            </div>
+            <div class="container-fluid">
+                @RenderBody()
+            </div>
+        </main>
+    </div>
+    <script src="/admin/vendors/bundle.js"></script>
+    @RenderSection("vendors", false)
+    <script src="/admin/vendors/prism/prism.js"></script>
+    <script src="/admin/assets/js/app.min.js?v1"></script>
+    <script src="/admin/assets/js/custom.js?v1"></script>
+    <script src="/admin/assets/js/examples/signalr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!-- Dashboard scripts -->
+    <script>
+        function loading() {
+            Swal.fire({
+                html: '<p>در حال بارگذاری</p><img src="/Uploads/giphy.svg" />',
+                allowOutsideClick: false,
+                showCancelButton: false,
+                showConfirmButton: false
+            });
+        }
+
+    </script>
+    @RenderSection("scripts", false)
+    <script>
+
+
+
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/chathub")
+            .configureLogging(signalR.LogLevel.Information)
+            .build();
+
+
+        async function start() {
+            try {
+                await connection.start();
+                console.log("SignalR Connected.");
+            } catch (err) {
+                console.log(err);
+                setTimeout(start, 5000);
+            }
+        };
+
+        connection.onclose(async () => {
+            await start();
+        });
+
+        // Start the connection.
+        start();
+
+
+        connection.on("ReceiveMessage", (message) => {
+            if (window.location.pathname == '/admin/purchaserequest') {
+                table.draw();
+            }
+            notifyMe();
+        });
+
+
+
+        function notifyMe() {
+
+
+            if (Notification.permission !== 'granted')
+                Notification.requestPermission();
+            else {
+                var notification = new Notification('سفارش جدید', {
+                    icon: '/Images/notify.png',
+                    body: 'سفارش جدید ثبت شده است',
+                });
+                notification.onclick = function () {
+                    window.open('/PurchaseRequest/purchaserequest');
+                };
+                const audio = new Audio('/assets/fadein.ogg');
+                audio.play();
+            }
+        }
+    </script>
+</body>
+</html>

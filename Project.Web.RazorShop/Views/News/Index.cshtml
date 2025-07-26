@@ -1,0 +1,161 @@
+﻿@model Project.Application.DTOs.News.NewsListDTO
+@using DNTPersianUtils.Core
+@{
+}
+<div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
+    <div class="container">
+        <h1 class="page-title">لیست<span>اخبار & مقالات</span></h1>
+    </div><!-- End .container -->
+</div><!-- End .page-header -->
+<nav aria-label="breadcrumb" class="breadcrumb-nav mb-3">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index-1.html">خانه</a></li>
+            <li class="breadcrumb-item"><a href="#">اخبار & مقالات</a></li>
+            <li class="breadcrumb-item active" aria-current="page">لیست</li>
+        </ol>
+    </div><!-- End .container -->
+</nav><!-- End .breadcrumb-nav -->
+
+<div class="page-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                
+                
+                
+                @foreach (var item in Model.News)
+                {
+                    <article class="entry entry-list">
+                        <div class="row align-items-center">
+                            <div class="col-md-5">
+                                <figure class="entry-media">
+                                    <a href="/news/detail?Url=@item.Url">
+                                        <img src="@item.ImageUrl" alt="@item.MetaTitle">
+                                    </a>
+                                </figure><!-- End .entry-media -->
+                            </div><!-- End .col-md-5 -->
+
+                            <div class="col-md-7">
+                                <div class="entry-body">
+                                    <div class="entry-meta">
+                                        <span class="entry-author">
+                                            نویسنده : <a href="#">مدیر سایت</a>
+                                        </span>
+                                        <span class="meta-separator">|</span>
+                                        <a href="#">@item.ShowDateTime.Value.ToPersianDateTextify()</a>
+                                    </div><!-- End .entry-meta -->
+
+                                    <h2 class="entry-title">
+                                        <a href="/news/detail?Url=@item.Url">@item.Title</a>
+                                    </h2><!-- End .entry-title -->
+
+                                    <div class="entry-cats">
+                                        <a href="/news/detail?Url=@item.Url">@item.CategoryName</a>
+                                    </div><!-- End .entry-cats -->
+
+                                    <div class="entry-content">
+                                        <p>
+                                            @item.ShortContent
+                                        </p>
+                                        <a href="/news/detail?Url=@item.Url" class="read-more">
+                                            ادامه
+                                            خواندن
+                                        </a>
+                                    </div><!-- End .entry-content -->
+                                </div><!-- End .entry-body -->
+                            </div><!-- End .col-md-7 -->
+                        </div><!-- End .row -->
+                    </article>
+
+                    <!-- End .entry -->
+                }
+                
+                
+                @{
+                    var totalPages = (int)Math.Ceiling((double)Model.TotalCount / Model.Size);
+                }
+
+                <nav aria-label="Page navigation" class="d-flex justify-content-center">
+                    <ul class="pagination">
+                        <li class="page-item @(Model.CurrentPage == 1 ? "disabled" : "")">
+                            <a class="page-link page-link-prev" href="@Url.Action("Index", new { page = Model.CurrentPage - 1,  countpage = Model.Size })" aria-label="Previous">
+                                <span aria-hidden="true"><i class="icon-long-arrow-right"></i></span>
+                                قبلی
+                            </a>
+                        </li>
+
+                        @for (int i = 1; i <= totalPages; i++)
+                        {
+                            <li class="page-item @(Model.CurrentPage == i ? "active" : "")">
+                                <a class="page-link" href="@Url.Action("Index", new { page = i, countpage = Model.Size })">@i</a>
+                            </li>
+                        }
+
+                        <li class="page-item @(Model.CurrentPage == totalPages ? "disabled" : "")">
+                            <a class="page-link page-link-next" href="@Url.Action("Index", new { page = Model.CurrentPage + 1, countpage = Model.Size })" aria-label="Next">
+
+                                بعدی
+                                <span aria-hidden="true"><i class="icon-long-arrow-left"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div><!-- End .col-lg-9 -->
+
+            <aside class="col-lg-3">
+                <div class="sidebar">
+                    <div class="widget widget-search">
+                        <h3 class="widget-title">جستجو</h3><!-- End .widget-title -->
+
+                        <form action="#">
+                            <label for="ws" class="sr-only">جستجوی اخبار & مقالات</label>
+                            <input type="search" class="form-control" name="search" id="ws"
+                                   placeholder="جستجوی خبر & مقاله مورد نظر" required>
+                            <button type="submit" class="btn">
+                                <i class="icon-search"></i><span class="sr-only">جستجو</span>
+                            </button>
+                        </form>
+                    </div><!-- End .widget -->
+
+                    <div class="widget widget-cats">
+                        <h3 class="widget-title">دسته بندی ها</h3><!-- End .widget-title -->
+
+                        <ul>
+                            @foreach (var item in Model.NewsCategories)
+                            {
+                                <li><a href="/news?CategoryId=@item.Id">@item.Name<span>@item.NewsCount</span></a></li>
+                            }
+                        </ul>
+                    </div><!-- End .widget -->
+
+                    <div class="widget">
+                        <h3 class="widget-title">محبوب ترین اخبار & مقالات</h3><!-- End .widget-title -->
+
+                        <ul class="posts-list">
+                            @foreach (var item in Model.RandomNews)
+                            {
+                                <li>
+                                    <figure>
+                                        <a href="/news/detail?Url=@item.Url">
+                                            <img src="@item.ImageUrl" alt="post">
+                                        </a>
+                                    </figure>
+
+                                    <div>
+                                        <span>@item.ShowDateTime.ToPersianDateTextify()</span>
+                                        <h4><a href="/news/detail?Url=@item.Url">@item.Title</a></h4>
+                                    </div>
+                                </li>
+                            }
+                            
+                        </ul><!-- End .posts-list -->
+                    </div><!-- End .widget -->
+
+                   
+                </div><!-- End .sidebar -->
+            </aside><!-- End .col-lg-3 -->
+        </div><!-- End .row -->
+    </div><!-- End .container -->
+</div><!-- End .page-content -->

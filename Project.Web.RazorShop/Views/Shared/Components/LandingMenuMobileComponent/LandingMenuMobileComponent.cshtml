@@ -1,0 +1,52 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<Project.Application.DTOs.Category.LandingCategoryMenuItem>
+
+
+<ul class="rm-item-menu navbar-nav">
+
+@foreach (var item in Model)
+{
+    @if (item.Childs.Count > 0)
+    {
+            <li class="nav-item bg-ul-f7">
+
+                <a href="/product/Search?category=@item.Id" class="nav-link">@item.Name</a>
+                <span class="showSubMenu"><i class="bi bi-chevron-left"></i></span>
+                <ul class="navbar-nav h-0">
+                @foreach (var child in item.Childs)
+                {
+                    @if (child.Childs.Count > 0)
+                    {
+                            <li class="nav-item">
+
+                                <a href="/product/Search?category=@child.Id" class="nav-link">@child.Name</a>
+                                <span class="showSubMenu"><i class="bi bi-chevron-left"></i></span>
+                                <ul class="navbar-nav h-0 bg-ul-f7">
+                                @foreach (var childchild in child.Childs)
+                                {
+
+                                        <li class="nav-item"><a href="/product/Search?category=@childchild.Id" class="nav-link">@childchild.Name</a></li>
+
+                                }
+                            </ul>
+
+                        </li>
+                    }
+                    else
+                    {
+
+                            <li class="nav-item"><a href="/product/Search?category=@child.Id" class="nav-link">@child.Name</a></li>
+
+                    }
+                }
+            </ul>
+        </li>
+    }
+    else
+    {
+
+            <li class="nav-item"><a href="/product/Search?category=@item.Id" class="nav-link">@item.Name</a></li>
+
+    }
+}
+</ul>

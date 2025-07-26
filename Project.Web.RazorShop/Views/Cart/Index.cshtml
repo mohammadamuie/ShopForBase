@@ -1,0 +1,244 @@
+﻿@model Project.Application.DTOs.ShoppingCart.ShoppingCartDTO
+@{
+    double totalPrice = 0.0;
+}
+
+@section styles {
+    <style>
+        /* The container of each option */
+        .color-option {
+            display: inline;
+            position: relative;
+            margin: 5px 15px 5px 15px;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* The container of all options */
+        .color-picker {
+            margin: 10px 0px 10px 0px;
+        }
+
+        /* Hide the browser's default radio button */
+        .color-option input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom radio button */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            border: 1px solid #e6e3e3;
+        }
+
+        /* Style the indicator (dot/circle) when checked */
+        .color-option input:checked ~ .checkmark {
+            margin-right: 5px;
+            box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+            padding: 3px 0px 3px 3px;
+            border: 1px solid rgba(81, 203, 238, 1);
+        }
+
+        /* Style the indicator (dot/circle) */
+        .color-option .checkmark:after {
+            top: 9px;
+            left: 9px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+    </style>
+}
+
+@section Scripts{
+    <script>
+        // gives the option the color of it's value
+        $(".color-option").each(function () {
+            $(this).children().eq(1).css("background-color", $(this).children().eq(0).val());
+        });
+
+
+
+    </script>
+}
+<nav aria-label="breadcrumb" class="breadcrumb-nav">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index-1.html">خانه</a></li>
+            <li class="breadcrumb-item"><a href="#">فروشگاه</a></li>
+            <li class="breadcrumb-item active" aria-current="page">سبد خرید</li>
+        </ol>
+    </div><!-- End .container -->
+</nav><!-- End .breadcrumb-nav -->
+
+<div class="page-content">
+    <div class="cart">
+        <div class="container">
+            @if (Model.Products.Count < 1)
+            {
+                <div class="page404-bg text-center">
+                    <div class="page404-text">
+                        <div class="empty-image">
+                            <img src="assets/images/empty3.png" alt="">
+                        </div>
+                        <div class="empty-text display-3">سبد خرید شما خالی است!</div>
+
+                        <a href="/" class="btn btn-outline-primary-2 btn-order mt-3">
+                            <span>
+                                رفتن به
+                                فروشگاه و شروع خرید
+                            </span><i class="icon-long-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="row">
+                    <div class="col-lg-9">
+                        <table class="table table-cart table-mobile">
+                            <thead>
+                                <tr>
+                                    <th>محصول</th>
+                                    <th>قیمت</th>
+                                    <th>تعداد</th>
+                                    <th>مجموع</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                @foreach (var item in Model.Products)
+                                {
+                                    <tr id="product-item-@item.Id">
+                                        <td class="product-col">
+                                            <div class="product">
+                                                <figure class="product-media">
+                                                    <a href="#">
+                                                        <img src="@item.BannerImage"
+                                                             alt="تصویر محصول">
+                                                    </a>
+                                                </figure>
+                                                <div>
+
+                                                    <h3 class="product-title">
+                                                        <a href="#">@item.Title</a>
+
+                                                    </h3><!-- End .product-title -->
+                                                    @if (!item.IsPrice)
+                                                    {
+
+                                                        @if (item.TypeIsColor)
+                                                        {
+                                                            @if (item.ProductType != null)
+                                                            {
+                                                                <div class="details-filter-row details-row-size">
+                                                                    <label>رنگ : </label>
+
+                                                                    <div class="product-nav product-nav-dots">
+                                                                        <a href="javascript:void(0)" class="active" style="background: @(item.ProductType.First().Type);"><span class="sr-only">نام رنگ</span></a>
+                                                                        
+                                                                    </div><!-- End .product-nav -->
+                                                                </div>
+                                                               
+
+                                                            }
+                                                        }
+                                                        else
+                                                        {
+                                                            @if (item.ProductType != null)
+                                                            {
+                                                             <p>
+                                                                    سایز  : @item.ProductType.First().Type
+                                                             </p>   
+
+                                                            }
+                                                        }
+                                                    }
+
+                                                </div>
+                                            </div><!-- End .product -->
+                                        </td>
+                                        <td class="price-col">@Project.Application.Helpers.PublicHelper.NumberFormat(item.price.ToString()) تومان</td>
+                                        <td class="quantity-col">
+                                            <div class="cart-product-quantity">
+                                                <input type="number" class="form-control" value="@item.CartQuantity" min="1" max="@item.Inventory" data-product-id="@item.Id"
+                                                       step="1" data-decimals="0" required>
+                                            </div><!-- End .cart-product-quantity -->
+                                        </td>
+                                        <td class="total-col">@Project.Application.Helpers.PublicHelper.NumberFormat((item.CartQuantity * item.price).ToString()) تومان</td>
+                                        <td class="remove-col">
+                                            <button class="btn-remove" onclick="removeFromCart(@item.Id)">
+                                                <i class="icon-close"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+
+                                    totalPrice = totalPrice + (item.CartQuantity * item.price.Value);
+
+                                }
+
+                            </tbody>
+                        </table><!-- End .table table-wishlist -->
+
+                       
+                    </div><!-- End .col-lg-9 -->
+                    <aside class="col-lg-3">
+                        <div class="summary summary-cart">
+                            <h3 class="summary-title">جمع سبد خرید</h3><!-- End .summary-title -->
+
+                            <table class="table table-summary">
+                                <tbody>
+                                    <tr class="summary-subtotal">
+                                        <td class="text-left">
+                                                <div class="cart-discount">
+                                                    <form action="#">
+                                                        <div class="input-group">
+                                                            <input type="text" class="form-control" required placeholder="کد تخفیف">
+                                                            <div class="input-group-append">
+                                                                <button class="btn btn-outline-primary-2" type="submit">
+                                                                    <i class="icon-long-arrow-left"></i>
+                                                                </button>
+                                                            </div><!-- .End .input-group-append -->
+                                                        </div><!-- End .input-group -->
+                                                    </form>
+                                                </div><!-- End .cart-discount -->
+
+                                        </td>
+                                    </tr><!-- End .summary-subtotal -->
+                                    <tr class="summary-subtotal">
+                                        <td>جمع کل سبد خرید : </td>
+                                        <td class="text-left">@Project.Application.Helpers.PublicHelper.NumberFormat(totalPrice.ToString()) تومان</td>
+                                    </tr><!-- End .summary-subtotal -->
+                                    
+                                    <tr class="summary-total">
+                                        <td>مبلغ قابل پرداخت :</td>
+                                        <td class="text-left">@Project.Application.Helpers.PublicHelper.NumberFormat(totalPrice.ToString()) تومان</td>
+                                    </tr><!-- End .summary-total -->
+                                </tbody>
+                            </table><!-- End .table table-summary -->
+
+                            <a href="/cart/checkout" class="btn btn-outline-primary-2 btn-order btn-block">
+                               ادامه فراید خرید
+                            </a>
+                        </div><!-- End .summary -->
+
+                    </aside><!-- End .col-lg-3 -->
+                </div>
+
+                <!-- End .row -->
+            }
+
+        </div><!-- End .container -->
+    </div><!-- End .cart -->
+</div><!-- End .page-content -->

@@ -1,0 +1,402 @@
+﻿@model Project.Application.DTOs.Setting.SettingDTO
+@{
+    ViewData["Title"] = "تنظیمات سایت";
+}
+@section styles{
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+    <partial name="_HelprScripts" />
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $('#submit-form').on('click', function () {
+            var form = document.getElementById('ajax-form');
+            var formdata = new FormData(form);
+            ajaxPostForm({
+                formData: formdata,
+                form: form,
+                triggerForm: false
+            });
+        });
+    </script>
+}
+
+@section headertools{
+    <div>
+        <a class="btn btn-gradient-primary text-white" asp-action="index">بازگشت به لیست </a>
+        <button class="btn btn-gradient-success" type="button" id="submit-form"><i class="fa fa-save mx-2"></i> ثبت </button>
+    </div>
+}
+
+<section>
+    <div class="card">
+        <div class="card-body">
+            <form asp-action="Update" id="ajax-form" enctype="multipart/form-data" class="col-12 ajax-form" novalidate="">
+                <div class="form-row my-3">
+                    <div class="form-group col-md-4">
+                        <label>عنوان سایت</label>
+                        <input asp-for="SiteName" type="text" class="form-control" placeholder="عنوان صفحه" required>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label>
+                            توضیحات متا
+                        </label>
+                        <input asp-for="MetaDescription" type="text" placeholder="توضیحات متا" class="form-control" required>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label class="control-label">کلمات کلیدی</label>
+                            <input asp-for="MetaKeyWord" class="form-control tagsinput" />
+                            <span asp-validation-for="MetaKeyWord" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row my-3">
+
+                    <div class="col-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <label>آیکن سایت</label><label class="text-danger mr-1">*</label>
+                                <input asp-for="ShortcutIcon" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.ShortcutIcon" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <label>لوگو هدر</label><label class="text-danger mr-1">*</label>
+                                <input asp-for="HeaderIcon" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.HeaderIcon" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <label>لوگو فوتر</label><label class="text-danger mr-1">*</label>
+                                <input asp-for="FooterIcon" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.FooterIcon" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row my-3">
+
+                    <div class="col-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <label>بنر اول</label><label class="text-danger mr-1">*</label>
+
+                                <input asp-for="FirstBanner" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.FirstBanner" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">لینک بنر اول</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="FirstBannerLink" class="form-control alphacode" />
+                            <span asp-validation-for="FirstBannerLink" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+
+                                <label>بنر دوم</label><label class="text-danger mr-1">*</label>
+                                <input asp-for="SecondBanner" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.SecondBanner" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label">لینک بنر دوم</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="SecondBannerLink" class="form-control alphacode" />
+                            <span asp-validation-for="SecondBannerLink" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <label>بنر سوم</label><label class="text-danger mr-1">*</label>
+                                <input asp-for="ThirdBanner" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.ThirdBanner" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label">لینک بنر سوم</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="ThirdBannerLink" class="form-control alphacode" />
+                            <span asp-validation-for="ThirdBannerLink" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row my-3">
+
+                    <div class="col-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <label>بنر بزرگ</label><label class="text-danger mr-1">*</label>
+                                <input asp-for="BigBanner" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.BigBanner" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <div class="d-flex justify-content-start">
+                                    <label>بنر بالای سایت</label><label class="text-danger mr-1">*</label>
+                                    <div class="custom-control custom-switch custom-checkbox-danger mx-3">
+                                        <input name="TopIconBool" id="TopIconBool" type="checkbox" class="custom-control-input" checked="@(Model.TopIconBool=="True"?"checked":"")">
+                                        <label class="custom-control-label" for="TopIconBool">وضعیت</label>
+                                    </div>
+                                </div>
+
+
+                                <input asp-for="TopIcon" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.TopIcon" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+
+                                <label>بنر فروش ویژه</label><label class="text-danger mr-1">*</label>
+                                <input asp-for="AmazingOffersBanner" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.AmazingOffersBanner" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <div class="d-flex justify-content-start">
+                                    <label>بنر پله دوم</label><label class="text-danger mr-1">*</label>
+                                </div>
+
+
+                                <input asp-for="Step2Banner2" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.Step2Banner2" />
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label class="control-label">لینک بنر پله دوم</label><label class="text-danger mr-1">*</label>
+                                    <input asp-for="Step2Banner2Link" class="form-control alphacode" />
+                                    <span asp-validation-for="Step2Banner2Link" class="text-danger invalid-feedback"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <div class="d-flex justify-content-start">
+                                    <label>بنر پله دوم</label><label class="text-danger mr-1">*</label>
+                                </div>
+
+
+                                <input asp-for="Step2Banner1" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.Step2Banner1" />
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label class="control-label">لینک بنر پله دوم</label><label class="text-danger mr-1">*</label>
+                                    <input asp-for="Step2Banner1Link" class="form-control alphacode" />
+                                    <span asp-validation-for="Step2Banner1Link" class="text-danger invalid-feedback"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-3">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <div class="d-flex justify-content-start">
+                                    <label>بنر پله دوم</label><label class="text-danger mr-1">*</label>
+                                </div>
+
+
+                                <input asp-for="Step3Banner1" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.Step3Banner1" />
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label class="control-label">لینک بنر پله دوم</label><label class="text-danger mr-1">*</label>
+                                    <input asp-for="Step3Banner1Link" class="form-control alphacode" />
+                                    <span asp-validation-for="Step3Banner1Link" class="text-danger invalid-feedback"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <div class="d-flex justify-content-start">
+                                    <label>بنر پله دوم</label><label class="text-danger mr-1">*</label>
+                                </div>
+
+
+                                <input asp-for="Step3Banner2" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.Step3Banner2" />
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label class="control-label">لینک بنر پله دوم</label><label class="text-danger mr-1">*</label>
+                                    <input asp-for="Step3Banner2Link" class="form-control alphacode" />
+                                    <span asp-validation-for="Step3Banner2Link" class="text-danger invalid-feedback"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <div class="d-flex justify-content-start">
+                                    <label>بنر پله دوم</label><label class="text-danger mr-1">*</label>
+                                </div>
+
+
+                                <input asp-for="Step3Banner3" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.Step3Banner3" />
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label class="control-label">لینک بنر پله دوم</label><label class="text-danger mr-1">*</label>
+                                    <input asp-for="Step3Banner3Link" class="form-control alphacode" />
+                                    <span asp-validation-for="Step3Banner3Link" class="text-danger invalid-feedback"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class=" d-flex align-items-center">
+                            <div class="form-group">
+                                <div class="d-flex justify-content-start">
+                                    <label>بنر پله دوم</label><label class="text-danger mr-1">*</label>
+                                </div>
+
+
+                                <input asp-for="Step3Banner4" class="col-12 mt-3 mb-3" type="file" />
+                                <div class="m-auto w-75">
+                                    <img id="thumbimage" class="img img-thumbnail" src="@Model.Step3Banner4" />
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label class="control-label">لینک بنر پله دوم</label><label class="text-danger mr-1">*</label>
+                                    <input asp-for="Step3Banner4Link" class="form-control alphacode" />
+                                    <span asp-validation-for="Step3Banner4Link" class="text-danger invalid-feedback"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <div class="d-flex justify-content-start">
+                                <label>بنر پله سوم</label><label class="text-danger mr-1">*</label>
+                            </div>
+
+
+                            <input asp-for="Step4Banner" class="col-12 mt-3 mb-3" type="file" />
+                            <div class="m-auto w-100">
+                                <img id="thumbimage" class="img img-thumbnail" src="@Model.Step4Banner" />
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="control-label">لینک بنر پله سوم</label><label class="text-danger mr-1">*</label>
+                                <input asp-for="Step4BannerLink" class="form-control alphacode" />
+                                <span asp-validation-for="Step4BannerLink" class="text-danger invalid-feedback"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label class="control-label">تلگرام</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="Telegram" class="form-control alphacode" />
+                            <span asp-validation-for="Telegram" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label class="control-label">اینستاگرام</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="Instagram" class="form-control alphacode" />
+                            <span asp-validation-for="Instagram" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label class="control-label">واتساپ</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="Whatsapp" class="form-control alphacode" />
+                            <span asp-validation-for="Whatsapp" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label class="control-label">ایمیل</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="Email" class="form-control " />
+                            <span asp-validation-for="Email" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label class="control-label">تلفن</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="Telphone" class="form-control alphacode" />
+                            <span asp-validation-for="Telphone" class="text-danger invalid-feedback"></span>
+                        </div>
+
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label class="control-label">موبایل</label><label class="text-danger mr-1">*</label>
+                            <input asp-for="PhoneNumber" class="form-control alphacode" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label class="control-label">متن فوتر</label><label class="text-danger mr-1">*</label>
+                            <textarea asp-for="FooterText" class="form-control alphacode" ></textarea>
+                            <span asp-validation-for="FooterText" class="text-danger invalid-feedback"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </form>
+
+        </div>
+    </div>
+</section>

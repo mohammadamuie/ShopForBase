@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "لیست محصولات ";
+}
+@section styles{
+    <partial name="_filterstyles" />
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+    <partial name="_filterscripts" />
+    <partial name="_HelprScripts" />
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/admin/assets/js/Product.js?@(DateTime.Now.Ticks)"></script>
+
+}
+@section headertools{
+    <div>
+        <a asp-action="Create" asp-controller="Product" type="button" class="btn btn-success text-white"><i class="fa fa-plus mx-2"></i> ثبت محصول جدید </a>
+    </div>
+}
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body table-responsive" style="overflow: scroll !important;">
+                    <div class="card-title d-flex justify-content-between">
+                        <h6>@ViewBag.Title</h6>
+                        <div class="custom-control custom-switch custom-checkbox-danger mx-3">
+                            <input type="checkbox" class="custom-control-input" id="showdelted" name="delted" onchange="SwitchDeleted()">
+                            <label class="custom-control-label" for="showdelted">حذف شده ها</label>
+                        </div>
+                    </div>
+                    <table id="Table" class="table table-hover table-striped table-advance ajax-data-table">
+                        <thead>
+                            <tr>
+                                <th class="all"># <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">تصویر محصول <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">عنوان محصول <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">نام دسته بندی <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">ویژگی <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">قیمت (تومان) <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">در صد تخفیف <span class="ti-exchange-vertical"></span></th>
+                                <th class="all">محصول ویژه<span class="ti-exchange-vertical"></span></th>
+                                <th>تاریخ ثبت</th>
+                                <th class="all">اقدامات</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

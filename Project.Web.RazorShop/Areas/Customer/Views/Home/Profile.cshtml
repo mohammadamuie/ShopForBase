@@ -1,0 +1,320 @@
+﻿@model Project.Application.DTOs.User.UserDashboardDTO
+@{
+    ViewData["Title"] = "Index";
+    var PageSharp = "";
+}
+@section Scripts {
+    <script src="~/admin/assets/js/CustomHelper.js?@(DateTime.Now.Ticks)"></script>
+    <script>
+
+
+        let time = @Model.Profile.ExpireSecondCode;
+
+        var interval;
+
+        $(document).ready(function () {
+            countdown();
+        });
+        function countdown() {
+            clearInterval(interval);
+            interval = setInterval(function () {
+                var minutes = Math.floor(time / 60);
+                var seconds = time - minutes * 60;
+                if (minutes < 0) return;
+                else if (seconds < 0 && minutes != 0) {
+                    minutes -= 1;
+                    seconds = 59;
+                }
+                else if (seconds < 10 && length.seconds != 2) seconds = '0' + seconds;
+                document.getElementById("submit-SendCode").classList.add("d-none");
+                document.getElementById("js-timeout").classList.remove("d-none");
+                $('.js-timeout').html(minutes + ':' + seconds);
+                time = time - 1;
+                if (minutes == 0 && seconds == 0) {
+                    document.getElementById("submit-SendCode").classList.remove("d-none");
+                    document.getElementById("js-timeout").classList.add("d-none");
+                }
+            }, 1000);
+        }
+        function SendCode() {
+            let formdata = new FormData();
+            $.ajax({
+                type: "POST",
+                url: '/customer/home/SendCode',
+                data: formdata,
+                contentType: false,
+                processData: false,
+                beforeSend: function () {
+                    $("button").prop("disabled", true);
+                },
+                complete: function () {
+                    $("button").prop("disabled", false);
+                },
+                success: function (data) {
+
+                    if (data.status == 1) {
+                        if (data.message != null) {
+                            toastr.success("پیامک ارسال شد");
+
+                            time = data.data;
+                            console.log(time);
+
+                            countdown();
+
+                        } else if (data.errors != null) {
+
+                            toastr.success(data.errors);
+                        }
+                    } else {
+                        if (data.errors != null) {
+                            toastr.error(data.errors);
+                        } else if (data.message != null) {
+                            toastr.error(data.message);
+                        }
+                    }
+                },
+                error: function (data) {
+                    if (data.responseJSON.errors != null) {
+                        toastr.error(data.responseJSON.errors);
+                    } else if (data.responseJSON.message != null) {
+                        toastr.error(data.responseJSON.message);
+                    }
+                    console.log(data.responseJSON);
+                }
+            });
+        };
+
+
+
+        $('#submit-form').on('click', function () {
+            let form = document.getElementById('ajax-form');
+            let formdata = new FormData(form);
+            ajaxPostForm({
+                formId: 'ajax-form',
+                formData: formdata,
+                form: form,
+                triggertable: false,
+                url: '/Customer/Home/Upsert',
+                triggerForm: false
+            });
+        });
+        $("#provinceId").change(function () {
+            var url = '/Customer/Home/getProvinceCities';
+            var ds = "#provinceId";
+            $.getJSON(url, { provinceName: $(ds).val() }, function (data) {
+                var items = '';
+                $("#CityId").empty();
+                $.each(data, function (i, row) {
+                    items += "<option value='" + row.value + "'>" + row.text + "</option>";
+                });
+                $("#CityId").html(items);
+            });
+        });
+    </script>
+
+    <script>
+
+
+        var buttonnext = $('.page-link-next');
+        var currentHrefnext = buttonnext.attr('href');
+
+        var buttonprev = $('.page-link-prev');
+        var currentHrefprev = buttonprev.attr('href');
+
+        // Add an event listener to each tab link
+        $('.nav-link').on('click', function () {
+            // Get the href attribute of the clicked tab link
+            var tabHref = $(this).attr('href');
+
+            // Update the browser URL without reloading the page
+            history.pushState(null, null, tabHref);
+            buttonnext.attr('href', currentHrefnext + tabHref);
+            buttonprev.attr('href', currentHrefprev + tabHref);
+
+        });
+
+        // Restore the selected tab when the page is loaded
+        var currentUrl = window.location.href;
+        if (!currentUrl.includes('#')) {
+            // If no hash is present, default to the dashboard tab
+            $('#tab-dashboard-link').addClass('active');
+            $('#tab-dashboard').addClass('show active');
+            buttonprev.attr('href', currentHrefprev + '#tab-dashboard');
+        } else {
+            // If a hash is present, select the corresponding tab
+            $('.nav-link').each(function () {
+                var tabHref = $(this).attr('href');
+                if (currentUrl.endsWith(tabHref)) {
+                    $(this).addClass('active');
+                    $(tabHref).addClass('show active');
+                    buttonprev.attr('href', currentHrefprev + tabHref);
+                }
+            });
+        }
+
+
+    </script>
+
+}
+
+
+
+
+<!-- start content -->
+
+<div class="content">
+    <div class="container-fluid">
+
+        <partial name="_customerMobileMenu" />
+
+
+        <div class="panel position-relative">
+            <div class="row gy-4">
+                <div class="col-lg-3 d-lg-block d-none">
+                    <div class="panel-nav-logo">
+                        <a href="" class="text-center d-block mb-3">
+                            <img src="/assets/img/logo.png" alt="" class="img-fluid" width="200">
+                        </a>
+                    </div>
+                    <div class="penel-nav">
+                        <div class="panel-nav-nav">
+                            <partial name="_customerMenu" />
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="position-sticky top-0">
+                        <div class="panel-header mb-3">
+                            <div class="content-box">
+                                <div class="container-fluid">
+                                    <div class="row gy-5 align-items-center">
+                                        <div class="col-md-6 col-8">
+                                            <div class="d-flex align-items-center">
+                                                <h6> @Model.Profile.FirstName عزیز به پنل کاربری خوش آمدید</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-4">
+                                            <div class="panel-alert d-flex justify-content-end">
+                                                <i class="bi bi-bell pointer"></i>
+                                                <span class="count-item rounded-circle">0</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="d-flex align-items-center panel-profile">
+                                                <img src="/assets/img/user.png" class="img-fluid img-profile-panel rounded-circle me-3 shadow-md" alt="">
+                                                <div class="d-grid gap-2">
+                                                    <h6 class="font-14 main-color-one-color">حساب کاربری من</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <h6 class="font-14">
+                                                            @Model.Profile.FirstName @Model.Profile.LastName
+                                                        </h6>
+                                                        <a href="" class="ms-2"><i class="bi bi-pencil-square"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="penel-form">
+                            <div class="content-box">
+                                <div class="container-fluid">
+                                    <form method="post" enctype="multipart/form-data" class="ajax-form" id="ajax-form" novalidate="">
+                                        <div class="row g-4">
+                                            <div class="col-md-6">
+                                                <div class="comment-item mb-3">
+                                                    <input type="text" class="form-control" asp-for="Profile.FirstName" name="FirstName" placeholder="نام خود را وارد کنید...">
+                                                    <label for="FirstName" class="form-label label-float fw-bold font-16">نام <span class="text-danger">*</span></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="comment-item mb-3">
+                                                    <input type="text" class="form-control" asp-for="Profile.LastName" name="LastName" placeholder="نام خانوادگی خود را وارد کنید ...">
+                                                    <label for="LastName" class="form-label label-float fw-bold">نام خانوادگی <span class="text-danger">*</span></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="comment-item mb-3">
+                                                    <input type="text" class="form-control" asp-for="Profile.Nationalcode" name="Nationalcode" placeholder="کد ملی خود را وارد کنید...">
+                                                    <label for="Nationalcode" class="form-label label-float fw-bold font-16">کد ملی <span class="text-danger">*</span></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="comment-item mb-3">
+                                                    <input type="text" class="form-control" asp-for="Profile.PhoneNumber" name="PhoneNumber" placeholder="شماره موبایل خود را وارد کنید ...">
+                                                    <label for="PhoneNumber" class="form-label label-float fw-bold">شماره موبایل <span class="text-danger">*</span></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="comment-item mb-3">
+                                                    <input type="text" class="form-control" asp-for="Profile.Email" name="Email" placeholder="ایمیل خود را وارد کنید...">
+                                                    <label for="Email" class="form-label label-float fw-bold font-16">ایمیل<span class="text-danger">*</span></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="comment-item mb-3">
+                                                    <input type="text" class="form-control" asp-for="Profile.Postalcode" name="Postalcode" placeholder="کد پستی خود را وارد کنید ...">
+                                                    <label for="Postalcode" class="form-label label-float fw-bold">کد پستی <span class="text-danger">*</span></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="comment-item" for="floatingInputOstan">
+                                                    <label class="label-float fw-bold">استان <span class="text-danger">*</span></label>
+                                                    <select class="form-select provinceCity" asp-for="Profile.Province" name="Province" id="provinceId" asp-items='@(new SelectList(ViewBag.Provinces,"ProvinceName","ProvinceName"))'>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="comment-item">
+                                                    <label class="label-float fw-bold" for="floatingInputCity">شهر <span class="text-danger">*</span></label>
+                                                    <select class="form-select provinceCity " asp-for="Profile.City" name="City" id="CityId" asp-items='@(new SelectList(ViewBag.Cities,"CityName","CityName"))'>
+                                                        <option value="">شهر</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="comment-item mb-3">
+                                                    <input type="text" class="form-control" asp-for="Profile.Adress" name="Adress" placeholder="آدرس خود را وارد کنید ...">
+                                                    <label for="Adress" class="form-label label-float fw-bold">آدرس <span class="text-danger">*</span></label>
+                                                </div>
+                                            </div>
+                                            <div class="comment-item mb-3">
+                                                <input name="Code" id="Code" type="text" class="form-control" required>
+                                                <label for="Adress" class="form-label label-float fw-bold">کد تایید برای شماره @Model.Profile.PhoneNumber <span class="text-danger">*</span></label>
+
+                                                <div class="input-group-prepend mt-3" style="display:block !important">
+                                                    <a href="javascript:void(0)" class="btn main-color-one-bg rounded-pill d-none" onclick="SendCode()" id="submit-SendCode">ارسال کد تایید</a>
+                                                </div>
+                                            </div><!-- End .form-group -->
+                                            <div class="d-flex flex-row justify-content-center">
+                                                <div id="js-timeout-div">
+                                                    <div id="js-timeout">
+                                                        <span class="js-timeout "></span> مانده تا دریافت مجدد کد
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <a href="javascript:void(0)" class="btn product-meta-add-to-cart-btn main-color-one-bg rounded-pill" id="submit-form">
+                                                        ویرایش
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- end content -->

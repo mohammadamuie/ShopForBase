@@ -1,0 +1,13 @@
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\bin\Release\net5.0\Project.Domain.deps.json
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\bin\Release\net5.0\Project.Domain.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\bin\Release\net5.0\ref\Project.Domain.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\bin\Release\net5.0\Project.Domain.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Release\net5.0\Project.Domain.csproj.AssemblyReference.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Release\net5.0\Project.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Release\net5.0\Project.Domain.AssemblyInfoInputs.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Release\net5.0\Project.Domain.AssemblyInfo.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Release\net5.0\Project.Domain.csproj.CoreCompileInputs.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Release\net5.0\EFCoreSqlServerNetTopologySuite.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Release\net5.0\Project.Domain.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Release\net5.0\ref\Project.Domain.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Domain\obj\Release\net5.0\Project.Domain.pdb

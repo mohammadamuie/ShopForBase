@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "لیست سفارشات";
+}
+@section styles{
+    <partial name="_filterstyles" />
+    <partial name="_HelperStyles" />
+}
+@section scripts{
+    <partial name="_filterscripts" />
+    <partial name="_HelprScripts" />
+    <script src="/admin/assets/js/PurchaseRequest.js?@(DateTime.Now.Ticks)"></script>
+}
+
+@section headertools{
+    
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body table-responsive">
+                    <div class="card-title d-flex justify-content-between">
+                        <h6>@ViewBag.Title</h6>
+                        
+                    </div>
+                    <div class="d-flex justify-content-start">
+                        <i class="fa fa-filter my-2 mx-2" style="font-size:25px"></i>
+                        <select class="custom-select custom-select-lg form-group mb-3" id="statusFilter">
+                            <option value="" selected>مشاهده همه</option>
+                            <option value="PaymentCompeleted_WaitForAdminConfirmation">در انتظار تایید</option>
+                            <option value="AcceptedByAdmin_CakeIsBeingBaked">در حال آماده سازی</option>
+                            <option value="preparing">در حال ارسال</option>
+                            <option value="Delivered">تکمیل سفارش</option>
+                            <option value="Cancelled">لغو سفارش</option>
+                            <option value="CancelledByAdmin">لغو سفارش توسط ادمین</option>
+                            <option value="NoPayment">ناموفق</option>
+                        </select>
+                    </div>
+                    
+                    <table id="Table" class="table table-hover table-striped table-advance ajax-data-table">
+                        <thead>
+                            <tr>
+                                <th class="all">#</th>
+                                <th class="all">نام مشتری</th>
+                                <th>قیمت نهایی</th>
+                                <th >مبلغ ارسال</th>
+                                <th >زمان ثبت</th>
+                                <th >کد سفارش</th>
+                                <th >وضعیت</th>
+                                <th >وضعیت پرداخت</th>
+                                <th class="none">جزئیات :</th>
+                                <th class="all">اقدامات</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

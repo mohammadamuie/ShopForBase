@@ -1,0 +1,172 @@
+﻿@model Project.Application.DTOs.ShoppingCart.CheckoutDTO
+@{
+}
+@section Scripts{
+
+    <script src="~/admin/assets/js/CustomHelper.js?@(DateTime.Now.Ticks)"></script>
+    <script>
+        $('#online-payment').on('click', function () {
+            let formdata = new FormData();
+            ajaxPostForm({
+                formId: 'ajax-form',
+                formData: formdata,
+                triggertable: false,
+                url: '/Submit',
+                triggerForm: false
+            }).then(function (resp) {
+                removeCookie("manoShoppingCart");
+                location.href = resp.data.payment.gatewayTransporter.descriptor.url; // مقدار جدید که می‌خواهید اضافه شود
+
+            });
+        });
+
+        $('#submit-form').on('click', function () {
+            let form = document.getElementById('ajax-form');
+            let formdata = new FormData(form);
+            ajaxPostForm({
+                formId: 'ajax-form',
+                formData: formdata,
+                form: form,
+                triggertable: false,
+                url: '/Cart/Upsert',
+                triggerForm: false
+            });
+        });
+
+
+        $("#provinceId").change(function () {
+            var url = '/Cart/getProvinceCities';
+            var ds = "#provinceId";
+            $.getJSON(url, { provinceName: $(ds).val() }, function (data) {
+                var items = '';
+                $("#CityId").empty();
+                $.each(data, function (i, row) {
+                    items += "<option value='" + row.value + "'>" + row.text + "</option>";
+                });
+                $("#CityId").html(items);
+            });
+        });
+    </script>
+}
+<nav aria-label="breadcrumb" class="breadcrumb-nav">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index-1.html">خانه</a></li>
+            <li class="breadcrumb-item"><a href="#">فروشگاه</a></li>
+            <li class="breadcrumb-item active" aria-current="page">تکمیل سفارش</li>
+        </ol>
+    </div><!-- End .container -->
+</nav><!-- End .breadcrumb-nav -->
+
+<div class="page-content">
+    <div class="cart">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <h2 class="checkout-title">جزئیات صورت حساب</h2><!-- End .checkout-title -->
+                    <form method="post" enctype="multipart/form-data" class="ajax-form" id="ajax-form" novalidate="">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label>نام *</label>
+                                <input asp-for="Profile.FirstName" name="FirstName" type="text" class="form-control" required>
+                            </div><!-- End .col-sm-6 -->
+
+                            <div class="col-sm-6">
+                                <label>نام خانوادگی *</label>
+                                <input asp-for="Profile.LastName" name="LastName" type="text" class="form-control" required>
+                            </div><!-- End .col-sm-6 -->
+                        </div><!-- End .row -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label>ایمیل *</label>
+                                <input asp-for="Profile.Email" name="Email" type="email" class="form-control" required>
+                            </div><!-- End .col-sm-6 -->
+
+
+                        </div><!-- End .row -->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label>کد ملی *</label>
+                                <input asp-for="Profile.Nationalcode" name="Nationalcode" type="text" class="form-control" required>
+                            </div><!-- End .col-sm-6 -->
+                            <div class="col-sm-6">
+                                <label>کد پستی*</label>
+                                <input asp-for="Profile.Postalcode" name="Postalcode" type="text" class="form-control" required>
+                            </div><!-- End .col-sm-6 -->
+                        </div><!-- End .row -->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label>استان *</label>
+                                <select class="form-control provinceCity " asp-for="Profile.Province" name="Province" id="provinceId" asp-items='@(new SelectList(ViewBag.Provinces,"ProvinceName","ProvinceName"))'>
+                                </select>
+                            </div><!-- End .col-sm-6 -->
+
+                            <div class="col-sm-6">
+                                <label>شهر *</label>
+                                <select class="form-control provinceCity " asp-for="Profile.City" name="City" id="CityId" asp-items='@(new SelectList(ViewBag.Cities,"CityName","CityName"))'>
+                                    <option value="">شهر</option>
+                                </select>
+                            </div><!-- End .col-sm-6 -->
+                        </div><!-- End .row -->
+
+                        <label>آدرس دقیق*</label>
+                        <input asp-for="Profile.Adress" name="Adress" type="text" class="form-control" required>
+
+                        <a href="javascript:void(0)" id="submit-form" class="btn btn-outline-primary-2 float-right">
+                            <span>ذخیره تغییرات</span>
+                            <i class="icon-long-arrow-left"></i>
+                        </a>
+                    </form>
+                </div>
+                <aside class="col-lg-3">
+                    <div class="summary summary-cart">
+                        <h3 class="summary-title">جمع سبد خرید</h3><!-- End .summary-title -->
+
+                        <table class="table table-summary">
+                            <tbody>
+                                <tr class="summary-subtotal">
+                                    <td>جمع کل سبد خرید : </td>
+                                    <td class="text-left">@Project.Application.Helpers.PublicHelper.NumberFormat(Model.TotalPrice.ToString()) تومان</td>
+                                </tr><!-- End .summary-subtotal -->
+                                <tr class="summary-shipping">
+                                    <td>شیوه ارسال : </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+
+                                <tr class="summary-shipping-row">
+                                    <td>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="express-shipping" name="shipping"
+                                                   class="custom-control-input" checked disabled>
+                                            <label class="custom-control-label" for="express-shipping">
+                                                پست
+                                                پیشتاز :
+                                            </label>
+                                        </div><!-- End .custom-control -->
+                                    </td>
+                                    <td class="text-left">@Project.Application.Helpers.PublicHelper.NumberFormat(Model.SendPrice.ToString()) تومان</td>
+                                </tr><!-- End .summary-shipping-row -->
+
+
+                                <tr class="summary-total">
+                                    <td>مبلغ قابل پرداخت :</td>
+                                    <td class="text-left">@Project.Application.Helpers.PublicHelper.NumberFormat((Model.SendPrice+Model.TotalPrice).ToString()) تومان</td>
+                                </tr><!-- End .summary-total -->
+                            </tbody>
+                        </table><!-- End .table table-summary -->
+
+                        <a href="javascript:void(0)" id="online-payment" class="btn btn-outline-primary-2 btn-order btn-block">
+                            پرداخت آنلاین
+                        </a>
+                    </div><!-- End .summary -->
+
+                </aside><!-- End .col-lg-3 -->
+            </div>
+
+            <!-- End .row -->
+
+
+        </div><!-- End .container -->
+    </div><!-- End .cart -->
+</div><!-- End .page-content -->

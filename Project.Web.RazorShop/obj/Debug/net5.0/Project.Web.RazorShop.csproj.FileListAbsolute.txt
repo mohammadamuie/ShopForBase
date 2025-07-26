@@ -1,0 +1,1590 @@
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\appsettings.Development.json
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\appsettings.json
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.StaticWebAssets.xml
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.exe
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.deps.json
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.runtimeconfig.json
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.runtimeconfig.dev.json
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authorization.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Forms.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Server.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Web.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Diagnostics.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HostFiltering.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Hosting.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Connections.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Identity.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Localization.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Metadata.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Razor.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.ResponseCaching.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.ResponseCompression.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Rewrite.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Routing.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.IIS.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Session.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.StaticFiles.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.WebSockets.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.WebUtilities.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.CSharp.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Caching.Memory.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Ini.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Json.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Console.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Debug.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.VisualBasic.Core.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.VisualBasic.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Win32.Primitives.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Win32.Registry.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\mscorlib.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\netstandard.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.AppContext.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Buffers.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.Concurrent.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.Immutable.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.NonGeneric.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.Specialized.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.Annotations.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.DataAnnotations.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.EventBasedAsync.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.Primitives.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.TypeConverter.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Configuration.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Console.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Core.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Data.Common.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Data.DataSetExtensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Data.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Contracts.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Debug.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.EventLog.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.FileVersionInfo.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Process.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.StackTrace.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.TextWriterTraceListener.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Tools.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.TraceSource.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Tracing.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Drawing.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Drawing.Primitives.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Dynamic.Runtime.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Formats.Asn1.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Globalization.Calendars.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Globalization.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Globalization.Extensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Compression.Brotli.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Compression.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Compression.FileSystem.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Compression.ZipFile.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.FileSystem.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.FileSystem.DriveInfo.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.FileSystem.Primitives.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.FileSystem.Watcher.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.IsolatedStorage.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.MemoryMappedFiles.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Pipes.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.UnmanagedMemoryStream.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Linq.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Linq.Expressions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Linq.Parallel.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Linq.Queryable.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Memory.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Http.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Http.Json.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.HttpListener.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Mail.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.NameResolution.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.NetworkInformation.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Ping.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Primitives.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Requests.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Security.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.ServicePoint.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Sockets.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebClient.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebHeaderCollection.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebProxy.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebSockets.Client.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebSockets.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Numerics.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Numerics.Vectors.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ObjectModel.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.DispatchProxy.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Emit.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Emit.ILGeneration.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Emit.Lightweight.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Extensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Metadata.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Primitives.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.TypeExtensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Resources.Reader.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Resources.Writer.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Handles.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.InteropServices.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Intrinsics.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Loader.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Numerics.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.Formatters.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.Json.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.Primitives.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.Xml.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.AccessControl.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Claims.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Algorithms.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Cng.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Csp.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Encoding.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Primitives.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.X509Certificates.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Xml.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Permissions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Principal.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Principal.Windows.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.SecureString.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ServiceModel.Web.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ServiceProcess.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Encoding.CodePages.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Encoding.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Encoding.Extensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Encodings.Web.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Json.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.RegularExpressions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Channels.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Overlapped.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Tasks.Dataflow.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Tasks.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Tasks.Extensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Tasks.Parallel.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Thread.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.ThreadPool.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Timer.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Transactions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Transactions.Local.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ValueTuple.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Web.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Web.HttpUtility.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Windows.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Windows.Extensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.Linq.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.ReaderWriter.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.Serialization.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XDocument.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XmlDocument.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XmlSerializer.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XPath.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XPath.XDocument.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\refs\WindowsBase.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.Views.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.Views.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\AutoMapper.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\AWSSDK.Core.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\AWSSDK.S3.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Castle.Core.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\DNTPersianUtils.Core.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\FluentValidation.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Humanizer.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\NetTopologySuite.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\NetTopologySuite.IO.SqlServerBytes.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\RestSharp.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\SendGrid.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\StarkbankEcdsa.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\System.IO.Pipelines.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Application.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Domain.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Infrastructure.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Persistence.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Application.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Infrastructure.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Persistence.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\bin\Debug\net5.0\Project.Domain.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.csproj.AssemblyReference.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.AssemblyInfoInputs.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.AssemblyInfo.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.csproj.CoreCompileInputs.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.MvcApplicationPartsAssemblyInfo.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.MvcApplicationPartsAssemblyInfo.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorAssemblyInfo.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorAssemblyInfo.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\Project.Web.RazorShop.StaticWebAssets.Manifest.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\Project.Web.RazorShop.StaticWebAssets.xml
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\scopedcss\bundle\Project.Web.RazorShop.styles.css
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.TagHelpers.input.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.TagHelpers.output.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorCoreGenerate.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\DiscountCode\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Edit.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AdminPanel.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_DatepickerJs.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_DatepickerStyle.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_FilterScripts.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_FilterStyles.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_HelperStyles.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_HelprScripts.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Account\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_footer.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_header.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_mobileMenu.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorTargetAssemblyInfo.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorTargetAssemblyInfo.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.Views.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.csproj.CopyComplete
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\ref\Project.Web.RazorShop.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.pdb
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.genruntimeconfig.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_CutomerLoginLayout.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Account\Verify.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Product\Search.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Profile.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_customerMenuPartial.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_DatepickerJs.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_DatepickerStyle.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_FilterScripts.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_FilterStyles.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_HelperStyles.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_HelprScripts.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\refint\Project.Web.RazorShop.dll
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\Project.Web.RazorShop.StaticWebAssets.Pack.cache
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\msbuild.Project.Web.RazorShop.Microsoft.AspNetCore.StaticWebAssets.props
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\msbuild.build.Project.Web.RazorShop.props
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Project.Web.RazorShop.props
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Project.Web.RazorShop.props
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\AccessDenied.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\Components\LandingMenuComponent\LandingMenuComponent.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Pages\Create.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Pages\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Pages\Update.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\MenuItem\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\Components\LandingMenuDynamicComponent\LandingMenuDynamicComponent.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\NewsCategory\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\News\Create.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\News\Edit.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\News\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Ticket\Detail.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Ticket\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\News\Index.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\News\Detail.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Error\Page.cshtml.g.cs
+E:\asp.net core\ManoShop-CA-Dev\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Pages\index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\appsettings.Development.json
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\appsettings.json
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.StaticWebAssets.xml
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.exe
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.deps.json
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.runtimeconfig.json
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.runtimeconfig.dev.json
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.pdb
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authorization.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Forms.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Server.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Web.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Diagnostics.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HostFiltering.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Hosting.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Connections.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Identity.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Localization.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Metadata.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Razor.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.ResponseCaching.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.ResponseCompression.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Rewrite.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Routing.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.IIS.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Session.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.StaticFiles.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.WebSockets.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.WebUtilities.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.CSharp.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Caching.Memory.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Ini.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Json.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Console.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Debug.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.VisualBasic.Core.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.VisualBasic.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Win32.Primitives.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Win32.Registry.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\mscorlib.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\netstandard.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.AppContext.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Buffers.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.Concurrent.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.Immutable.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.NonGeneric.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.Specialized.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.Annotations.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.DataAnnotations.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.EventBasedAsync.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.Primitives.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.TypeConverter.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Configuration.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Console.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Core.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Data.Common.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Data.DataSetExtensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Data.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Contracts.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Debug.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.EventLog.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.FileVersionInfo.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Process.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.StackTrace.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.TextWriterTraceListener.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Tools.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.TraceSource.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Tracing.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Drawing.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Drawing.Primitives.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Dynamic.Runtime.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Formats.Asn1.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Globalization.Calendars.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Globalization.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Globalization.Extensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Compression.Brotli.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Compression.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Compression.FileSystem.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Compression.ZipFile.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.FileSystem.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.FileSystem.DriveInfo.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.FileSystem.Primitives.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.FileSystem.Watcher.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.IsolatedStorage.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.MemoryMappedFiles.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Pipes.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.UnmanagedMemoryStream.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Linq.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Linq.Expressions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Linq.Parallel.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Linq.Queryable.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Memory.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Http.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Http.Json.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.HttpListener.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Mail.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.NameResolution.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.NetworkInformation.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Ping.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Primitives.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Requests.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Security.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.ServicePoint.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Sockets.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebClient.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebHeaderCollection.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebProxy.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebSockets.Client.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebSockets.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Numerics.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Numerics.Vectors.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ObjectModel.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.DispatchProxy.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Emit.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Emit.ILGeneration.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Emit.Lightweight.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Extensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Metadata.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Primitives.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.TypeExtensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Resources.Reader.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Resources.Writer.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Handles.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.InteropServices.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Intrinsics.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Loader.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Numerics.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.Formatters.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.Json.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.Primitives.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.Xml.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.AccessControl.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Claims.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Algorithms.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Cng.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Csp.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Encoding.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Primitives.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.X509Certificates.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Xml.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Permissions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Principal.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Principal.Windows.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.SecureString.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ServiceModel.Web.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ServiceProcess.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Encoding.CodePages.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Encoding.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Encoding.Extensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Encodings.Web.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Json.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.RegularExpressions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Channels.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Overlapped.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Tasks.Dataflow.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Tasks.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Tasks.Extensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Tasks.Parallel.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Thread.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.ThreadPool.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Timer.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Transactions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Transactions.Local.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ValueTuple.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Web.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Web.HttpUtility.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Windows.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Windows.Extensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.Linq.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.ReaderWriter.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.Serialization.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XDocument.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XmlDocument.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XmlSerializer.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XPath.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XPath.XDocument.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\WindowsBase.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.Views.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.Views.pdb
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\AutoMapper.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\AWSSDK.Core.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\AWSSDK.S3.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Castle.Core.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\DNTPersianUtils.Core.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\FluentValidation.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Humanizer.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\NetTopologySuite.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\NetTopologySuite.IO.SqlServerBytes.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Parbad.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Parbad.AspNetCore.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Parbad.Gateway.ZarinPal.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Parbad.Storage.Abstractions.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Parbad.Storage.Cache.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Parbad.Storage.EntityFrameworkCore.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\RestSharp.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\SendGrid.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\StarkbankEcdsa.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.IO.Pipelines.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Application.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Domain.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Infrastructure.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Persistence.dll
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Application.pdb
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Infrastructure.pdb
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Persistence.pdb
+E:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Domain.pdb
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.csproj.AssemblyReference.cache
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.GeneratedMSBuildEditorConfig.editorconfig
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.AssemblyInfoInputs.cache
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.AssemblyInfo.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.csproj.CoreCompileInputs.cache
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.MvcApplicationPartsAssemblyInfo.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.MvcApplicationPartsAssemblyInfo.cache
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorAssemblyInfo.cache
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorAssemblyInfo.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\scopedcss\bundle\Project.Web.RazorShop.styles.css
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\Project.Web.RazorShop.StaticWebAssets.Manifest.cache
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\Project.Web.RazorShop.StaticWebAssets.Pack.cache
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\msbuild.Project.Web.RazorShop.Microsoft.AspNetCore.StaticWebAssets.props
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\msbuild.build.Project.Web.RazorShop.props
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Project.Web.RazorShop.props
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Project.Web.RazorShop.props
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\Project.Web.RazorShop.StaticWebAssets.xml
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.TagHelpers.input.cache
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.TagHelpers.output.cache
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorCoreGenerate.cache
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\AccessDenied.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\DiscountCode\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\MenuItem\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\NewsCategory\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\News\Create.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\News\Edit.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\News\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Pages\Create.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Pages\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Pages\Update.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Edit.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\PurchaseRequest\Detail.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\PurchaseRequest\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Setting\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AdminPanel.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_DatepickerJs.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_DatepickerStyle.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_FilterScripts.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_FilterStyles.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_HelperStyles.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_HelprScripts.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Ticket\Detail.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Ticket\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Profile.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_customerMenuPartial.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_DatepickerJs.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_DatepickerStyle.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_FilterScripts.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_FilterStyles.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_HelperStyles.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_HelprScripts.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Account\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Account\Verify.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Cart\Checkout.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Cart\SuccessPayment.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Error\Page.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\News\Detail.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\News\Index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Pages\index.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Product\Search.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\Components\LandingMenuComponent\LandingMenuComponent.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\Components\LandingMenuDynamicComponent\LandingMenuDynamicComponent.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\Components\LandingMenuMobileComponent\LandingMenuMobileComponent.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_CutomerLoginLayout.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_footer.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_header.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_mobileMenu.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorTargetAssemblyInfo.cache
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorTargetAssemblyInfo.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.Views.pdb
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.dll
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\refint\Project.Web.RazorShop.dll
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.pdb
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.genruntimeconfig.cache
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\ref\Project.Web.RazorShop.dll
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.sourcelink.json
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project..1144E2A7.Up2Date
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Profile.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_customerMenu.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_customerMobileMenu.cshtml.g.cs
+E:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Banner\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\appsettings.Development.json
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\appsettings.json
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.StaticWebAssets.xml
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.exe
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.deps.json
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.runtimeconfig.json
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.runtimeconfig.dev.json
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.pdb
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authorization.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Hosting.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Identity.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Localization.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Metadata.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Razor.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Routing.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Session.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.CSharp.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Console.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.VisualBasic.Core.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.VisualBasic.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Win32.Primitives.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\Microsoft.Win32.Registry.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\mscorlib.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\netstandard.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.AppContext.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Buffers.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.Concurrent.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.Immutable.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.NonGeneric.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Collections.Specialized.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.Annotations.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.DataAnnotations.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.EventBasedAsync.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.Primitives.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ComponentModel.TypeConverter.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Configuration.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Console.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Core.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Data.Common.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Data.DataSetExtensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Data.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Contracts.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Debug.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.EventLog.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.FileVersionInfo.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Process.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.StackTrace.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Tools.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.TraceSource.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Diagnostics.Tracing.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Drawing.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Drawing.Primitives.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Dynamic.Runtime.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Formats.Asn1.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Globalization.Calendars.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Globalization.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Globalization.Extensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Compression.Brotli.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Compression.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Compression.FileSystem.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Compression.ZipFile.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.FileSystem.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.FileSystem.DriveInfo.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.FileSystem.Primitives.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.FileSystem.Watcher.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.IsolatedStorage.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.MemoryMappedFiles.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.Pipes.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.IO.UnmanagedMemoryStream.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Linq.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Linq.Expressions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Linq.Parallel.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Linq.Queryable.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Memory.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Http.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Http.Json.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.HttpListener.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Mail.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.NameResolution.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.NetworkInformation.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Ping.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Primitives.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Requests.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Security.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.ServicePoint.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.Sockets.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebClient.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebHeaderCollection.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebProxy.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebSockets.Client.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Net.WebSockets.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Numerics.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Numerics.Vectors.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ObjectModel.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.DispatchProxy.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Emit.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Emit.ILGeneration.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Emit.Lightweight.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Extensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Metadata.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.Primitives.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Reflection.TypeExtensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Resources.Reader.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Resources.Writer.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Handles.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.InteropServices.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Intrinsics.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Loader.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Numerics.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.Formatters.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.Json.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.Primitives.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Runtime.Serialization.Xml.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.AccessControl.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Claims.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Algorithms.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Cng.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Csp.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Encoding.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Primitives.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.X509Certificates.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Cryptography.Xml.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Permissions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Principal.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.Principal.Windows.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Security.SecureString.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ServiceModel.Web.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ServiceProcess.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Encoding.CodePages.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Encoding.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Encoding.Extensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Encodings.Web.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.Json.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Text.RegularExpressions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Channels.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Overlapped.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Tasks.Dataflow.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Tasks.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Tasks.Extensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Tasks.Parallel.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Thread.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.ThreadPool.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Threading.Timer.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Transactions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Transactions.Local.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.ValueTuple.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Web.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Web.HttpUtility.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Windows.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Windows.Extensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.Linq.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.ReaderWriter.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.Serialization.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XDocument.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XmlDocument.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XmlSerializer.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XPath.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\System.Xml.XPath.XDocument.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\refs\WindowsBase.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.Views.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Web.RazorShop.Views.pdb
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\AutoMapper.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\AWSSDK.Core.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\AWSSDK.S3.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Castle.Core.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\DNTPersianUtils.Core.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\FluentValidation.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Humanizer.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\NetTopologySuite.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\NetTopologySuite.IO.SqlServerBytes.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Parbad.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Parbad.AspNetCore.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Parbad.Gateway.ZarinPal.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Parbad.Storage.Abstractions.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Parbad.Storage.Cache.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Parbad.Storage.EntityFrameworkCore.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\RestSharp.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\SendGrid.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\StarkbankEcdsa.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.Convention.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.Hosting.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.Runtime.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Application.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Domain.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Infrastructure.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Persistence.dll
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Application.pdb
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Infrastructure.pdb
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Persistence.pdb
+D:\git\manoshop\Project.Web.RazorShop\bin\Debug\net5.0\Project.Domain.pdb
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.csproj.AssemblyReference.cache
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.AssemblyInfoInputs.cache
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.AssemblyInfo.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.csproj.CoreCompileInputs.cache
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.MvcApplicationPartsAssemblyInfo.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.MvcApplicationPartsAssemblyInfo.cache
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorAssemblyInfo.cache
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorAssemblyInfo.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.sourcelink.json
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.TagHelpers.input.cache
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.TagHelpers.output.cache
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorCoreGenerate.cache
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\AccessDenied.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Banner\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\DiscountCode\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\MenuItem\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\NewsCategory\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\News\Create.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\News\Edit.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\News\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Pages\Create.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Pages\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Pages\Update.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Edit.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\PurchaseRequest\Detail.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\PurchaseRequest\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Setting\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AdminPanel.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_DatepickerJs.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_DatepickerStyle.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_FilterScripts.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_FilterStyles.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_HelperStyles.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_HelprScripts.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Ticket\Detail.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Ticket\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Profile.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Profile.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_customerMenuPartial.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_DatepickerJs.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_DatepickerStyle.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_FilterScripts.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_FilterStyles.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_HelperStyles.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Shared\_HelprScripts.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Account\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Account\Verify.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Cart\Checkout.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Cart\SuccessPayment.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Error\Page.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\News\Detail.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\News\Index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Pages\index.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Product\Search.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\Components\LandingMenuComponent\LandingMenuComponent.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\Components\LandingMenuDynamicComponent\LandingMenuDynamicComponent.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\Components\LandingMenuMobileComponent\LandingMenuMobileComponent.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_customerMenu.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_customerMobileMenu.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_CutomerLoginLayout.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_footer.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_header.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_mobileMenu.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorTargetAssemblyInfo.cache
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.RazorTargetAssemblyInfo.cs
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.Views.pdb
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\scopedcss\bundle\Project.Web.RazorShop.styles.css
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\Project.Web.RazorShop.StaticWebAssets.Manifest.cache
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\Project.Web.RazorShop.StaticWebAssets.Pack.cache
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\msbuild.Project.Web.RazorShop.Microsoft.AspNetCore.StaticWebAssets.props
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\msbuild.build.Project.Web.RazorShop.props
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Project.Web.RazorShop.props
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Project.Web.RazorShop.props
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\staticwebassets\Project.Web.RazorShop.StaticWebAssets.xml
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project..1144E2A7.Up2Date
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.dll
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\refint\Project.Web.RazorShop.dll
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.pdb
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\Project.Web.RazorShop.genruntimeconfig.cache
+D:\git\manoshop\Project.Web.RazorShop\obj\Debug\net5.0\ref\Project.Web.RazorShop.dll

@@ -1,0 +1,1 @@
+Here we could have used CQRS pattern and MediatR

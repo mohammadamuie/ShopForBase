@@ -1,0 +1,117 @@
+﻿@model Project.Application.DTOs.News.NewsDetailDTO
+@using DNTPersianUtils.Core
+@{
+    ViewData["MetaTitle"] = Model.News.MetaTitle;
+    ViewData["MetaKeyword"] = Model.News.MetaKeywords;
+    ViewData["MetaDescription"] = Model.News.MetaDescription;
+
+}
+
+@section styles {
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6147049e1b3f740019aa82e1&product=inline-share-buttons" async="async"></script>
+
+}
+
+<!-- start blog-content -->
+
+<div class="blog-content">
+    <div class="content">
+        <div class="container-fluid">
+            <div class="blog-content-meta">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="blog-content-meta-thumbnail slider-parent">
+                            <img src="@Model.News.ImageUrl" class="img-thumbnail" alt="@Model.News.Title">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="blog-content-meta-detail">
+                            <div class="blog-content-meta-detail-title">
+                                <h2 class="title-font">@Model.News.Title</h2>
+                            </div>
+                            <div class="blog-content-meta-detail-detail">
+                                <div class="blog-content-meta-detail-detail-item">
+                                    <i class="bi bi-stack"></i>
+                                    <h6>دسته بندی: </h6>
+                                    <a href="">@Model.News.CategoryName</a>
+                                </div>
+                                <div class="blog-content-meta-detail-detail-item">
+                                    <i class="bi bi-calendar-check"></i>
+                                    <h6>آخرین بروزرسانی: </h6>
+                                    <span>@Model.News.ShowDateTime.ToPersianDateTextify()</span>
+                                </div>
+                                <div class="blog-content-meta-detail-detail-item">
+                                    <i class="bi bi-send"></i>
+                                    <h6>برچسب: </h6>
+                                    <div class="entry-tags">
+                                        @foreach (var item in Model.News.Tags.Split(","))
+                                        {
+                                            <a href="/news?Tags=@item">@item</a>
+                                        }
+
+
+                                    </div><!-- End .entry-tags -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-main-content">
+               
+                <div class="blog-main-content-content mt-5">
+                    <div class="content-box">
+                        <div class="container-fluid">
+                            <div class="blog-main-content-content-text">
+                                @Html.Raw(Model.News.Content)
+                            </div>
+                            <!-- پایان متن بیشتر -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-related-post">
+                <div class="slider-title-title slider-title-desc">
+                    <h2 class="h1"><span class="title-font main-color-one-color">مقالات</span> مرتبط</h2>
+                </div>
+                <div class="blogs-items my-5">
+                    <div class="row gy-5">
+                        @foreach (var item in Model.RandomNews)
+                        {
+                            <div class="col-lg-6">
+                                <div class="blog-slider-item-row">
+                                    <a href="/news/detail?Url=@item.Url">
+                                        <div class="row gy-3 align-items-center">
+                                            <div class="col-sm-4">
+                                                <div class="blog-slider-item-row-image">
+                                                    <img src="@item.ImageUrl" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <div class="blog-slider-item-stand-text">
+                                                    <div class="blog-slider-item-stand-title">
+                                                        <h6 class="font-16 title-font text-overflow-1 main-color-one-color">@item.Title</h6>
+                                                        <p class="text-overflow-2 my-2">@item.ShortContent</p>
+                                                        <div class="blog-slider-item-info d-flex align-items-center">
+                                                            <div class="blog-slider-item-info-item me-3">
+                                                                <i class="bi bi-clock me-1"></i>
+                                                                <span>@item.ShowDateTime.ToPersianDateTextify()</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end blog-content -->
